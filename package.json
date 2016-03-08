@@ -1,0 +1,16 @@
+{
+  "name": "ub-static-site-generator",
+  "version": "1.0.0",
+  "description": "React-based static file generator for Ugly Bunnies",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "Michael Wong",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
