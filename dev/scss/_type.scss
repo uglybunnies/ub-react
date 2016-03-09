@@ -1,0 +1,96 @@
+.brand {
+	color: $larkspur;
+	font-weight: 300;
+}
+.green {
+	color: $green;
+}
+.gold {
+	color: $gold;
+}
+.blue {
+	color: $blue;
+}
+.ruby {
+	color: $ruby;
+}
+.copy-header {
+    font-weight: $heavy-font-weight;
+    color: $larkspur;
+    margin-bottom: .5em;
+}
+.s1 {
+    font-size: 2rem;
+}
+.s2 {
+    font-size: 1.8rem;
+}
+.s3 {
+    font-size: 1.6rem;
+}
+.s4 {
+    font-size: 1.4rem;
+}
+.s5 {
+    font-size: 1.2rem;
+}
+.s6 {
+    font-size: 1rem;
+}
+a {
+	background: transparent;
+    color: #3d8781;
+}
+a:visited {
+    color: #3d5687;
+}
+a:hover,
+a:focus {
+    color: #876e3d;
+}
+a:active {
+    color: #841a1a;
+}
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+b,
+strong {
+	font-weight: $heavy-font-weight;
+}
+i,
+em,
+dfn {
+    font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: .9rem;
+}
