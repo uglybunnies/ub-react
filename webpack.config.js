@@ -10,8 +10,8 @@ var locals = {
 
 module.exports = ({
   entry: {
-    main: './dev/index.js',
-    css: './dev/scss/main.scss'
+    main: './src/index.js',
+    css: './src/scss/main.scss'
   },
   output: {
     filename: 'index.js',

@@ -11,12 +11,6 @@
 	border-width: 1px;
 }
 
-.col {
-    box-sizing: border-box;
-    display: inline-block;
-    margin-left: -.25rem;
-}
-
 .mv, .ma, .mt { margin-top: .5rem; }
 .mh, .ma, .ml { margin-left: .5rem; }
 .mv,.ma, .mb { margin-bottom: .5rem; }
@@ -51,7 +45,7 @@
     position: relative;
 	@include border($color:$larkspur90);
 	border-width: 0 0 1px;
-    > hgroup {
+    > .logo {
         display: inline-block;
         vertical-align: middle;
         .site-name {
@@ -97,10 +91,11 @@
     max-height: 0;
     overflow: hidden;
     padding: 0;
-    transition: max-height 250ms ease-in-out;
+    transition: max-height 250ms ease-in;
     width: 320px;
     &.show {
         max-height: 50rem;
+        transition-timing-function: ease-out;
     }
     > li {
         border: solid #F6F2FA;
