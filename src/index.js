@@ -1,28 +1,31 @@
-module.exports = function render (locals, callback) {
-  callback(null, `<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ugly Bunnies</title>
-        <link href='https://fonts.googleapis.com/css?family=Henny+Penny&text=Ugly%20Bunnies|Alegreya+Sans:300,300italic,500,500italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="masthead pb">
-            <div class="logo">
-              <h1 class="site-name s1"><span>Ugly</span> <span>Bunnies</span></h1>
-            </div>
-            <a href="#" id="menu-control" class="pa2">menu</a>
-        </header>
-        <nav class="topnav mtn">
-            <ul id="topNav" class="menu">
-                <li class="menuItem1"><a href="">Design</a></li>
-                <li class="menuItem2"><a href="">Art</a></li>
-                <li class="menuItem3"><a href="">Articles</a></li>
-            </ul>
-        </nav>
-    </body>
-</html>
-  `)
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
+
+// Your top level component
+import App from './App'
+
+// Export your top level component as JSX (for static rendering)
+export default App
+
+// Render your app
+if (typeof document !== 'undefined') {
+  const render = Comp => {
+    ReactDOM.hydrate(
+      <AppContainer>
+        <Comp />
+      </AppContainer>,
+      document.getElementById('root'),
+    )
+  }
+
+  // Render!
+  render(App)
+
+  // Hot Module Replacement
+  if (module.hot) {
+    module.hot.accept('./App', () => {
+      render(require('./App').default)
+    })
+  }
 }
