@@ -4,7 +4,7 @@
   "description": "React static site generator for Ugly Bunnies",
   "main": "index.js",
   "scripts": {
-      "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "babel-core": "^6.6.5",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
+    "babel-preset-env": "^1.6.1",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "node-sass": "^3.4.2",
