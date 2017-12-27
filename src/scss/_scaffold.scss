@@ -77,24 +77,57 @@
         top: .25rem;
         right: .25rem;
         text-decoration: none;
+        .icon-menu {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+            /* opacity: .8; */
+
+            /* For safety - reset parent styles, that can break glyph codes*/
+            font-variant: normal;
+            text-transform: none;
+
+            /* fix buttons height, for twitter bootstrap */
+            line-height: 1em;
+
+            /* Animation center compensation - margins should be symmetric */
+            /* remove if not needed */
+            margin-left: .2em;
+
+            /* You can be more comfortable with increased icons size */
+            /* font-size: 120%; */
+
+            /* Font smoothing. That was taken from TWBS */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
     }
 }
 
 .topnav {
+    position: relative;
     text-align: right;
 }
 .menu {
     background: #fff;
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
     list-style: none;
     margin: 0;
-    max-height: 0;
+    height: 0;
     overflow: hidden;
     padding: 0;
-    transition: max-height 250ms ease-in;
+    transition: height 250ms ease-in;
     width: 320px;
     &.show {
-        max-height: 50rem;
         transition-timing-function: ease-out;
     }
     > li {
