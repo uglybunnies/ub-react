@@ -5,7 +5,6 @@ module.exports = function render (locals, callback) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ugly Bunnies</title>
-        <link href='https://fonts.googleapis.com/css?family=Henny+Penny&text=Ugly%20Bunnies|Alegreya+Sans:300,300italic,500,500italic' rel='stylesheet' type='text/css'>
         <style>
         @font-face {
               font-family: 'fontello';
