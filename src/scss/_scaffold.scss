@@ -41,6 +41,12 @@
 .pvn, .pan, .pbn { padding-bottom: 0; }
 .phn, .pan, .prn { padding-right: 0; }
 
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
 .masthead {
     position: relative;
 	@include border($color:$larkspur90);
@@ -152,11 +158,46 @@
 }
 .group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     > .group-item {
-        background-color: $larkspur90;
+        background-color: $larkspur-lite;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .s3 {
+        background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0,0,0,0) 33%, rgba(0,0,0,0) 100%);
+        line-height: 1.5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .s3 > span.absolute {
+		bottom: 1em;
+		left: 1em;
+		max-width: 10em;
+    }
+    .s3 > .blocks {
+	    box-shadow: -0.25em 0 0 0 #f5f6f6,
+					0.25em 0 0 #f5f6f6;
+        padding-top: .1em;
+	    -webkit-box-decoration-break: clone;
+	    box-decoration-break: clone;
+    }
+    @include responsive(big-phone) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @include responsive(medium-tablet) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @include responsive(notebook-screen) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @include responsive(max-screen) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 .site-footer {
