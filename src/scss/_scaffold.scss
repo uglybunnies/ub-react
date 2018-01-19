@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('/font/fontello.eot?44546690');
+    src: url('/font/fontello.eot?44546690#iefix') format('embedded-opentype'),
+       url('/font/fontello.woff?44546690') format('woff'),
+       url('/font/fontello.ttf?44546690') format('truetype'),
+       url('/font/fontello.svg?44546690#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.bl {
+	@include border($color:$larkspur90);
+	border-width: 0 0 0 1px;
+}
+.bv {
+	@include border($color:$larkspur90);
+	border-width: 1px 0;
+}
+.ba {
+	@include border($color:$larkspur90);
+	border-width: 1px;
+}
+/* display styles */
+.db {
+	display: block;
+}
+.dib {
+	display: inline-block;
+}
+.dl {
+	display: inline;
+}
+
+/* margins */
+.m0 { margin: 0; }
+
+.ma { margin: .25em; }
+.ma1 { margin: .5em; }
+.ma2 { margin: 1em; }
+
+.mv { margin: .25em 0; }
+.mv1 { margin: .5em 0; }
+.mv2 { margin: 1em 0; }
+
+.mh { margin: 0 .25em; }
+.mh1 { margin: 0 .5em; }
+.mh2 { margin: 0 1em; }
+
+.mt { margin-top: .25em; }
+.mt1 { margin-top: .5em; }
+.mt2 { margin-top: 1em; }
+
+.mr { margin-right: .25em; }
+.mr1 { margin-right: .5em; }
+.mr2 { margin-right: 1em; }
+
+.mb { margin-bottom: .25em; }
+.mb1 { margin-bottom: .5em; }
+.mb2 { margin-bottom: 1em; }
+
+.ml { margin-left: .25em; }
+.ml1 { margin-left: .5em; }
+.ml2 { margin-left: 1em; }
+
+/* paddings */
+.p0 { padding: 0; }
+
+.pa { padding: .25em; }
+.pa1 { padding: .5em; }
+.pa2 { padding: 1em; }
+
+.pv { padding: .25em 0; }
+.pv1 { padding: .5em 0; }
+.pv2 { padding: 1em 0; }
+
+.ph { padding: 0 .25em; }
+.ph1 { padding: 0 .5em; }
+.ph2 { padding: 0 1em; }
+
+.pt { padding-top: .25em; }
+.pt1 { padding-top: .5em; }
+.pt2 { padding-top: 1em; }
+
+.pr { padding-right: .25em; }
+.pr1 { padding-right: .5em; }
+.pr2 { padding-right: 1em; }
+
+.pb { padding-bottom: .25em; }
+.pb1 { padding-bottom: .5em; }
+.pb2 { padding-bottom: 1em; }
+
+.pl { padding-left: .25em; }
+.pl1 { padding-left: .5em; }
+.pl2 { padding-left: 1em; }
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.masthead {
+    position: relative;
+	@include border($color:$larkspur90);
+	border-width: 0 0 1px;
+    > .logo {
+        display: inline-block;
+        vertical-align: middle;
+        .site-name {
+            font-family: 'Henny Penny', serif;
+            font-weight: 400;
+            line-height: 1;
+            margin: 0;
+            > .slink span {
+                color: $larkspur;
+                display: inline-block;
+                margin: 0;
+                &:first-letter {
+                    font-size: 1.2em;
+                    color: hsl(40, 52%, 58%);
+                    line-height: 2.5rem;
+                    vertical-align: -.25rem;
+                }
+            }
+        }
+    }
+    > a {
+    	@include border($color:$green);
+    	border-width: 1px;
+        border-radius: 0.1875rem;
+        color: $green;
+        display: block;
+        margin: 0 0 0 .25rem;
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        text-decoration: none;
+        .icon-menu {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+            /* opacity: .8; */
+
+            /* For safety - reset parent styles, that can break glyph codes*/
+            font-variant: normal;
+            text-transform: none;
+
+            /* fix buttons height, for twitter bootstrap */
+            line-height: 1em;
+
+            /* Animation center compensation - margins should be symmetric */
+            /* remove if not needed */
+            margin-left: .2em;
+
+            /* You can be more comfortable with increased icons size */
+            /* font-size: 120%; */
+
+            /* Font smoothing. That was taken from TWBS */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    }
+}
+.hero-image {
+    width: 100%;
+}
+.topnav {
+    position: relative;
+    text-align: right;
+}
+.menu {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: height 250ms ease-in;
+    width: 320px;
+    &.show {
+        transition-timing-function: ease-out;
+    }
+    > li {
+        border: solid #F6F2FA;
+        border-width: 1px 1px 0;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        &:last-child {
+            border-bottom-width: 1px;
+        }
+        > a {
+            color: $larkspur;
+            display: block;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            &:hover {
+                background-color: hsla(40, 52%, 58%, .15);
+            }
+        }
+    }
+}
+.group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1.5rem;
+    > .group-item {
+        background-color: $larkspur-lite;
+        box-shadow: .0625rem .0625rem .25rem .0625rem rgba(20,40,40, .25);
+        header {
+            max-height: 9.6875em;
+        }
+    }
+    .s5 {
+        background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0,0,0,0) 33%, rgba(0,0,0,0) 100%);
+        line-height: 1.5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .s5 > span.absolute {
+		bottom: 1em;
+		left: 1em;
+		max-width: 10em;
+    }
+    .s5 a.blocks {
+		background-color: $larkspur-lite;
+	    box-shadow: -0.25em 0 0 .125em $larkspur-lite,
+					0.25em 0 0 .125em $larkspur-lite;
+        color: $logoGold;
+        line-height: 1.7;
+        padding-top: .1em;
+        text-decoration: none;
+	    -webkit-box-decoration-break: clone;
+	    box-decoration-break: clone;
+    }
+    @include responsive(big-phone) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @include responsive(medium-tablet) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @include responsive(notebook-screen) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.items {
+    position: relative;
+    min-height: 12rem;
+    .item {
+        position: absolute;
+        z-index: 0;
+        width: 55.55556%;
+        transition: transform .25s ease-in;
+        transform-origin: bottom left;
+        > img {
+            box-shadow: 0.0625rem 0.0625rem .1875rem .125rem rgba(0,0,0, .15);
+        }
+        &.mid {
+            transform-origin: bottom center;
+        }
+        &.right {
+            transform-origin: bottom right;
+        }
+        &.view {
+            transition-timing-function: ease-out;
+        }
+    }
+    @include responsive(phone) {
+        min-height: 18rem;
+    }
+    @include responsive(big-phone) {
+        min-height: 22rem;
+    }
+    @include responsive(small-tablet) {
+        min-height: 14rem;
+    }
+}
+.project-group {
+    @include responsive(small-tablet) {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+}
+.project-group-item {
+    width: 100%;
+    @include responsive(small-tablet) {
+        flex-grow: 1;
+        flex-basis: 10rem;
+        &.copy {
+            flex-grow: 2;
+        }
+    }
+}
+.standard {
+    .items {
+        .item {
+            &.vert {
+                width: 34.33333%;
+            }
+            &.pic1 {
+                top: -1.38889%;
+                left: 60%;
+            }
+            &.pic2 {
+                top: 33.33333%;
+                right: 5%;
+            }
+            &.pic3 {
+                top: 1.38889%;
+                left: 0;
+            }
+            &.pic4 {
+                top: 10%;
+                left: 2%;
+            }
+            &.pic5 {
+                top: 5%;
+                right: 19.44444%;
+            }
+            &.pic6 {
+                top: 0;
+                right: 2%;
+            }
+        }
+    }
+}
+.spec-ea {
+    .items {
+        .item {
+            &.pic1 {
+                bottom: 0;
+                left: 0;
+            }
+            &.pic2 {
+                bottom: 0;
+                right: 5%;
+            }
+            &.pic3 {
+                top: -5%;
+                left: 5%;
+            }
+            &.pic4 {
+                top: 2.5%;
+                right: 3%;
+            }
+            &.pic5 {
+                top: 10%;
+                left: 2%;
+            }
+            &.pic6 {
+                top: 5%;
+                left: 20%;
+            }
+            &.pic7 {
+                top: 0;
+                right: 2%;
+            }
+        }
+    }
+}
+.site-footer {
+	@include border($color:$larkspur90);
+    border-width: 1px 0 0;
+}

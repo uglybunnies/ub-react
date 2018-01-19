@@ -1,0 +1,74 @@
+// set base font size;
+$base-type-size: 1rem;
+
+$base-line-height: 1.5;
+
+$base-font-family: 'Alegreya Sans', sans-serif;
+
+$base-font-weight: 300;
+$light-font-weight: 100;
+$heavy-font-weight: 500;
+
+
+$card-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+$card-shadow-raised: 0px 1px 8px 0px rgba(0,0,0,0.4);
+
+// =colors
+// -------------------------------------------------------------------------------
+// Larkspur: hsv-265,55,53; hex—#5c3d87; rgb—rgb(92, 61, 135); hsl—hsl(265, 38%, 38%);
+// Ruby: hsv—355,55,53; hex—#873d43; rgb—rgb(132, 61, 67); hsl—hsl(355, 38%, 38%);
+// Blue: hsv—220,55,53; hex—#3d5687; rgb—rgb(61, 86, 135); hsl—hsl(220, 38%, 38%);
+// Green: hsv—175,55,53 hex—#3d8781; rgb—rgb(61,135, 129); hsl—hsl(175, 38%, 38%);
+// Gold: hsv—40,55,53; hex—#876e3d; rgb—rgb(135,110,61); hsl—hsl(40, 38%, 38%);
+
+// =tints 50% lighter
+// -------------------------------------------------------------------------------
+// Larkspur: hsv—265,77,28; hex—#A48DC4; rgb—rgb(163, 141, 195); hsl—hsl(265, 32%, 66%);
+
+// =tints 90% lighter
+// -------------------------------------------------------------------------------
+// Larkspur: hsv—265,5,95; hex—#EBE6F2; rgb—rgb(235, 230, 243); hsl—hsl(265, 32%, 93%);
+
+// =light larkspur
+// hsv—265,3,98; hex—#F6F2FA; rgb—rgb(246, 243, 250); hsl—hsl(270, 44%, 96%);
+
+// =lightest larkspur
+// hsv—265,2,100; hex—#FCFAFF; rgb—rgb(252, 250, 255); hsl—hsl(264, 100%, 99%);
+
+// =shades 25% darker
+// -------------------------------------------------------------------------------
+// Larkspur: hsv—265,55,40; hex—#452E66; rgb—rgb(69, 46, 102); hsl—hsl(265, 38%, 29%);
+
+// =shades 50% darker
+// -------------------------------------------------------------------------------
+// Larkspur: hsv—265,55,27; hex—#2F1F45; rgb—rgb(47, 31, 69); hsl—hsl(265, 38%, 20%);
+
+// =shades 75% darker
+// -------------------------------------------------------------------------------
+// Larkspur:hsv—265,55,13; hex—#170F21; rgb—rgb(23, 15, 33); hsl—hsl(265, 38%, 9%);
+
+$blue: #3d5687;
+$green: #3d8781;
+$gold: #876e3d;
+$logoGold: #cca75c; /* hsl(40, 52%, 58%) */
+$larkspur: #5c3d87;
+$ruby: #873d43;
+$larkspur90: #EBE6F2;
+$larkspur50:#A48DC4;
+$larkspur-lite: #F6F2FA;
+$larkspur-white: #FCFAFF;
+$larkspur25dark: #452E66;
+$larkspur50dark: #2F1F45;
+$larkspur75dark: #170F21;
+$base-font-color: #222;
+
+//
+//Responsive widths
+//-----------------------------------------------------------------------
+//
+$xsmall-width: 480px;
+$small-width: 640px;
+$medium-width: 800px;
+$large-width: 960px;
+$xlarge-width: 1120px;
+$max-width: 1280px;
