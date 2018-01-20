@@ -12,7 +12,7 @@ export default () => (
         </header>
         <section className="ph2 spec-ea" onClick={popPic}>
             <h1 className="copy-header s1 m0 mb1">Erran Andrews Hair Design</h1>
-            <p>This is a portfolio site designed to promote the hair design work of Erran Andrews, a San Francisco-based hairstylist. Click on each screenshot to enlarge them.</p>
+            <p>This is a portfolio site designed in 2010 to promote the hair design work of Erran Andrews, a San Francisco-based hairstylist. Click on each screenshot to enlarge them.</p>
             <h2 className="s2 blue">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">

@@ -17,9 +17,9 @@ function topnav(e) {
 export default () => (
   <Router>
     <div>
-        <header className="masthead pa1">
+        <header className="masthead pa2">
             <div className="logo">
-                <h1 className="site-name s1">
+                <h1 className="site-name word-mark">
                     <Link to="/" className="slink">
                         <span>Ugly</span> <span>Bunnies</span>
                     </Link>

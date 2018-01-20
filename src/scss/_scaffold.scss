@@ -109,6 +109,7 @@
         .site-name {
             font-family: 'Henny Penny', serif;
             font-weight: 400;
+            font-size: 3em;
             line-height: 1;
             margin: 0;
             > .slink span {
@@ -220,7 +221,9 @@
         background-color: $larkspur-lite;
         box-shadow: .0625rem .0625rem .25rem .0625rem rgba(20,40,40, .25);
         header {
-            max-height: 9.6875em;
+            @include responsive(medium-tablet) {
+                max-height: 9.6875em;
+            }
         }
     }
     .s5 {
@@ -241,8 +244,9 @@
 	    box-shadow: -0.25em 0 0 .125em $larkspur-lite,
 					0.25em 0 0 .125em $larkspur-lite;
         color: $logoGold;
-        line-height: 1.7;
-        padding-top: .1em;
+        line-height: 1;
+        padding-top: .2em;
+        padding-bottom: .2em;
         text-decoration: none;
 	    -webkit-box-decoration-break: clone;
 	    box-decoration-break: clone;
@@ -265,18 +269,29 @@
         z-index: 0;
         width: 55.55556%;
         transition: transform .25s ease-in;
-        transform-origin: bottom left;
+        transform-origin: top left;
         > img {
             box-shadow: 0.0625rem 0.0625rem .1875rem .125rem rgba(0,0,0, .15);
+            cursor: pointer;
         }
         &.mid {
-            transform-origin: bottom center;
+            transform-origin: top center;
+
+            @include responsive(medium-tablet) {
+                transform-origin: bottom center;
+            }
         }
         &.right {
-            transform-origin: bottom right;
+            transform-origin: top right;
+            @include responsive(medium-tablet) {
+                transform-origin: bottom right;
+            }
         }
         &.view {
             transition-timing-function: ease-out;
+        }
+        @include responsive(medium-tablet) {
+            transform-origin: bottom left;
         }
     }
     @include responsive(phone) {

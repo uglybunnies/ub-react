@@ -13,7 +13,7 @@ export default () => (
         </header>
         <section className="ph2 standard" onClick={popPic}>
             <h1 className="copy-header s1 m0 mb1">Platinum Medical Spa</h1>
-            <p>This site was created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>.  Click on each screenshot to enlarge them.</p>
+            <p>This 2008 site was created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>.  Click on each screenshot to enlarge them.</p>
             <h2 className="s2 blue">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">

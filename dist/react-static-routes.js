@@ -8,6 +8,7 @@ import src_containers_WebProjects from '../src/containers/WebProjects'
 import src_containers_Rjm from '../src/containers/Rjm'
 import src_containers_Platinum from '../src/containers/Platinum'
 import src_containers_ErranAndrews_js from '../src/containers/ErranAndrews.js'
+import src_containers_Platzner_js from '../src/containers/Platzner.js'
 import src_containers_404 from '../src/containers/404'
 
     // Template Map
@@ -17,11 +18,12 @@ t_1: src_containers_WebProjects,
 t_2: src_containers_Rjm,
 t_3: src_containers_Platinum,
 t_4: src_containers_ErranAndrews_js,
-t_5: src_containers_404
+t_5: src_containers_Platzner_js,
+t_6: src_containers_404
     }
 
     // Template Tree
-    const templateTree = {c:{"404":{t:"t_5"},"/":{t:"t_0"},"web-projects":{t:"t_1",c:{"rejuvenation-site":{t:"t_2"},"platinum-site":{t:"t_3"},"erran-andrews":{t:"t_4"}}}}}
+    const templateTree = {c:{"404":{t:"t_6"},"/":{t:"t_0"},"web-projects":{t:"t_1",c:{"rejuvenation-site":{t:"t_2"},"platinum-site":{t:"t_3"},"erran-andrews":{t:"t_4"},"platzner":{t:"t_5"}}}}}
 
     // Get template for given path
     const getComponentForPath = path => {
