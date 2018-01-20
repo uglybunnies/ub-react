@@ -19,7 +19,7 @@ export default () => (
                 <div className="items project-group-item">
                     <div className="item pic1 vert right"><img src="/assets/web-projects/rjm_home_detail3.png" alt="Home page detail of sidebar" className="hero-image pop-pic"/></div>
                     <div className="item pic2 right"><img src="/assets/web-projects/rjm_home_detail2.png" alt="Home page detail of coupon section" className="hero-image pop-pic"/></div>
-                    <div className="item pic3"><img src="/assets/web-projects/rjm_home_detail1.png" alt="Home page detail of header" className="hero-image pop-pic"/></div>
+                    <div className="item pic3"><img src="/assets/web-projects/rjm_home_detail1.png" alt="Home page detail of the masthead" className="hero-image pop-pic"/></div>
                 </div>
                 <div className="project-group-item copy">
                     <p className="m0 mb2">This is a desktop only design because mobile devices like the iPhone had not become a factor to consider yet. It features a distinctive visual style that incorporates layers of semi-opaque shapes overlaid onto each other to create a sense of depth and movement.</p>

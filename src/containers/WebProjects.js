@@ -43,6 +43,17 @@ export default () => (
                         <p className="m0 mb">This is a portfolio site designed to promote the hair design work of Erran Andrews. <a href="/web-projects/erran-andrews" className="db tar mv goto">Learn more &#187;</a></p>
                     </div>
                 </article>
+                <article className="group-item m0">
+                    <header className="relative">
+                        <img src="assets/web-projects/platzner_hero_320.png" alt="Platzner & Co." srcSet="assets/web-projects/plaztner_hero 1024w" className="hero-image" />
+                        <h3 className="s5 ph m0 absolute"><span className="absolute">
+                            <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Website</a>
+                        </span></h3>
+                    </header>
+                    <div className="excerpt pa1 mb2">
+                        <p className="m0 mb">This is the proposed design of a website for a small consultancy.</p>
+                    </div>
+                </article>
             </div>
         </section>
         <section>

@@ -28,6 +28,10 @@ export default {
           component: 'src/containers/ErranAndrews.js'
       },
       {
+          path: '/web-projects/platzner',
+          component: 'src/containers/Platzner.js'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
