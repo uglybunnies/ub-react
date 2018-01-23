@@ -11,6 +11,10 @@ export default {
         path: '/',
         component: 'src/containers/Home',
       },
+        {
+          path: '/about',
+          component: 'src/containers/About',
+        },
       {
         path: '/web-projects',
         component: 'src/containers/WebProjects'
@@ -30,6 +34,14 @@ export default {
       {
           path: '/web-projects/platzner',
           component: 'src/containers/Platzner.js'
+      },
+      {
+          path: '/web-projects/urban-forest',
+          component: 'src/containers/UrbanForest.js'
+      },
+      {
+          path: '/web-projects/cafe-de-la-paz',
+          component: 'src/containers/Cdlp.js'
       },
       {
         is404: true,

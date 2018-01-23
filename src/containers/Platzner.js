@@ -10,10 +10,10 @@ export default () => (
         <header>
             <img src="/assets/web-projects/platzner-splash.png" srcSet="/assets/web-projects/platzner-splash.png 320w, /assets/web-projects/platzner-splash_720.png 720w" alt="Proposed Platzner &amp; Co. Website" className="hero-image"/>
         </header>
-        <section className="ph2 standard" onClick={popPic}>
-            <h1 className="copy-header s1 m0 mb1">Proposed Platzner &amp; Co. Website</h1>
+        <section className="ph2 pb2 standard" onClick={popPic}>
+            <h1 className="copy-header s1 mv1">Proposed Platzner &amp; Co. Website</h1>
             <p>This is the design of a website for a small consultancy that I did in 2008. The client chose to go in a different direction and paid for services rendered. Click on each screenshot to enlarge them.</p>
-            <h2 className="s2 blue">The Design</h2>
+            <h2  className="s2 ruby">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">
                     <div className="item pic1 vert right"><img src="/assets/web-projects/platzner_detail3.png" alt="Home page detail of sidebar" className="hero-image pop-pic"/></div>

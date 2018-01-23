@@ -10,10 +10,10 @@ export default () => (
         <header>
             <img src="/assets/web-projects/erran-splash.png" alt="Erran Andrews Hair Design" srcSet="/assets/web-projects/erran-splash.png 320w, /assets/web-projects/erran-splash_720.png 720w" className="hero-image" />
         </header>
-        <section className="ph2 spec-ea" onClick={popPic}>
-            <h1 className="copy-header s1 m0 mb1">Erran Andrews Hair Design</h1>
+        <section className="ph2 pb2 spec-ea" onClick={popPic}>
+            <h1 className="copy-header s1 mv1">Erran Andrews Hair Design</h1>
             <p>This is a portfolio site designed in 2010 to promote the hair design work of Erran Andrews, a San Francisco-based hairstylist. Click on each screenshot to enlarge them.</p>
-            <h2 className="s2 blue">The Design</h2>
+            <h2  className="s2 ruby">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">
                     <div className="item pic4 right"><img src="/assets/web-projects/erran_detail4.png" alt="Detail of the style gallery for men" className="hero-image pop-pic"/></div>
@@ -42,7 +42,7 @@ export default () => (
                 </div>
             </div>
             <p className="m0 mb2">The site launched in 2008 but disappeared after the site hosting and domain registration expired the next year.</p>
-            <h2 className="s2 blue">The Development</h2>
+            <h2  className="s2 ruby">The Development</h2>
             <p className="m0 mb2">The site was built in compliance with strict XHTML standards and what was then state-of-the-art CSS2 for layout and visual enhancements including <a href="https://css-tricks.com/css-sprites/">CSS Sprites</a> and image-base gradients. The Flash slideshow is loaded dynamically using JavaScript so that users would see a static image if Flash was not available.</p>
         </section>
     </div>

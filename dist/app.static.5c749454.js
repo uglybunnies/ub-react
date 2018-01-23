@@ -211,7 +211,7 @@ var _reactStaticRoutes = __webpack_require__(7);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(16);
+__webpack_require__(19);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -235,10 +235,10 @@ exports.default = function () {
             null,
             _react2.default.createElement(
                 'header',
-                { className: 'masthead pa2' },
+                { className: 'masthead' },
                 _react2.default.createElement(
                     'div',
-                    { className: 'logo' },
+                    { className: 'logo pa1' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'site-name word-mark' },
@@ -261,12 +261,8 @@ exports.default = function () {
                 ),
                 _react2.default.createElement(
                     'a',
-                    { href: '#', className: 'pa', id: 'menuControl', onClick: topnav },
-                    _react2.default.createElement(
-                        'i',
-                        { className: 'icon-menu' },
-                        '\uF0C9'
-                    )
+                    { href: '#', className: 'pa', id: 'menuControl', onClick: topnav, title: 'Click to open menu' },
+                    _react2.default.createElement('i', { className: 'icon-menu' })
                 )
             ),
             _react2.default.createElement(
@@ -280,8 +276,8 @@ exports.default = function () {
                         null,
                         _react2.default.createElement(
                             _reactStatic.Link,
-                            { to: '/', onClick: topnav },
-                            'Home'
+                            { to: '/web-projects', onClick: topnav },
+                            'Web Projects'
                         )
                     ),
                     _react2.default.createElement(
@@ -289,8 +285,8 @@ exports.default = function () {
                         null,
                         _react2.default.createElement(
                             _reactStatic.Link,
-                            { to: '/web-projects', onClick: topnav },
-                            'Web Projects'
+                            { to: '/about', onClick: topnav },
+                            'About Ugly Bunnies'
                         )
                     )
                 )
@@ -302,10 +298,36 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'footer',
-                { className: 'pa2' },
+                { className: 'site-footer pa2' },
+                _react2.default.createElement(
+                    'section',
+                    null,
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'inline-list site-links m0 p0' },
+                        _react2.default.createElement(
+                            'li',
+                            { className: 'm0 p0' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '/web-projects' },
+                                'Web Projects'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'li',
+                            { className: 'm0 p0' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: '/about' },
+                                'About Ugly Bunnies'
+                            )
+                        )
+                    )
+                ),
                 _react2.default.createElement(
                     'p',
-                    null,
+                    { className: 's8' },
                     'Copyright \xA9 2001-2018 Michael Wong. All Rights Reserved.'
                 )
             )
@@ -336,27 +358,39 @@ var _Home = __webpack_require__(9);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _WebProjects = __webpack_require__(10);
+var _About = __webpack_require__(10);
+
+var _About2 = _interopRequireDefault(_About);
+
+var _WebProjects = __webpack_require__(11);
 
 var _WebProjects2 = _interopRequireDefault(_WebProjects);
 
-var _Rjm = __webpack_require__(11);
+var _Rjm = __webpack_require__(12);
 
 var _Rjm2 = _interopRequireDefault(_Rjm);
 
-var _Platinum = __webpack_require__(12);
+var _Platinum = __webpack_require__(13);
 
 var _Platinum2 = _interopRequireDefault(_Platinum);
 
-var _ErranAndrews = __webpack_require__(13);
+var _ErranAndrews = __webpack_require__(14);
 
 var _ErranAndrews2 = _interopRequireDefault(_ErranAndrews);
 
-var _Platzner = __webpack_require__(14);
+var _Platzner = __webpack_require__(15);
 
 var _Platzner2 = _interopRequireDefault(_Platzner);
 
-var _ = __webpack_require__(15);
+var _UrbanForest = __webpack_require__(16);
+
+var _UrbanForest2 = _interopRequireDefault(_UrbanForest);
+
+var _Cdlp = __webpack_require__(17);
+
+var _Cdlp2 = _interopRequireDefault(_Cdlp);
+
+var _ = __webpack_require__(18);
 
 var _2 = _interopRequireDefault(_);
 
@@ -374,15 +408,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // Template Map
 var templateMap = {
   t_0: _Home2.default,
-  t_1: _WebProjects2.default,
-  t_2: _Rjm2.default,
-  t_3: _Platinum2.default,
-  t_4: _ErranAndrews2.default,
-  t_5: _Platzner2.default,
-  t_6: _2.default
+  t_1: _About2.default,
+  t_2: _WebProjects2.default,
+  t_3: _Rjm2.default,
+  t_4: _Platinum2.default,
+  t_5: _ErranAndrews2.default,
+  t_6: _Platzner2.default,
+  t_7: _UrbanForest2.default,
+  t_8: _Cdlp2.default,
+  t_9: _2.default
 
   // Template Tree
-};var templateTree = { c: { "404": { t: "t_6" }, "/": { t: "t_0" }, "web-projects": { t: "t_1", c: { "rejuvenation-site": { t: "t_2" }, "platinum-site": { t: "t_3" }, "erran-andrews": { t: "t_4" }, "platzner": { t: "t_5" } } } }
+};var templateTree = { c: { "404": { t: "t_9" }, "/": { t: "t_0" }, "about": { t: "t_1" }, "web-projects": { t: "t_2", c: { "rejuvenation-site": { t: "t_3" }, "platinum-site": { t: "t_4" }, "erran-andrews": { t: "t_5" }, "platzner": { t: "t_6" }, "urban-forest": { t: "t_7" }, "cafe-de-la-paz": { t: "t_8" } } } }
 
   // Get template for given path
 };var getComponentForPath = function getComponentForPath(path) {
@@ -484,15 +521,204 @@ exports.default = function () {
             )
         ),
         _react2.default.createElement(
-            'h1',
-            { style: { textAlign: 'center' } },
-            'Welcome to Ugly Bunnies'
+            'header',
+            { className: 'pa2' },
+            _react2.default.createElement(
+                'h1',
+                { className: 'brand m0' },
+                'Welcome to Ugly Bunnies'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'If you were expecting to see ugly bunnies here, you will have to look elsewhere (',
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://uglybunnies.tumblr.com/' },
+                    'here'
+                ),
+                ', perhaps). Ugly Bunnies is the website of Michael Wong. Michael is a Conceptual Information Artist who works as a Web Design and Development Professional in the San Francisco Bay Area. This site features some ',
+                _react2.default.createElement(
+                    'a',
+                    { href: '/web-projects' },
+                    'projects'
+                ),
+                ' completed over the years.'
+            )
+        ),
+        _react2.default.createElement(
+            'section',
+            { className: 'p0 ph2 pb2' },
+            _react2.default.createElement(
+                'ul',
+                { className: 'inline-list m0 p0 social-accounts tac' },
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://www.linkedin.com/in/uglybunnies/', className: 'soc-links' },
+                        _react2.default.createElement('i', { className: 'icon-linkedin-squared' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/uglybunnies', className: 'soc-links' },
+                        _react2.default.createElement('i', { className: 'icon-github-circled' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://twitter.com/NoUglyBunnies', className: 'soc-links' },
+                        _react2.default.createElement('i', { className: 'icon-twitter' })
+                    )
+                )
+            )
         )
     );
 };
 
 /***/ }),
 /* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+    return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+            _reactStatic.Head,
+            null,
+            _react2.default.createElement(
+                'title',
+                null,
+                'About Ugly Bunnies by Michael Wong'
+            )
+        ),
+        _react2.default.createElement(
+            'header',
+            { className: 'p0 ph2 pt2' },
+            _react2.default.createElement(
+                'h1',
+                { className: 'brand m0' },
+                'About Ugly Bunnies'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'Ugly Bunnies is my personal website. The site features my web design portfolio, and will soon feature my art portfolio and other musings on web design and development.'
+            )
+        ),
+        _react2.default.createElement(
+            'section',
+            { className: 'p0 ph2 pb2' },
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'Origins'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'Before Ugly Bunnies, there was SerpentVenom my previous site. I decided to let go of SerpentVenom a while ago and set out to build a new site. The name came about very surreptiously while I was teaching my class about hwo to search for available domains. I decided to look for uglybunnies.com and lo and behold, it was available.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'Technical Information'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'Ugly Bunnies was designed and built with standards in mind. The structure of the site is written in HTML5. Modern CSS is used for the presentational. Funtionality is provided by unobtrusive JavaScript. Visitors using older versions of Internet Explorer may not be able to experience the site as intended.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'About Michael'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'As for me, I\'m Michael Wong. I\'m a Web Designer/Developer by trade but an artist at heart. I have designed or contributed to a wide variety of sites including sports events, e-commerce sites, software company sites, government sites, non-profit sites, and personal sites that include blogs and art and design portfolios.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'Art'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'I studied Conceptual/Information Arts (CIA), a program within the Art Department at San Francisco State University (SFSU). CIA focuses on preparing artists and media experimenters to work at the cutting edge of technology. The study of contemporary digital production skills is accompanied by the analysis of the cultural context of technology, as well as experimentation with newly emerging technologies.'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'I use computers to create art both for the web and for print. Personal computers and the emergence of the internet have given artists like me an opportunity to create art that is not dependent upon grants, galleries or patrons. This means we have an autonomy that some working artists do not always enjoy. This autonomy makes communicating my message easier.'
+            ),
+            _react2.default.createElement(
+                'h3',
+                { className: 's4 ruby' },
+                'My Message'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'I believe that art is a vehicle for raising awareness. As special interests and corporate money hold sway over our elected officials, most of us are only concerned about the next pop idol or TV survivor. What I want people to realize is that their apathy toward what goes on in our government is setting up a situation that will eventually be out of our control. I want to show people what they are missing and give them a reason to care.'
+            ),
+            _react2.default.createElement(
+                'h3',
+                { className: 's4 ruby' },
+                'Ad Art'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'Sometimes print advertisements, especially billboards, will capture my attention in ways the advertisers did not intend. When this happens, my response is to take the intended message and tweak it to reflect my response to the original message. My Ad Art posters are the result of this exploration and manipulation of messages.'
+            ),
+            _react2.default.createElement(
+                'h3',
+                { className: 's4 ruby' },
+                'Photography'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'I have been creating photographic imagery for over 17 years. I mainly work in color with occasional forays into Black and White. I started out with a 35mm Nikon FM2 but I have recently embraced digital photography because of the immediacy and affordability that digital technology offers. Whether film or digital, all of my images are created in camera. Their compositions have not been digitally altered.'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'My photography reflects my desire to capture what I see. I begin with ideas like the view through a window, the unusual angles and scenes of urban life, the beauty of nature, photographic experimentation. The results range from straightforward to the abstract.'
+            )
+        )
+    );
+};
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -527,7 +753,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'ph1' },
+            { className: 'ph2 pb2 pt2' },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 m0 mb1' },
@@ -536,7 +762,7 @@ exports.default = function () {
             _react2.default.createElement(
                 'p',
                 null,
-                'This is a collection of some of my web-based work including websites and interactive experiences.'
+                'I\'ve been a web professional for quite a while and have done a variety of projects throughout my career. Here are some projects I\'ve worked on.'
             )
         ),
         _react2.default.createElement(
@@ -544,11 +770,16 @@ exports.default = function () {
             { className: 'ph1' },
             _react2.default.createElement(
                 'header',
-                null,
+                { className: 'ph1 pb2' },
                 _react2.default.createElement(
                     'h2',
-                    { className: 's2 blue' },
+                    { className: 's2 ruby m0' },
                     'Websites'
+                ),
+                _react2.default.createElement(
+                    'p',
+                    { className: 'mb2' },
+                    'This is a collection of some the websites I designed and developed on freelance basis.'
                 )
             ),
             _react2.default.createElement(
@@ -644,6 +875,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
+                        _react2.default.createElement('img', { src: 'assets/web-projects/erranAndrews_hero_320.png', alt: 'Erran Andrews', srcSet: 'assets/web-projects/erranAndrews_hero.png 1024w', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -656,8 +888,7 @@ exports.default = function () {
                                     'Erran Andrews Hair Design Website'
                                 )
                             )
-                        ),
-                        _react2.default.createElement('img', { src: 'assets/web-projects/erranAndrews_hero_320.png', alt: 'Erran Andrews', srcSet: 'assets/web-projects/erranAndrews_hero.png 1024w', className: 'hero-image' })
+                        )
                     ),
                     _react2.default.createElement(
                         'div',
@@ -709,6 +940,83 @@ exports.default = function () {
                             )
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    'article',
+                    { className: 'group-item m0' },
+                    _react2.default.createElement(
+                        'header',
+                        { className: 'relative' },
+                        _react2.default.createElement('img', { src: 'assets/web-projects/UF_hero_320.png', srcSet: 'assets/web-projects/UF_hero.png 1024w', alt: 'Template Design for Sandvox', className: 'hero-image' }),
+                        _react2.default.createElement(
+                            'h3',
+                            { className: 's5 ph m0 absolute' },
+                            _react2.default.createElement(
+                                'span',
+                                { className: 'absolute' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '/web-projects/urban-forest', className: 'blocks' },
+                                    'Template Design for Sandvox'
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'excerpt pa1 mb2' },
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'm0 mb' },
+                            _react2.default.createElement(
+                                'a',
+                                { href: 'http://www.karelia.com/products/sandvox/' },
+                                'Sandvox'
+                            ),
+                            ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005.',
+                            _react2.default.createElement(
+                                'a',
+                                { href: '/web-projects/urban-forest', className: 'db tar mv goto' },
+                                'Learn more \xBB'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'article',
+                    { className: 'group-item m0' },
+                    _react2.default.createElement(
+                        'header',
+                        { className: 'relative' },
+                        _react2.default.createElement('img', { src: 'assets/web-projects/cdlp_hero_320.png', srcSet: 'assets/web-projects/cdlp_hero.png 1024w', alt: 'Cafe de la Paz Website', className: 'hero-image' }),
+                        _react2.default.createElement(
+                            'h3',
+                            { className: 's5 ph m0 absolute' },
+                            _react2.default.createElement(
+                                'span',
+                                { className: 'absolute' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '/web-projects/cafe-de-la-paz', className: 'blocks' },
+                                    'Caf\xE9 de la Paz Website'
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'excerpt pa1 mb2' },
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'm0 mb' },
+                            'This is my first freelance project. Designed in 2004 for Caf\xE9 de la Paz, a restaurant in Berkeley, California.',
+                            _react2.default.createElement(
+                                'a',
+                                { href: '/web-projects/cafe-de-la-paz', className: 'db tar mv goto' },
+                                'Learn more \xBB'
+                            )
+                        )
+                    )
                 )
             )
         )
@@ -716,7 +1024,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -757,10 +1065,10 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 standard', onClick: popPic },
+            { className: 'ph2 pb2 standard', onClick: popPic },
             _react2.default.createElement(
                 'h1',
-                { className: 'copy-header s1 m0 mb1' },
+                { className: 'copy-header s1 mv1' },
                 'Rejuvenation Medi-Spas'
             ),
             _react2.default.createElement(
@@ -782,7 +1090,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Design'
             ),
             _react2.default.createElement(
@@ -852,14 +1160,14 @@ exports.default = function () {
             _react2.default.createElement(
                 'p',
                 { className: 'm0 mb2' },
-                'This project is the second and last bit of unpaid "spec work" I have done. Lesson learned, I no longer do projects on spec as a result.'
+                'This project is the the last bit of unpaid "spec work" I have done. Lesson learned, I no longer do projects on spec as a result.'
             )
         )
     );
 };
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -900,10 +1208,10 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 standard', onClick: popPic },
+            { className: 'ph2 pb2 standard', onClick: popPic },
             _react2.default.createElement(
                 'h1',
-                { className: 'copy-header s1 m0 mb1' },
+                { className: 'copy-header s1 mv1' },
                 'Platinum Medical Spa'
             ),
             _react2.default.createElement(
@@ -919,7 +1227,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Design'
             ),
             _react2.default.createElement(
@@ -988,7 +1296,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Development'
             ),
             _react2.default.createElement(
@@ -1012,7 +1320,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1053,10 +1361,10 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 spec-ea', onClick: popPic },
+            { className: 'ph2 pb2 spec-ea', onClick: popPic },
             _react2.default.createElement(
                 'h1',
-                { className: 'copy-header s1 m0 mb1' },
+                { className: 'copy-header s1 mv1' },
                 'Erran Andrews Hair Design'
             ),
             _react2.default.createElement(
@@ -1066,7 +1374,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Design'
             ),
             _react2.default.createElement(
@@ -1145,7 +1453,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Development'
             ),
             _react2.default.createElement(
@@ -1164,7 +1472,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1205,10 +1513,10 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 standard', onClick: popPic },
+            { className: 'ph2 pb2 standard', onClick: popPic },
             _react2.default.createElement(
                 'h1',
-                { className: 'copy-header s1 m0 mb1' },
+                { className: 'copy-header s1 mv1' },
                 'Proposed Platzner & Co. Website'
             ),
             _react2.default.createElement(
@@ -1218,7 +1526,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'h2',
-                { className: 's2 blue' },
+                { className: 's2 ruby' },
                 'The Design'
             ),
             _react2.default.createElement(
@@ -1295,7 +1603,307 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 15 */
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+var popPic = __webpack_require__(2);
+
+exports.default = function () {
+    return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+            _reactStatic.Head,
+            null,
+            _react2.default.createElement(
+                'title',
+                null,
+                'Ugly Bunnies -- Template Design for Sandvox'
+            )
+        ),
+        _react2.default.createElement(
+            'header',
+            null,
+            _react2.default.createElement('img', { src: '/assets/web-projects/UF-splash.png', alt: 'Template Design for Sandvox', srcSet: '/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w', className: 'hero-image' })
+        ),
+        _react2.default.createElement(
+            'section',
+            { className: 'ph2 pb2 standard', onClick: popPic },
+            _react2.default.createElement(
+                'h1',
+                { className: 'copy-header s1 mv1' },
+                'Template Design for Sandvox'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://www.karelia.com/products/sandvox/' },
+                    'Sandvox'
+                ),
+                ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'The Design'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic1 vert right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail2.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic2 right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail3.png', alt: 'Detail of the photo Navigation', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic3' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail1.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0 mb2' },
+                        'The design features a fixed-width layout suitable for 17-inch monitors which had become the standard at that time. The masthead features a multi-layered background that was designed to accommodate a variable height depending on the content placed within it. Other details include image galler pagination controls designed to look like leaves.'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0' },
+                        'The template had to support a number of layouts including a homepage, blog post page and a Flash-powered image viewer. The template also needed to accommodate a sidebar on the left and/or right side.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic6 right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail6.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic5 mid' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail5.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic4' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail4.png', alt: 'Example of the pagination controls on a page', className: 'hero-image pop-pic' })
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'm0 mb2' },
+                'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://www.todayinthegarden.com/' },
+                    'this one'
+                ),
+                ' and ',
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://luckydogcambridge.com/' },
+                    'this one'
+                ),
+                ' for example).'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'The Development'
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'm0 mb2' },
+                'My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the ',
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://www.csszengarden.com/' },
+                    'CSS Zen Garden'
+                ),
+                ' so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.'
+            )
+        )
+    );
+};
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+var popPic = __webpack_require__(2);
+
+exports.default = function () {
+    return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+            _reactStatic.Head,
+            null,
+            _react2.default.createElement(
+                'title',
+                null,
+                'Ugly Bunnies -- Caf\xE9 de la Paz Website'
+            )
+        ),
+        _react2.default.createElement(
+            'header',
+            null,
+            _react2.default.createElement('img', { src: '/assets/web-projects/cdlp-splash.png', alt: 'Caf\xE9 de la Paz Website', srcSet: '/assets/web-projects/cdlp-splash.png 320w, /assets/web-projects/cdlp-splash_720.png 720w', className: 'hero-image' })
+        ),
+        _react2.default.createElement(
+            'section',
+            { className: 'ph2 pb2 standard', onClick: popPic },
+            _react2.default.createElement(
+                'h1',
+                { className: 'copy-header s1 mv1' },
+                'Caf\xE9 de la Paz Website'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'This is my first freelance project. Designed in 2004 for Caf&eacute de la Paz, a restaurant in Berkeley, California. Click on each screenshot to enlarge them.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'The Design'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic1 vert right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_detail3.png', alt: 'Detail of the menu page', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic2 right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_detail2.png', alt: 'Detail of the right sidebar', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic3' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_detail1.png', alt: 'Detail of the site navigation', className: 'hero-image pop-pic' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0 mb2' },
+                        'The design features a fluid layout suitable for 17-inch monitors which had become the standard at that time. The page is bookended by the curved shapes at the top left and bottom right. The colors were drawn from earth and sand tones.'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0' },
+                        'The site had on primary layout with some content changes appearing in the right sidebar. Curves are incorporated to soften the edges and make the site feel more welcoming. The site naviation uses the same custom typeface that is used for the tagline that is adjacent to the logo.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic5 mid' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_detail5.png', alt: 'Menu page layout', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic4' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_detail4.png', alt: 'Hompage layout', className: 'hero-image pop-pic' })
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'm0 mb2' },
+                'The design remained active for two years when the restaurant owner decided he no longer wanted to pay for regular updates and maintenance and arranged to have someone else do that work. They proceeded to break the design and ended up doing a new design that lasted until the restaraunt closed a couple of years later.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'The Development'
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'm0 mb2' },
+                'This site was built in compliance with strict XHTML standards and CSS2 for layout. Images are used to display the custom typeface of the tagline and site navigation items since text replacement techniues were still a few years away from being conceived. JavaScript is used to unobtrusively change the naviation items on hover.'
+            )
+        )
+    );
+};
+
+/***/ }),
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1326,7 +1934,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -1334,4 +1942,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.ac679f42.js.map
+//# sourceMappingURL=app.static.5c749454.js.map

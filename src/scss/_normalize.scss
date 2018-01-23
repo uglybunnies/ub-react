@@ -1,5 +1,5 @@
 html {
-	background: $larkspur-lite;
+	background: $larkspur90;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 5vw; /* 16px for 320px wide viewport */
 	-ms-text-size-adjust: 100%;
@@ -24,7 +24,7 @@ html {
     }
 }
 body {
-	background: $larkspur-white;
+	background: $larkspur-lite;
     color: $base-font-color;
     font-size: $base-type-size;
     font-weight: $base-font-weight;

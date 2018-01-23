@@ -11,10 +11,10 @@ export default () => (
             <img src="/assets/web-projects/rjm-splash.png" srcSet="/assets/web-projects/rjm-splash.png 320w, /assets/web-projects/rjm-splash_720.png 720w" alt="Rejuvenation Medi-Spas" className="hero-image" />
 
         </header>
-        <section className="ph2 standard" onClick={popPic}>
-            <h1 className="copy-header s1 m0 mb1">Rejuvenation Medi-Spas</h1>
+        <section className="ph2 pb2 standard" onClick={popPic}>
+            <h1 className="copy-header s1 mv1">Rejuvenation Medi-Spas</h1>
             <p>This 2009 site was also created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>. The site was never published because the client <a href="https://youtu.be/jVkLVRt6c1U">could not pay</a> after his partners refused to go forward.  Click on each screenshot to enlarge them.</p>
-            <h2 className="s2 blue">The Design</h2>
+            <h2  className="s2 ruby">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">
                     <div className="item pic1 vert right"><img src="/assets/web-projects/rjm_home_detail3.png" alt="Home page detail of sidebar" className="hero-image pop-pic"/></div>
@@ -35,7 +35,7 @@ export default () => (
                     <div className="item pic6 right"><img src="/assets/web-projects/RJM_home.png" alt="Home page layout" className="hero-image pop-pic"/></div>
                 </div>
             </div>
-            <p className="m0 mb2">This project is the second and last bit of unpaid "spec work" I have done. Lesson learned, I no longer do projects on spec as a result.</p>
+            <p className="m0 mb2">This project is the the last bit of unpaid "spec work" I have done. Lesson learned, I no longer do projects on spec as a result.</p>
 
         </section>
     </div>
