@@ -19,7 +19,7 @@ export default () => (
             <div className="group">
                 <article className="group-item">
                     <header className="relative">
-                        <img src="assets/web-projects/platinum_hero_320.png" alt="Platinum Medical Spa" srcSet="assets/web-projects/platinum_hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/platinum_hero_320.png" alt="Platinum Medical Spa" srcSet="/assets/web-projects/platinum_hero.png 1024w" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/platinum-site" className="blocks">Platinum Medical Spa Website</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -28,7 +28,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="assets/web-projects/rjm_hero_320.png" alt="Rejuvenation Medi-Spas" srcSet="assets/web-projects/rjm_hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/rjm_hero_320.png" alt="Rejuvenation Medi-Spas" srcSet="/assets/web-projects/rjm_hero.png 1024w" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/rejuvenation-site" className="blocks">Rejuvenation Medi-Spas Website</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -37,7 +37,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="assets/web-projects/erranAndrews_hero_320.png" alt="Erran Andrews" srcSet="assets/web-projects/erranAndrews_hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/erranAndrews_hero_320.png" alt="Erran Andrews" srcSet="/assets/web-projects/erranAndrews_hero.png 1024w" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/erran-andrews" className="blocks">Erran Andrews Hair Design Website</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -46,7 +46,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="assets/web-projects/Platzner-Hero_320.png" alt="Platzner & Co." srcSet="assets/web-projects/Platzner-Hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/Platzner-Hero_320.png" alt="Platzner & Co." srcSet="/assets/web-projects/Platzner-Hero.png 1024w" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute">
                             <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Website</a>
                         </span></h3>
@@ -57,7 +57,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="assets/web-projects/UF_hero_320.png" srcSet="assets/web-projects/UF_hero.png 1024w" alt="Template Design for Sandvox" className="hero-image" />
+                        <img src="/assets/web-projects/UF_hero_320.png" srcSet="/assets/web-projects/UF_hero.png 1024w" alt="Template Design for Sandvox" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
                                 <a href="/web-projects/urban-forest" className="blocks">Template Design for Sandvox</a>
@@ -72,7 +72,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="assets/web-projects/cdlp_hero_320.png" srcSet="assets/web-projects/cdlp_hero.png 1024w" alt="Cafe de la Paz Website" className="hero-image" />
+                        <img src="/assets/web-projects/cdlp_hero_320.png" srcSet="/assets/web-projects/cdlp_hero.png 1024w" alt="Cafe de la Paz Website" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
                                 <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Website</a>

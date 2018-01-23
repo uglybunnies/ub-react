@@ -791,7 +791,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/platinum_hero_320.png', alt: 'Platinum Medical Spa', srcSet: 'assets/web-projects/platinum_hero.png 1024w', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/platinum_hero_320.png', alt: 'Platinum Medical Spa', srcSet: '/assets/web-projects/platinum_hero.png 1024w', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -833,7 +833,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/rjm_hero_320.png', alt: 'Rejuvenation Medi-Spas', srcSet: 'assets/web-projects/rjm_hero.png 1024w', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/rjm_hero_320.png', alt: 'Rejuvenation Medi-Spas', srcSet: '/assets/web-projects/rjm_hero.png 1024w', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -875,7 +875,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/erranAndrews_hero_320.png', alt: 'Erran Andrews', srcSet: 'assets/web-projects/erranAndrews_hero.png 1024w', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/erranAndrews_hero_320.png', alt: 'Erran Andrews', srcSet: '/assets/web-projects/erranAndrews_hero.png 1024w', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -911,7 +911,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/Platzner-Hero_320.png', alt: 'Platzner & Co.', srcSet: 'assets/web-projects/Platzner-Hero.png 1024w', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/Platzner-Hero_320.png', alt: 'Platzner & Co.', srcSet: '/assets/web-projects/Platzner-Hero.png 1024w', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -947,7 +947,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/UF_hero_320.png', srcSet: 'assets/web-projects/UF_hero.png 1024w', alt: 'Template Design for Sandvox', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_hero_320.png', srcSet: '/assets/web-projects/UF_hero.png 1024w', alt: 'Template Design for Sandvox', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -988,7 +988,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
-                        _react2.default.createElement('img', { src: 'assets/web-projects/cdlp_hero_320.png', srcSet: 'assets/web-projects/cdlp_hero.png 1024w', alt: 'Cafe de la Paz Website', className: 'hero-image' }),
+                        _react2.default.createElement('img', { src: '/assets/web-projects/cdlp_hero_320.png', srcSet: '/assets/web-projects/cdlp_hero.png 1024w', alt: 'Cafe de la Paz Website', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
                             { className: 's5 ph m0 absolute' },
@@ -1942,4 +1942,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.5c749454.js.map
+//# sourceMappingURL=app.static.5c9d3767.js.map
