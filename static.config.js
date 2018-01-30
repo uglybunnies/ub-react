@@ -44,6 +44,10 @@ export default {
           component: 'src/containers/Cdlp.js'
       },
       {
+          path: '/web-projects/serpentvenom',
+          component: 'src/containers/SerpentVenom.js'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },

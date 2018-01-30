@@ -7,12 +7,12 @@ export default () => (
         <Head>
             <title>Ugly Bunnies -- Caf&eacute; de la Paz Website</title>
         </Head>
-        <header>
+        <header className="splash lh0">
             <img src="/assets/web-projects/cdlp-splash.png" alt="Caf&eacute; de la Paz Website" srcSet="/assets/web-projects/cdlp-splash.png 320w, /assets/web-projects/cdlp-splash_720.png 720w" className="hero-image" />
         </header>
-        <section className="ph2 pb2 standard" onClick={popPic}>
+        <section className="ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Caf&eacute; de la Paz Website</h1>
-            <p>This is my first freelance project. Designed in 2004 for Caf&eacute de la Paz, a restaurant in Berkeley, California. Click on each screenshot to enlarge them.</p>
+            <p>This is my first freelance project. Designed in 2004 for Caf&eacute; de la Paz, a restaurant in Berkeley, California. Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>
 
             <div className="project-group">

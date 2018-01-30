@@ -20,7 +20,7 @@ export default () => (
                 <article className="group-item">
                     <header className="relative">
                         <img src="/assets/web-projects/platinum_hero_320.png" alt="Platinum Medical Spa" srcSet="/assets/web-projects/platinum_hero.png 1024w" className="hero-image" />
-                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/platinum-site" className="blocks">Platinum Medical Spa Website</a></span></h3>
+                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/platinum-site" className="blocks">Platinum Medical Spa Site</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
                         <p className="m0 mb">This site was created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>. <a href="/web-projects/platinum-site" className="db tar mv goto">Learn more &#187;</a></p>
@@ -28,8 +28,8 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="/assets/web-projects/rjm_hero_320.png" alt="Rejuvenation Medi-Spas" srcSet="/assets/web-projects/rjm_hero.png 1024w" className="hero-image" />
-                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/rejuvenation-site" className="blocks">Rejuvenation Medi-Spas Website</a></span></h3>
+                        <img src="/assets/web-projects/rjm_hero_320.png" alt="Rejuvenation Medi-Spas" className="hero-image" />
+                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/rejuvenation-site" className="blocks">Rejuvenation Medi-Spas Site</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
                         <p className="m0 mb">This site was also created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>. <a href="/web-projects/rejuvenation-site" className="db tar mv goto">Learn more &#187;</a></p>
@@ -37,8 +37,18 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="/assets/web-projects/erranAndrews_hero_320.png" alt="Erran Andrews" srcSet="/assets/web-projects/erranAndrews_hero.png 1024w" className="hero-image" />
-                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/erran-andrews" className="blocks">Erran Andrews Hair Design Website</a></span></h3>
+                        <img src="/assets/web-projects/sv_hero.png" alt="SerpentVenom" className="hero-image"/>
+
+                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/serpentvenom" className="blocks">SerpentVenom Portfolio Site</a></span></h3>
+                    </header>
+                    <div className="excerpt pa1 mb2">
+                        <p className="m0 mb">This is the third version of my former website, SerpentVenom. <a href="/web-projects/serpentvenom" className="db tar mv goto">Learn more &#187;</a></p>
+                    </div>
+                </article>
+                <article className="group-item m0">
+                    <header className="relative">
+                        <img src="/assets/web-projects/erranAndrews_hero_320.png" alt="Erran Andrews" className="hero-image" />
+                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/erran-andrews" className="blocks">Erran Andrews Hair Design Site</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
                         <p className="m0 mb">This is a portfolio site designed to promote the hair design work of Erran Andrews. <a href="/web-projects/erran-andrews" className="db tar mv goto">Learn more &#187;</a></p>
@@ -46,9 +56,9 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="/assets/web-projects/Platzner-Hero_320.png" alt="Platzner & Co." srcSet="/assets/web-projects/Platzner-Hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/Platzner-Hero_320.png" alt="Platzner & Co." className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute">
-                            <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Website</a>
+                            <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Site</a>
                         </span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -75,7 +85,7 @@ export default () => (
                         <img src="/assets/web-projects/cdlp_hero_320.png" srcSet="/assets/web-projects/cdlp_hero.png 1024w" alt="Cafe de la Paz Website" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
-                                <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Website</a>
+                                <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Site</a>
                             </span>
                         </h3>
                     </header>

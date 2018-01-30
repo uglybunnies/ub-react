@@ -7,10 +7,10 @@ export default () => (
         <Head>
             <title>Ugly Bunnies -- Template Design for Sandvox</title>
         </Head>
-        <header>
+        <header className="splash lh0">
             <img src="/assets/web-projects/UF-splash.png" alt="Template Design for Sandvox" srcSet="/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w" className="hero-image" />
         </header>
-        <section className="ph2 pb2 standard" onClick={popPic}>
+        <section className="ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Template Design for Sandvox</h1>
             <p><a href="http://www.karelia.com/products/sandvox/">Sandvox</a> is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

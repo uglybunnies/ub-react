@@ -7,11 +7,10 @@ export default () => (
         <Head>
             <title>Ugly Bunnies -- Platinum Medical Spa Website</title>
         </Head>
-        <header>
+        <header className="splash lh0">
             <img src="/assets/web-projects/platinum-splash.png" srcSet="/assets/web-projects/platinum-splash.png 320w, /assets/web-projects/platinum-splash_720.png 720w" alt="Platinum Medical Spa" className="hero-image" />
-
         </header>
-        <section className="ph2 pb2 standard" onClick={popPic}>
+        <section className="ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Platinum Medical Spa</h1>
             <p>This 2008 site was created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>.  Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>
@@ -30,8 +29,8 @@ export default () => (
                     <p className="m0 mb2">The site features two different layouts including the homepage and a content page with a left sidebar. Navigation elements include the global site navigation in the form of a horizontal bar featuring color changes on hover and breadcrumb links on underlying pages.</p>
                 </div>
                 <div className="items project-group-item">
-                    <div className="item pic4"><img src="/assets/web-projects/platinum_home.png" alt="Staff page layout" className="hero-image pop-pic"/></div>
-                    <div className="item pic5 mid"><img src="/assets/web-projects/platinum_services.png" alt="Services page layout" className="hero-image pop-pic"/></div>
+                    <div className="item pic4"><img src="/assets/web-projects/platinum_services.png" alt="Services page layout" className="hero-image pop-pic"/></div>
+                    <div className="item pic5 mid"><img src="/assets/web-projects/platinum_home.png" alt="Staff page layout" className="hero-image pop-pic"/></div>
                 </div>
             </div>
             <p className="m0 mb2">This project was released and the design remained active for about a year before it was replace with a Flash-based site that killed all the SEO value we had built.</p>

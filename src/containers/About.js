@@ -12,14 +12,14 @@ export default () => (
         </header>
         <section className="p0 ph2 pb2">
         <h2 className="s2 ruby">Origins</h2>
-        <p>Before Ugly Bunnies, there was SerpentVenom my previous site. I decided to let go of SerpentVenom a while ago and set out to build a new site. The name came about very surreptiously while I was teaching my class about hwo to search for available domains. I decided to look for uglybunnies.com and lo and behold, it was available.</p>
+        <p>Before Ugly Bunnies, there was SerpentVenom my previous site. I decided to let go of SerpentVenom a while ago and set out to build a new site. The name came about very surreptiously while I was teaching my class about how to search for available domains. I decided to look for uglybunnies.com and lo and behold, it was available.</p>
 
         <h2 className="s2 ruby">Technical Information</h2>
-        <p>Ugly Bunnies was designed and built with standards in mind. The structure of the site is written in HTML5. Modern CSS is used for the presentational. Funtionality is provided by unobtrusive JavaScript. Visitors using older versions of Internet Explorer may not be able to experience the site as intended.</p>
+        <p>Ugly Bunnies was designed and built with standards in mind. The structure of the site is written in HTML5. Modern CSS is used to implement the layout and visual design. Funtionality is provided by unobtrusive JavaScript. Visitors using older versions of Internet Explorer may not be able to experience the site as intended.</p>
 
         <h2 className="s2 ruby">About Michael</h2>
 
-        <p>As for me, I'm Michael Wong. I'm a Web Designer/Developer by trade but an artist at heart. I have designed or contributed to a wide variety of sites including sports events, e-commerce sites, software company sites, government sites, non-profit sites, and personal sites that include blogs and art and design portfolios.</p>
+        <p>As for me, I'm Michael Wong. I'm a Web Designer/Developer by trade but an artist at heart. I have designed or contributed to a wide variety of web projects including global sports events, e-commerce, software company corporate sites, government sites, non-profit sites, and personal sites that include blogs and art and design portfolios.</p>
 
         <h2 className="s2 ruby">Art</h2>
 
@@ -37,9 +37,9 @@ export default () => (
 
         <h3 className="s4 ruby">Photography</h3>
 
-        <p>I have been creating photographic imagery for over 17 years. I mainly work in color with occasional forays into Black and White. I started out with a 35mm Nikon FM2 but I have recently embraced digital photography because of the immediacy and affordability that digital technology offers. Whether film or digital, all of my images are created in camera. Their compositions have not been digitally altered.</p>
+        <p>I have been creating photographic imagery for over 17 years. I mainly work in color with occasional forays into Black and White. I started out with a 35mm Nikon FM2 but I have embraced digital photography because of the immediacy and affordability that the technology offers. Whether film or digital, all of my images are created in camera. Their compositions have not been digitally altered.</p>
 
-        <p>My photography reflects my desire to capture what I see. I begin with ideas like the view through a window, the unusual angles and scenes of urban life, the beauty of nature, photographic experimentation. The results range from straightforward to the abstract.</p>
+        <p>My photography reflects my desire to capture what I see. I begin with ideas like the view through a window, the unusual angles and scenes of urban life, the beauty of nature, or photographic experimentation. The results range from straightforward to the abstract.</p>
 
         </section>
     </div>
