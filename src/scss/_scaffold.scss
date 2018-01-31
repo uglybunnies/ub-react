@@ -273,6 +273,7 @@
             @include responsive(medium-tablet) {
                 max-height: 9.6875em;
                 line-height: 0;
+                overflow: hidden;
             }
         }
     }
