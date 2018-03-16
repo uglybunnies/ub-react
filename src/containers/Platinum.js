@@ -30,7 +30,7 @@ export default () => (
                 </div>
                 <div className="items project-group-item">
                     <div className="item pic4"><img src="/assets/web-projects/platinum_services.png" alt="Services page layout" className="hero-image pop-pic"/></div>
-                    <div className="item pic5 mid"><img src="/assets/web-projects/platinum_home.png" alt="Staff page layout" className="hero-image pop-pic"/></div>
+                    <div className="item pic5 right"><img src="/assets/web-projects/platinum_home.png" alt="Staff page layout" className="hero-image pop-pic"/></div>
                 </div>
             </div>
             <p className="m0 mb2">This project was released and the design remained active for about a year before it was replace with a Flash-based site that killed all the SEO value we had built.</p>

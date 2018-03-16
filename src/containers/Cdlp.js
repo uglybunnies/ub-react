@@ -32,7 +32,7 @@ export default () => (
                     <p className="m0">The site had on primary layout with some content changes appearing in the right sidebar. Curves are incorporated to soften the edges and make the site feel more welcoming. The site naviation uses the same custom typeface that is used for the tagline that is adjacent to the logo.</p>
                 </div>
                 <div className="items project-group-item">
-                    <div className="item pic5 mid">
+                    <div className="item pic6 right">
                         <img src="/assets/web-projects/cdlp_detail5.png" alt="Menu page layout" className="hero-image pop-pic"/>
                     </div>
                     <div className="item pic4">

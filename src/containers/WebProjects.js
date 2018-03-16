@@ -19,7 +19,7 @@ export default () => (
             <div className="group">
                 <article className="group-item">
                     <header className="relative">
-                        <img src="/assets/web-projects/platinum_hero_320.png" alt="Platinum Medical Spa" srcSet="/assets/web-projects/platinum_hero.png 1024w" className="hero-image" />
+                        <img src="/assets/web-projects/platinum_hero.png" alt="Platinum Medical Spa" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/platinum-site" className="blocks">Platinum Medical Spa Site</a></span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -67,7 +67,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="/assets/web-projects/UF_hero_320.png" srcSet="/assets/web-projects/UF_hero.png 1024w" alt="Template Design for Sandvox" className="hero-image" />
+                        <img src="/assets/web-projects/UF_hero_320.png" alt="Template Design for Sandvox" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
                                 <a href="/web-projects/urban-forest" className="blocks">Template Design for Sandvox</a>
@@ -82,7 +82,7 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
-                        <img src="/assets/web-projects/cdlp_hero_320.png" srcSet="/assets/web-projects/cdlp_hero.png 1024w" alt="Cafe de la Paz Website" className="hero-image" />
+                        <img src="/assets/web-projects/cdlp_home_hero.png" alt="Cafe de la Paz Website" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
                                 <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Site</a>

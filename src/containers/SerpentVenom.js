@@ -32,8 +32,8 @@ export default () => (
                 </div>
                 <div className="items project-group-item">
                     <div className="item pic5"><img src="/assets/web-projects/sv_detail5.png" alt="Homepage layout" className="hero-image pop-pic"/></div>
-                    <div className="item pic6 mid"><img src="/assets/web-projects/sv_detail8.png" alt="Homepage tablet layout" className="hero-image pop-pic"/></div>
-                    <div className="item pic7 mid"><img src="/assets/web-projects/sv_detail7.png" alt="Blog page layout" className="hero-image pop-pic"/></div>
+                    <div className="item pic6"><img src="/assets/web-projects/sv_detail8.png" alt="Homepage tablet layout" className="hero-image pop-pic"/></div>
+                    <div className="item pic7 right"><img src="/assets/web-projects/sv_detail7.png" alt="Blog page layout" className="hero-image pop-pic"/></div>
                     <div className="item pic8 right"><img src="/assets/web-projects/sv_detail6.png" alt="Project page layout" className="hero-image pop-pic"/></div>
                 </div>
             </div>
