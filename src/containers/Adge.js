@@ -16,8 +16,8 @@ export default () => (
             <h2  className="s2 ruby">The Design</h2>
             <div className="project-group">
                 <div className="items project-group-item">
-                    <div className="item pic1 vert right"><img src="/assets/web-projects/adge_detail7.png" alt="Home page detail of sidebar" className="hero-image pop-pic"/></div>
-                    <div className="item pic2 right"><img src="/assets/web-projects/adge_detail3.png" alt="Home page detail of coupon section" className="hero-image pop-pic"/></div>
+                    <div className="item pic1 vert right"><img src="/assets/web-projects/adge_detail7.png" alt="Home page detail of matrix and right sidebar" className="hero-image pop-pic"/></div>
+                    <div className="item pic2 right"><img src="/assets/web-projects/adge_detail3.png" alt="Home page detail of the right side of the masthead" className="hero-image pop-pic"/></div>
                     <div className="item pic3"><img src="/assets/web-projects/adge_detail2.png" alt="Home page detail of header" className="hero-image pop-pic"/></div>
                 </div>
                 <div className="project-group-item copy">
@@ -33,7 +33,7 @@ export default () => (
                     <div className="item pic5 right"><img src="/assets/web-projects/adge_detail4.png" alt="Homepage layout" className="hero-image pop-pic"/></div>
                 </div>
             </div>
-            <p className="m0 mb2">This project did not proceed past the mock designs seen here. </p>
+            <p className="m0 mb2">This project did not proceed past the mock designs seen here. The lesson learned here is that spec work does not ensure that you will get the gig. Always make sure you have a signed contract in hand before any work is done.</p>
 
         </section>
     </div>

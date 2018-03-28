@@ -56,13 +56,22 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
+                        <img src="/assets/web-projects/nsb_hero.png" alt="Ni Sa Bula" className="hero-image" />
+                        <h3 className="s5 ph m0 absolute"><span className="absolute"><a href="/web-projects/ni-sa-bula" className="blocks">Ni Sa Bula E-Commerce Site</a></span></h3>
+                    </header>
+                    <div className="excerpt pa1 mb2">
+                        <p className="m0 mb">This is an e-commerce site that I single-handedly designed and developed in 2008 using the Zen Cart e-commerce solution. <a href="/web-projects/ni-sa-bula" className="db tar mv goto">Learn more &#187;</a></p>
+                    </div>
+                </article>
+                <article className="group-item m0">
+                    <header className="relative">
                         <img src="/assets/web-projects/adge_hero.png" alt="Adge IT Consulting" className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute">
                             <a href="/web-projects/adge" className="blocks">Adge IT Consulting Site Design</a>
                         </span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
-                        <p className="m0 mb">This 2007 project ended up being my first experience with spec work. <a href="/web-projects/platzner" className="db tar mv goto">Learn more &#187;</a></p>
+                        <p className="m0 mb">This 2007 project ended up being my first experience with spec work. <a href="/web-projects/adge" className="db tar mv goto">Learn more &#187;</a></p>
                     </div>
                 </article>
                 <article className="group-item m0">

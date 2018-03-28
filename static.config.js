@@ -52,6 +52,10 @@ export default {
           component: 'src/containers/Adge.js'
       },
       {
+          path: '/web-projects/ni-sa-bula',
+          component: 'src/containers/Nsb.js'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
