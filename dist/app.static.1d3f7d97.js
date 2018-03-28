@@ -211,7 +211,7 @@ var _reactStaticRoutes = __webpack_require__(7);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(20);
+__webpack_require__(21);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -394,7 +394,11 @@ var _SerpentVenom = __webpack_require__(18);
 
 var _SerpentVenom2 = _interopRequireDefault(_SerpentVenom);
 
-var _ = __webpack_require__(19);
+var _Adge = __webpack_require__(19);
+
+var _Adge2 = _interopRequireDefault(_Adge);
+
+var _ = __webpack_require__(20);
 
 var _2 = _interopRequireDefault(_);
 
@@ -421,10 +425,11 @@ var templateMap = {
   t_7: _UrbanForest2.default,
   t_8: _Cdlp2.default,
   t_9: _SerpentVenom2.default,
-  t_10: _2.default
+  t_10: _Adge2.default,
+  t_11: _2.default
 
   // Template Tree
-};var templateTree = { c: { "404": { t: "t_10" }, "/": { t: "t_0" }, "about": { t: "t_1" }, "web-projects": { t: "t_2", c: { "rejuvenation-site": { t: "t_3" }, "platinum-site": { t: "t_4" }, "erran-andrews": { t: "t_5" }, "platzner": { t: "t_6" }, "urban-forest": { t: "t_7" }, "cafe-de-la-paz": { t: "t_8" }, "serpentvenom": { t: "t_9" } } } }
+};var templateTree = { c: { "404": { t: "t_11" }, "/": { t: "t_0" }, "about": { t: "t_1" }, "web-projects": { t: "t_2", c: { "rejuvenation-site": { t: "t_3" }, "platinum-site": { t: "t_4" }, "erran-andrews": { t: "t_5" }, "platzner": { t: "t_6" }, "urban-forest": { t: "t_7" }, "cafe-de-la-paz": { t: "t_8" }, "serpentvenom": { t: "t_9" }, "adge": { t: "t_10" } } } }
 
   // Get template for given path
 };var getComponentForPath = function getComponentForPath(path) {
@@ -527,28 +532,50 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'pa2' },
+            { className: 'pa2 home-splash' },
+            _react2.default.createElement('img', { src: '/assets/home-splash-sv.png', alt: 'SerpentVenom', className: 'splash-sv' }),
+            _react2.default.createElement('img', { src: '/assets/home-splash-adge.png', alt: 'Adge', className: 'splash-adge' }),
+            _react2.default.createElement('img', { src: '/assets/home-splash-rjm.png', alt: 'Rejuvenation Medi-Spas', className: 'splash-rjm' }),
             _react2.default.createElement(
                 'h1',
-                { className: 'brand m0' },
-                'Welcome to Ugly Bunnies'
+                { className: 'brand m0 mb pt ' },
+                'Welcome to Ugly Bunnies',
+                _react2.default.createElement(
+                    'sup',
+                    null,
+                    '*'
+                )
             ),
             _react2.default.createElement(
                 'p',
-                null,
-                'If you were expecting to see ugly bunnies here, you will have to look elsewhere (',
+                { className: 'white s5' },
+                ' Ugly Bunnies is run by Michael Wong, a Conceptual Information Artist and Web Professional who crafts ',
                 _react2.default.createElement(
                     'a',
-                    { href: 'http://uglybunnies.tumblr.com/' },
+                    { href: '/web-projects', className: 'light' },
+                    _react2.default.createElement(
+                        'strong',
+                        null,
+                        'engaging web-based experiences'
+                    )
+                ),
+                ' in the San Francisco Bay Area.'
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'note white m0' },
+                _react2.default.createElement(
+                    'strong',
+                    null,
+                    '*'
+                ),
+                ' If you are disappointed in not finding ugly bunnies here, perhaps you can seek them ',
+                _react2.default.createElement(
+                    'a',
+                    { href: 'http://uglybunnies.tumblr.com/', className: 'light' },
                     'here'
                 ),
-                ', perhaps). Ugly Bunnies is the website of Michael Wong. Michael is a Conceptual Information Artist who works as a Web Design and Development Professional in the San Francisco Bay Area. This site features some ',
-                _react2.default.createElement(
-                    'a',
-                    { href: '/web-projects' },
-                    'projects'
-                ),
-                ' completed over the years.'
+                '.'
             )
         ),
         _react2.default.createElement(
@@ -626,7 +653,7 @@ exports.default = function () {
             { className: 'p0 ph2 pt2' },
             _react2.default.createElement(
                 'h1',
-                { className: 'brand m0' },
+                { className: 'copy-header s1 m0 mb1' },
                 'About Ugly Bunnies'
             ),
             _react2.default.createElement(
@@ -772,7 +799,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph1' },
+            { className: 'ph1', id: 'websites' },
             _react2.default.createElement(
                 'header',
                 { className: 'ph1 pb2' },
@@ -952,6 +979,42 @@ exports.default = function () {
                     _react2.default.createElement(
                         'header',
                         { className: 'relative' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_hero.png', alt: 'Adge IT Consulting', className: 'hero-image' }),
+                        _react2.default.createElement(
+                            'h3',
+                            { className: 's5 ph m0 absolute' },
+                            _react2.default.createElement(
+                                'span',
+                                { className: 'absolute' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '/web-projects/adge', className: 'blocks' },
+                                    'Adge IT Consulting Site Design'
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'excerpt pa1 mb2' },
+                        _react2.default.createElement(
+                            'p',
+                            { className: 'm0 mb' },
+                            'This 2007 project ended up being my first experience with spec work. ',
+                            _react2.default.createElement(
+                                'a',
+                                { href: '/web-projects/platzner', className: 'db tar mv goto' },
+                                'Learn more \xBB'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'article',
+                    { className: 'group-item m0' },
+                    _react2.default.createElement(
+                        'header',
+                        { className: 'relative' },
                         _react2.default.createElement('img', { src: '/assets/web-projects/Platzner-Hero_320.png', alt: 'Platzner & Co.', className: 'hero-image' }),
                         _react2.default.createElement(
                             'h3',
@@ -962,7 +1025,7 @@ exports.default = function () {
                                 _react2.default.createElement(
                                     'a',
                                     { href: '/web-projects/platzner', className: 'blocks' },
-                                    'Platzner & Co. Site'
+                                    'Platzner & Co. Site Design'
                                 )
                             )
                         )
@@ -1014,7 +1077,7 @@ exports.default = function () {
                                 { href: 'http://www.karelia.com/products/sandvox/' },
                                 'Sandvox'
                             ),
-                            ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005.',
+                            ' is a website building tool for Macs. This is the Urban Forest template I designed for them in 2005.',
                             _react2.default.createElement(
                                 'a',
                                 { href: '/web-projects/urban-forest', className: 'db tar mv goto' },
@@ -1039,7 +1102,7 @@ exports.default = function () {
                                 _react2.default.createElement(
                                     'a',
                                     { href: '/web-projects/cafe-de-la-paz', className: 'blocks' },
-                                    'Caf\xE9 de la Paz Site'
+                                    'Caf\xE9 de la Paz Restaurant Site'
                                 )
                             )
                         )
@@ -2117,6 +2180,132 @@ exports.default = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+var popPic = __webpack_require__(2);
+
+exports.default = function () {
+    return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+            _reactStatic.Head,
+            null,
+            _react2.default.createElement(
+                'title',
+                null,
+                'Ugly Bunnies -- Adge Website Design'
+            )
+        ),
+        _react2.default.createElement(
+            'header',
+            { className: 'splash lh0' },
+            _react2.default.createElement('img', { src: '/assets/web-projects/adge-splash.png', srcSet: '/assets/web-projects/platinum-splash.png 320w, /assets/web-projects/adge-splash_720.png 720w', alt: 'Adge homepage design', className: 'hero-image' })
+        ),
+        _react2.default.createElement(
+            'section',
+            { className: 'ph2 pb2', onClick: popPic },
+            _react2.default.createElement(
+                'h1',
+                { className: 'copy-header s1 mv1' },
+                'Adge IT Consultants'
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                'This 2007 project ended up being my first experience with spec work. These comps were produced in the hope that they would seal the deal in getting my contract signed. Unfortunately, the client chose to go in another direction and walked away. Click on each screenshot to enlarge them.'
+            ),
+            _react2.default.createElement(
+                'h2',
+                { className: 's2 ruby' },
+                'The Design'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic1 vert right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_detail7.png', alt: 'Home page detail of sidebar', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic2 right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_detail3.png', alt: 'Home page detail of coupon section', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic3' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_detail2.png', alt: 'Home page detail of header', className: 'hero-image pop-pic' })
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0 mb2' },
+                        'This design predates smart mobile devices and was designed to work best with 17-inch monitors. The homepage featured a matrix of services that "lit up" when the user moused over each service. The user could see more information about each service by clicking on the particular service.'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'project-group mb2' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'project-group-item copy' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'm0 mb2' },
+                        'The design features two different layouts including the homepage and a content page with a right sidebar. The main navigation element is the global site navigation in the form of a horizontal bar featuring color changes on hover.'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'items project-group-item' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic4' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_detail5.png', alt: 'Services page layout', className: 'hero-image pop-pic' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'item pic5 right' },
+                        _react2.default.createElement('img', { src: '/assets/web-projects/adge_detail4.png', alt: 'Homepage layout', className: 'hero-image pop-pic' })
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'p',
+                { className: 'm0 mb2' },
+                'This project did not proceed past the mock designs seen here. '
+            )
+        )
+    );
+};
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -2141,7 +2330,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -2149,4 +2338,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.de0cab4e.js.map
+//# sourceMappingURL=app.static.1d3f7d97.js.map

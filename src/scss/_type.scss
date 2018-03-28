@@ -14,7 +14,6 @@ a.slink {
 }
 .brand {
 	color: $larkspur;
-	font-weight: 300;
 }
 .green {
 	color: $green;
@@ -28,10 +27,16 @@ a.slink {
 .ruby {
 	color: $ruby;
 }
+.white {
+    color: #fff;
+}
 .copy-header {
     font-weight: $heavy-font-weight;
     color: $larkspur;
     margin-bottom: .5em;
+}
+.large-type {
+    font-size: 3rem;
 }
 .s1 {
     font-size: 2rem;
@@ -54,17 +59,21 @@ a.slink {
 .s7 {
     font-size: .875rem;
 }
-.s8 {
+.s8, .note {
     font-size: .75rem;
 }
 .s9 {
     font-size: .625rem;
 }
-h2 {
-    font-weight: $light-font-weight;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+h3.absolute {
+    font-weight: $heavy-font-weight;
 }
 a {
     color: #3d8781;
+    text-decoration: none;
 }
 a:visited {
     color: #3d5687;
@@ -75,6 +84,9 @@ a:focus {
 }
 a:active {
     color: #841a1a;
+}
+a.light {
+    color: $goldLink;
 }
 abbr[title] {
 	border-bottom: 1px dotted;

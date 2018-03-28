@@ -48,6 +48,10 @@ export default {
           component: 'src/containers/SerpentVenom.js'
       },
       {
+          path: '/web-projects/adge',
+          component: 'src/containers/Adge.js'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },

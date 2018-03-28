@@ -6,9 +6,15 @@ export default () => (
         <Head>
             <title>Welcome to Ugly Bunnies by Michael Wong</title>
         </Head>
-        <header className="pa2">
-            <h1 className="brand m0">Welcome to Ugly Bunnies</h1>
-            <p>If you were expecting to see ugly bunnies here, you will have to look elsewhere (<a href="http://uglybunnies.tumblr.com/">here</a>, perhaps). Ugly Bunnies is the website of Michael Wong. Michael is a Conceptual Information Artist who works as a Web Design and Development Professional in the San Francisco Bay Area. This site features some <a href="/web-projects">projects</a> completed over the years.</p>
+        <header className="pa2 home-splash">
+            <img src="/assets/home-splash-sv.png" alt="SerpentVenom" className="splash-sv" />
+            <img src="/assets/home-splash-adge.png" alt="Adge" className="splash-adge" />
+            <img src="/assets/home-splash-rjm.png" alt="Rejuvenation Medi-Spas" className="splash-rjm" />
+            <h1 className="brand m0 mb pt ">Welcome to Ugly Bunnies<sup>*</sup></h1>
+            <p className="white s5"> Ugly Bunnies is run by Michael Wong, a Conceptual Information Artist and Web Professional who crafts <a href="/web-projects" className="light"><strong>engaging web-based experiences</strong></a> in the San Francisco Bay Area.</p>
+            <p className="note white m0">
+                <strong>*</strong> If you are disappointed in not finding ugly bunnies here, perhaps you can seek them <a href="http://uglybunnies.tumblr.com/" className="light">here</a>.
+            </p>
         </header>
         <section className="p0 ph2 pb2">
             <ul className="inline-list m0 p0 social-accounts tac">

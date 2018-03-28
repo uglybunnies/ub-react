@@ -13,6 +13,7 @@ import src_containers_Platzner_js from '../src/containers/Platzner.js'
 import src_containers_UrbanForest_js from '../src/containers/UrbanForest.js'
 import src_containers_Cdlp_js from '../src/containers/Cdlp.js'
 import src_containers_SerpentVenom_js from '../src/containers/SerpentVenom.js'
+import src_containers_Adge_js from '../src/containers/Adge.js'
 import src_containers_404 from '../src/containers/404'
 
     // Template Map
@@ -27,11 +28,12 @@ t_6: src_containers_Platzner_js,
 t_7: src_containers_UrbanForest_js,
 t_8: src_containers_Cdlp_js,
 t_9: src_containers_SerpentVenom_js,
-t_10: src_containers_404
+t_10: src_containers_Adge_js,
+t_11: src_containers_404
     }
 
     // Template Tree
-    const templateTree = {c:{"404":{t:"t_10"},"/":{t:"t_0"},"about":{t:"t_1"},"web-projects":{t:"t_2",c:{"rejuvenation-site":{t:"t_3"},"platinum-site":{t:"t_4"},"erran-andrews":{t:"t_5"},"platzner":{t:"t_6"},"urban-forest":{t:"t_7"},"cafe-de-la-paz":{t:"t_8"},"serpentvenom":{t:"t_9"}}}}}
+    const templateTree = {c:{"404":{t:"t_11"},"/":{t:"t_0"},"about":{t:"t_1"},"web-projects":{t:"t_2",c:{"rejuvenation-site":{t:"t_3"},"platinum-site":{t:"t_4"},"erran-andrews":{t:"t_5"},"platzner":{t:"t_6"},"urban-forest":{t:"t_7"},"cafe-de-la-paz":{t:"t_8"},"serpentvenom":{t:"t_9"},"adge":{t:"t_10"}}}}}
 
     // Get template for given path
     const getComponentForPath = path => {

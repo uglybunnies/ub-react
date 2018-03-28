@@ -11,7 +11,7 @@ export default () => (
             <h1 className="copy-header s1 m0 mb1">Web Projects</h1>
             <p>I've been a web professional for quite a while and have done a variety of projects throughout my career. Here are some projects I've worked on.</p>
         </header>
-        <section className="ph1">
+        <section className="ph1" id="websites">
             <header className="ph1 pb2">
                 <h2 className="s2 ruby m0">Websites</h2>
                 <p className="mb2">This is a collection of some the websites I designed and developed on freelance basis.</p>
@@ -56,9 +56,20 @@ export default () => (
                 </article>
                 <article className="group-item m0">
                     <header className="relative">
+                        <img src="/assets/web-projects/adge_hero.png" alt="Adge IT Consulting" className="hero-image" />
+                        <h3 className="s5 ph m0 absolute"><span className="absolute">
+                            <a href="/web-projects/adge" className="blocks">Adge IT Consulting Site Design</a>
+                        </span></h3>
+                    </header>
+                    <div className="excerpt pa1 mb2">
+                        <p className="m0 mb">This 2007 project ended up being my first experience with spec work. <a href="/web-projects/platzner" className="db tar mv goto">Learn more &#187;</a></p>
+                    </div>
+                </article>
+                <article className="group-item m0">
+                    <header className="relative">
                         <img src="/assets/web-projects/Platzner-Hero_320.png" alt="Platzner & Co." className="hero-image" />
                         <h3 className="s5 ph m0 absolute"><span className="absolute">
-                            <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Site</a>
+                            <a href="/web-projects/platzner" className="blocks">Platzner &amp; Co. Site Design</a>
                         </span></h3>
                     </header>
                     <div className="excerpt pa1 mb2">
@@ -75,7 +86,7 @@ export default () => (
                         </h3>
                     </header>
                     <div className="excerpt pa1 mb2">
-                        <p className="m0 mb"><a href="http://www.karelia.com/products/sandvox/">Sandvox</a> is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005.
+                        <p className="m0 mb"><a href="http://www.karelia.com/products/sandvox/">Sandvox</a> is a website building tool for Macs. This is the Urban Forest template I designed for them in 2005.
                             <a href="/web-projects/urban-forest" className="db tar mv goto">Learn more &#187;</a>
                         </p>
                     </div>
@@ -85,7 +96,7 @@ export default () => (
                         <img src="/assets/web-projects/cdlp_home_hero.png" alt="Cafe de la Paz Website" className="hero-image" />
                         <h3 className="s5 ph m0 absolute">
                             <span className="absolute">
-                                <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Site</a>
+                                <a href="/web-projects/cafe-de-la-paz" className="blocks">Caf&eacute; de la Paz Restaurant Site</a>
                             </span>
                         </h3>
                     </header>
