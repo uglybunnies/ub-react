@@ -12,6 +12,11 @@
 a.slink {
     text-decoration: none;
 }
+.copy-header {
+    font-weight: $heavy-font-weight;
+    color: $larkspur;
+    margin-bottom: .5em;
+}
 .brand {
 	color: $larkspur;
 }
@@ -29,11 +34,6 @@ a.slink {
 }
 .white {
     color: #fff;
-}
-.copy-header {
-    font-weight: $heavy-font-weight;
-    color: $larkspur;
-    margin-bottom: .5em;
 }
 .large-type {
     font-size: 3rem;

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Router, Link } from 'react-static';
 import Topnav from './Topnav';
 
@@ -26,11 +26,11 @@ export default class Header extends Component {
                             </Link>
                         </h1>
                     </div>
-                    <a href="#" className="pa" id="menuControl" onClick={this.expandMenu} title="Click to open menu">
+                    <a href="#" className="pa" id="menuControl" onClick={ this.expandMenu } title="Click to open menu">
                         <i className="icon-menu"></i>
                     </a>
                 </header>
-                <Topnav isOpen={this.state.showMenu} expandMenu={this.expandMenu} />
+                <Topnav isOpen={ this.state.showMenu } expandMenu={ this.expandMenu } />
             </div>
         );
     }

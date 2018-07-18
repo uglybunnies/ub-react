@@ -1,5 +1,6 @@
 import React from 'react'
 import { Head } from 'react-static'
+import DadJokes from '../DadJokes'
 
 export default () => (
     <div>
@@ -16,6 +17,11 @@ export default () => (
                 <strong>*</strong> If you are disappointed in not finding ugly bunnies here, perhaps you can seek them <a href="http://uglybunnies.tumblr.com/" className="light">here</a>.
             </p>
         </header>
+        <section className="dad-jokes-sec p0 ph2 pb2">
+            <h1 className='green s1 m0 pt'>Dad Jokes</h1>
+            <h2 className="brand s4 m0 p0 ">Groans &amp; Guffaws brought to you courtesy of <a href="https://icanhazdadjoke.com" className="light">icanhazdadjoke.com</a></h2>
+            <DadJokes />
+        </section>
         <section className="p0 ph2 pb2">
             <ul className="inline-list m0 p0 social-accounts tac">
                 <li>

@@ -19,13 +19,13 @@ export default () => (
 
         <h2 className="s2 ruby">About Michael</h2>
 
-        <p>As for me, I'm Michael Wong. I'm a Web Designer/Developer by trade but an artist at heart. I have designed or contributed to a wide variety of web projects including global sports events, e-commerce, software company corporate sites, government sites, non-profit sites, and personal sites that include blogs and art and design portfolios.</p>
+        <p>As for me, I'm Michael Wong. I'm a Web Designer/Developer by trade but an artist at heart. I have designed or contributed to a wide variety of web projects including global sports events, e-commerce, software company corporate sites, government sites, non-profit sites, and personal sites that include blogs, and also art and design portfolios.</p>
 
         <h2 className="s2 ruby">Art</h2>
 
         <p>I studied Conceptual/Information Arts (CIA), a program within the Art Department at San Francisco State University (SFSU). CIA focuses on preparing artists and media experimenters to work at the cutting edge of technology. The study of contemporary digital production skills is accompanied by the analysis of the cultural context of technology, as well as experimentation with newly emerging technologies.</p>
 
-        <p>I use computers to create art both for the web and for print. Personal computers and the emergence of the internet have given artists like me an opportunity to create art that is not dependent upon grants, galleries or patrons. This means we have an autonomy that some working artists do not always enjoy. This autonomy makes communicating my message easier.</p>
+        <p>I use computers to create art both for the web and for print. Personal computers and the emergence of the internet have given artists like myself an opportunity to create art that is not dependent upon grants, galleries or patrons. This means we have an autonomy that some working artists do not always enjoy. This autonomy makes communicating my message easier.</p>
 
         <h3 className="s4 ruby">My Message</h3>
 
@@ -39,7 +39,7 @@ export default () => (
 
         <p>I have been creating photographic imagery for over 17 years. I mainly work in color with occasional forays into Black and White. I started out with a 35mm Nikon FM2 but I have embraced digital photography because of the immediacy and affordability that the technology offers. Whether film or digital, all of my images are created in camera. Their compositions have not been digitally altered.</p>
 
-        <p>My photography reflects my desire to capture what I see. I begin with ideas like the view through a window, the unusual angles and scenes of urban life, the beauty of nature, or photographic experimentation. The results range from straightforward to the abstract.</p>
+        <p>My photography reflects my desire to capture what I see. I begin with ideas like the view through a window, the unusual angles and scenes of urban life, the beauty of nature, or photographic experimentation. The results range from straightforward representation to the abstract.</p>
 
         </section>
     </div>
