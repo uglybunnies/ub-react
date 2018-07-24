@@ -275,11 +275,213 @@
 }
 .dad-jokes-sec {
     background: linear-gradient(to bottom, hsl(355, 38%, 20%), hsl(355, 38%, 38%));
+    position: relative;
     .brand {
         color: lighten($blue, 30%);
     }
     .green {
         color: lighten($green, 50%);
+    }
+    > *:not(.ha-has) {
+        position:relative;
+        z-index: 3;
+    }
+    .ha-has {
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        svg {
+            position: absolute;
+            z-index: 0;
+            animation: 250ms infinite alternate linear;
+            path {
+                fill:rgba(255, 255, 255, .05);
+            }
+            &#ha1 {
+                width: 15vw;
+                top: 2%;
+                left: 3%;
+                animation-duration: 100ms;
+                animation-name: ha1;
+            }
+            &#ha2 {
+                width: 25vw;
+                transform-origin:  center;
+                animation-duration: 200ms;
+                animation-name: ha2;
+                top: 0%;
+                right: 5%;
+            }
+            &#ha3 {
+                width: 15vw;
+                bottom: 5%;
+                right: 5%;
+                animation-duration: 150ms;
+                animation-name: ha3;
+            }
+            &#ha4 {
+                width: 33vw;
+                top: 50%;
+                right: 3%;
+                animation-duration: 150ms;
+                animation-name: ha4;
+            }
+            &#ha5 {
+                width: 40vw;
+                bottom: 25%;
+                left: 5%;
+                animation-name: ha5;
+                animation-duration: 150ms;
+            }
+            &#ha6 {
+                width: 15vw;
+                bottom: 5%;
+                left: 5%;
+                transform: rotate(-5deg);
+                animation-name: ha6;
+                animation-duration: 750ms;
+            }
+            &#ha7 {
+                width: 12vw;
+                top: 25%;
+                right: 50%;
+                animation-name: ha7;
+                animation-duration: 150ms;
+            }
+            @include responsive(medium-tablet) {
+                &#ha1 {
+                    width: 4em;
+                }
+                &#ha2 {
+                    width: 10em;
+                }
+                &#ha3 {
+                    width: 6em;
+                    right: 33%;
+                    bottom: auto;
+                    top: 15%;
+                }
+                &#ha4 {
+                    width: 6em;
+                    top: auto;
+                    bottom: 1%;
+                    right: 15%;
+                }
+                &#ha5 {
+                    width: 6em;
+                    bottom: auto;
+                    top: 2%;
+                    left: auto;
+                    left: 25%;
+                }
+                &#ha6 {
+                    width: 7em;
+                }
+                &#ha7 {
+                    width: 12em;
+                }
+            }
+        }
+
+    }
+}
+@keyframes ha1 {
+    from {
+        transform: scale(1) rotate(-20deg);
+    }
+    to {
+        transform: scale(.92) rotate(-20deg);
+    }
+}
+@keyframes ha2 {
+    from {
+        transform: rotate(-11deg) rotate(-10deg);
+    }
+    to {
+        transform: rotate(-7deg) rotate(-10deg);
+    }
+}
+@keyframes ha3 {
+    0% {
+        transform: translate(0, 2px) rotate(14deg);
+    }
+
+    25% {
+        transform: translate(2px, 2px) rotate(14deg);
+    }
+
+    50% {
+        transform: translate(2px, -2px) rotate(14deg);
+    }
+
+    75% {
+        transform: translate(-2px, -2px) rotate(14deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(14deg);
+    }
+}
+@keyframes ha4 {
+    from {
+        transform: skew(3deg) rotate(-33deg);
+    }
+    to {
+        transform: skew(-3deg) rotate(-33deg);
+    }
+}
+@keyframes ha5 {
+    from {
+        transform: scale(1) rotate(25deg);
+    }
+    to {
+        transform: scale(1, .85) rotate(25deg);
+    }
+}
+@keyframes ha6 {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: .75;
+    }
+    20% {
+        opacity: .5;
+    }
+    30% {
+        opacity: .75;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .75;
+    }
+    60% {
+        opacity: .5;
+    }
+    70% {
+        opacity: .75;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: .75
+    }
+    100% {
+        opacity: .5;
+    }
+}
+@keyframes ha7 {
+    from {
+        transform: scale(1) rotate(-13deg);
+    }
+    to {
+        transform: scale(.95, 1) rotate(-13deg);
     }
 }
 .dad-jokes {
@@ -290,6 +492,14 @@
     p {
         align-self: center;
         justify-self: center;
+        &.joke {
+            line-height: 1.2;
+            text-shadow: .125rem .125rem .125rem rgba(54, 0, 0, .75);
+            @include responsive(medium-tablet) {
+                line-height: 1.3;
+                padding: 1em;
+            }
+        }
     }
     button {
         background: linear-gradient(to bottom, $larkspur-white, $larkspur90);
@@ -310,6 +520,7 @@
     }
 }
 .topnav {
+    box-sizing: border-box;
     position: relative;
     text-align: right;
     z-index: 5;
