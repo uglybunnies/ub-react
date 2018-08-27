@@ -12,7 +12,7 @@ export default class Topnav extends Component {
     }
     render(){
         return (
-            <div>
+            <React.Fragment>
                 <nav className="topnav m0">
                     <ul id="topNav"
                         className={ this.props.isOpen ? 'menu show' : 'menu' }
@@ -29,7 +29,7 @@ export default class Topnav extends Component {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </React.Fragment>
         )
     }
 }

@@ -17,7 +17,7 @@ export default class Header extends Component {
     }
     render() {
         return(
-            <div>
+            <React.Fragment>
                 <header className="masthead">
                     <div className="logo pa1">
                         <h1 className="site-name word-mark">
@@ -31,7 +31,7 @@ export default class Header extends Component {
                     </a>
                 </header>
                 <Topnav isOpen={ this.state.showMenu } expandMenu={ this.expandMenu } />
-            </div>
+            </React.Fragment>
         );
     }
 }
