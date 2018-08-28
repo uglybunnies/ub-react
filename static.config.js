@@ -2,6 +2,7 @@ import axios from 'axios'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 
 export default {
+  siteRoot: 'http://uglybunnies.com',
   getSiteData: () => ({
     title: 'Ugly Bunnies by Michael Wong',
   }),
