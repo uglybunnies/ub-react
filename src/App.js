@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
+import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
 import Header from './Header'
@@ -7,23 +8,16 @@ import Footer from './Footer'
 
 import './app.scss'
 
-function topnav(e) {
-    let target = e.target;
-    if (target.matches('#menuControl')) {
-        e.preventDefault();
-    }
-    const mNav = document.getElementById('topNav');
-    mNav.classList.toggle('show');
-    mNav.style.height = (mNav.classList.contains('show')) ? mNav.scrollHeight + "px" : 0;
-}
-export default () => (
+const App = () => (
   <Router>
-    <div>
-        <Header />
-        <main className="content">
-            <Routes />
-        </main>
-        <Footer />
-    </div>
+    <React.Fragment>
+          <Header />
+          <main className="content">
+              <Routes />
+          </main>
+          <Footer />
+    </React.Fragment>
   </Router>
 )
+
+export default hot(module)(App)

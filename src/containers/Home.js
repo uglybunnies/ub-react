@@ -3,7 +3,7 @@ import { Head } from 'react-static'
 import DadJokes from '../DadJokes'
 
 export default () => (
-    <div>
+    <React.Fragment>
         <Head>
             <title>Welcome to Ugly Bunnies by Michael Wong</title>
         </Head>
@@ -79,5 +79,5 @@ export default () => (
             </ul>
         </section>
 
-    </div>
+    </React.Fragment>
 )

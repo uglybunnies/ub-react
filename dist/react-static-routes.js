@@ -1,85 +1,118 @@
 
-    import React, { Component } from 'react'
-    import { Route } from 'react-router-dom'
 
-    // Template Imports
-    import src_containers_Home from '../src/containers/Home'
-import src_containers_About from '../src/containers/About'
-import src_containers_WebProjects from '../src/containers/WebProjects'
-import src_containers_Rjm from '../src/containers/Rjm'
-import src_containers_Platinum from '../src/containers/Platinum'
-import src_containers_ErranAndrews_js from '../src/containers/ErranAndrews.js'
-import src_containers_Platzner_js from '../src/containers/Platzner.js'
-import src_containers_UrbanForest_js from '../src/containers/UrbanForest.js'
-import src_containers_Cdlp_js from '../src/containers/Cdlp.js'
-import src_containers_SerpentVenom_js from '../src/containers/SerpentVenom.js'
-import src_containers_Adge_js from '../src/containers/Adge.js'
-import src_containers_Nsb_js from '../src/containers/Nsb.js'
-import src_containers_404 from '../src/containers/404'
+import React, { Component } from 'react'
+import { Route } from 'react-router-dom'
 
-    // Template Map
-    const templateMap = {
-      t_0: src_containers_Home,
-t_1: src_containers_About,
-t_2: src_containers_WebProjects,
-t_3: src_containers_Rjm,
-t_4: src_containers_Platinum,
-t_5: src_containers_ErranAndrews_js,
-t_6: src_containers_Platzner_js,
-t_7: src_containers_UrbanForest_js,
-t_8: src_containers_Cdlp_js,
-t_9: src_containers_SerpentVenom_js,
-t_10: src_containers_Adge_js,
-t_11: src_containers_Nsb_js,
-t_12: src_containers_404
-    }
+import universal, { setHasBabelPlugin } from 'react-universal-component'
 
-    // Template Tree
-    const templateTree = {c:{"404":{t:"t_12"},"/":{t:"t_0"},"about":{t:"t_1"},"web-projects":{t:"t_2",c:{"rejuvenation-site":{t:"t_3"},"platinum-site":{t:"t_4"},"erran-andrews":{t:"t_5"},"platzner":{t:"t_6"},"urban-forest":{t:"t_7"},"cafe-de-la-paz":{t:"t_8"},"serpentvenom":{t:"t_9"},"adge":{t:"t_10"},"ni-sa-bula":{t:"t_11"}}}}}
+import { cleanPath } from 'react-static'
 
-    // Get template for given path
-    const getComponentForPath = path => {
-      const parts = path === '/' ? ['/'] : path.split('/').filter(d => d)
-      let cursor = templateTree
-      try {
-        parts.forEach(part => {
-          cursor = cursor.c[part]
-        })
-        return templateMap[cursor.t]
-      } catch (e) {
-        return false
+
+
+setHasBabelPlugin()
+
+const universalOptions = {
+  loading: () => null,
+  error: props => {
+    console.error(props.error);
+    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
+  },
+}
+
+  const t_0 = universal(import('../src/containers/Home'), universalOptions)
+const t_1 = universal(import('../src/containers/About'), universalOptions)
+const t_2 = universal(import('../src/containers/WebProjects'), universalOptions)
+const t_3 = universal(import('../src/containers/Rjm'), universalOptions)
+const t_4 = universal(import('../src/containers/Platinum'), universalOptions)
+const t_5 = universal(import('../src/containers/ErranAndrews.js'), universalOptions)
+const t_6 = universal(import('../src/containers/Platzner.js'), universalOptions)
+const t_7 = universal(import('../src/containers/UrbanForest.js'), universalOptions)
+const t_8 = universal(import('../src/containers/Cdlp.js'), universalOptions)
+const t_9 = universal(import('../src/containers/SerpentVenom.js'), universalOptions)
+const t_10 = universal(import('../src/containers/Adge.js'), universalOptions)
+const t_11 = universal(import('../src/containers/Nsb.js'), universalOptions)
+const t_12 = universal(import('../src/containers/404'), universalOptions)
+
+
+// Template Map
+global.componentsByTemplateID = global.componentsByTemplateID || [
+  t_0,
+t_1,
+t_2,
+t_3,
+t_4,
+t_5,
+t_6,
+t_7,
+t_8,
+t_9,
+t_10,
+t_11,
+t_12
+]
+
+// Template Tree
+global.templateIDsByPath = global.templateIDsByPath || {
+  '404': 12
+}
+
+// Get template for given path
+const getComponentForPath = path => {
+  path = cleanPath(path)
+  return global.componentsByTemplateID[global.templateIDsByPath[path]]
+}
+
+global.reactStaticGetComponentForPath = getComponentForPath
+global.reactStaticRegisterTemplateIDForPath = (path, id) => {
+  global.templateIDsByPath[path] = id
+}
+
+export default class Routes extends Component {
+  render () {
+    const { component: Comp, render, children } = this.props
+
+    const getFullComponentForPath = path => {
+      let Comp = getComponentForPath(path)
+      let is404 = path === '404'
+      if (!Comp) {
+        is404 = true
+        Comp = getComponentForPath('404')
       }
+      return newProps => (
+        Comp
+          ? <Comp {...newProps} {...(is404 ? {is404: true} : {})} />
+          : null
+      )
     }
 
-    export default class Routes extends Component {
-      render () {
-        const { component: Comp, render, children } = this.props
-        const renderProps = {
-          templateMap,
-          templateTree,
-          getComponentForPath
-        }
-        if (Comp) {
-          return (
-            <Comp
-              {...renderProps}
-            />
-          )
-        }
-        if (render || children) {
-          return (render || children)(renderProps)
-        }
-
-        // This is the default auto-routing renderer
-        return (
-          <Route path='*' render={props => {
-            let Comp = getComponentForPath(props.location.pathname)
-            if (!Comp) {
-              Comp = getComponentForPath('404')
-            }
-            return Comp && <Comp {...props} />
-          }} />
-        )
-      }
+    const renderProps = {
+      componentsByTemplateID: global.componentsByTemplateID,
+      templateIDsByPath: global.templateIDsByPath,
+      getComponentForPath: getFullComponentForPath
     }
-  
+
+    if (Comp) {
+      return (
+        <Comp
+          {...renderProps}
+        />
+      )
+    }
+
+    if (render || children) {
+      return (render || children)(renderProps)
+    }
+
+    // This is the default auto-routing renderer
+    return (
+      <Route path='*' render={props => {
+        let Comp = getFullComponentForPath(props.location.pathname)
+        // If Comp is used as a component here, it triggers React to re-mount the entire
+        // component tree underneath during reconciliation, losing all internal state.
+        // By unwrapping it here we keep the real, static component exposed directly to React.
+        return Comp && Comp({ ...props, key: props.location.pathname })
+      }} />
+    )
+  }
+}
+

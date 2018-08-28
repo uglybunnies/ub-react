@@ -1,3 +1,11 @@
-# Ugly Bunnies Static Site Generation
+# React-Static - Basic Example
 
-This is my implementation of the static site generator that is built using [React](https://github.com/facebook/react/) and the [react-static](https://github.com/nozzle/react-static/) node module released by [Nozzle.io](https://nozzle.io). This project generates the static files that are hosted at [uglybunnies.com](http://ugylbunnies.com).
+This example is the most basic version of react-static available. It includes:
+- Babel
+- SASS/SCSS imports
+- Image imports
+- File imports
+- SASS Loader
+- Automatic Routing
+
+To get started, run `react-static create` and use the `sass` template.
