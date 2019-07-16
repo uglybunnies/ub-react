@@ -10,7 +10,7 @@ export default () => (
         <header className="splash lh0">
             <img src="/assets/web-projects/adge-splash.png" srcSet="/assets/web-projects/platinum-splash.png 320w, /assets/web-projects/adge-splash_720.png 720w" alt="Adge homepage design" className="hero-image" />
         </header>
-        <section className="ph2 pb2" onClick={popPic}>
+        <section className="project ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Adge IT Consultants</h1>
             <p>This 2007 project ended up being my first experience with spec work. These comps were produced in the hope that they would seal the deal in getting my contract signed. Unfortunately, the client chose to go in another direction and walked away. Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

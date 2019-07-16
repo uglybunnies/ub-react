@@ -7,7 +7,7 @@ export default () => (
         <Head>
             <title>Ugly Bunnies -- Web Projects by Michael Wong</title>
         </Head>
-        <header className="ph2 pb2 pt2">
+        <header className="wide ph2 pb2 pt2">
             <h1 className="copy-header s1 m0 mb1">Web Projects</h1>
             <p>I've been a web professional for quite a while and have done a variety of projects throughout my career. Here are some projects I've worked on.</p>
         </header>

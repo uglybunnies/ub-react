@@ -62,6 +62,9 @@
 	@include border($color:$larkspur90);
 	border-width: 1px;
 }
+.bxb {
+  box-sizing: border-box;
+}
 /* display styles */
 .db {
 	display: block;
@@ -143,66 +146,31 @@
 .absolute {
     position: absolute;
 }
-.content {
-    position: relative;
-    z-index: 1
-}
 .masthead {
-    background-color: $larkspur-white;
-    position: relative;
-	@include border($color:$larkspur90);
-	border-width: 0 0 1px;
-    padding: .25em;
-    > .logo {
+  position: relative;
+  padding: .25em;
+  > .logo {
+    display: inline-block;
+    vertical-align: middle;
+    .site-name {
+      font-family: 'Henny Penny', serif;
+      font-weight: 400;
+      font-size: 2em;
+      line-height: 1;
+      margin: 0;
+      > .slink span {
+        color: $larkspur;
         display: inline-block;
-        vertical-align: middle;
-        .site-name {
-            font-family: 'Henny Penny', serif;
-            font-weight: 400;
-            font-size: 2em;
-            line-height: 1;
-            margin: 0;
-            > .slink span {
-                color: $larkspur;
-                display: inline-block;
-                margin: 0;
-                &:first-letter {
-                    font-size: 1.2em;
-                    color: hsl(40, 52%, 58%);
-                    line-height: 2.5rem;
-                    vertical-align: -.25rem;
-                }
-            }
-            @include responsive(medium-tablet) {
-                font-size: 3em;
-            }
+        margin: 0;
+        &:first-letter {
+          font-size: 1.2em;
+          color: hsl(40, 52%, 58%);
+          line-height: 2.5rem;
+          vertical-align: -.25rem;
         }
+      }
     }
-    > a {
-    	@include border($color:$green);
-    	border-width: 1px;
-        border-radius: 0.1875rem;
-        color: $green;
-        display: block;
-        margin: 0 0 0 .25rem;
-        position: absolute;
-        top: .5rem;
-        right: .5rem;
-        text-decoration: none;
-        .icon-menu {
-            font-size: 1rem;
-            @include responsive(medium-tablet) {
-                font-size: 2rem;
-            }
-        }
-        @include responsive(medium-tablet) {
-            top: 1em;
-            right: 1em;
-        }
-    }
-    @include responsive(medium-tablet) {
-        padding: 1em;
-    }
+  }
 }
 .splash {
     position: relative;
@@ -221,173 +189,171 @@
     width: 100%;
 }
 .home-splash {
-    background: linear-gradient(to bottom, hsl(265, 38%, 20%), hsl(265, 38%, 29%));
-    position: relative;
-    padding-bottom: 18rem;
-    .brand {
-        color: lighten($green, 50%);
+  position: relative;
+  max-width: 30em;
+  padding-bottom: 18em;
+  .brand {
+    color: $ruby;
+  }
+  img[class|="splash"] {
+    box-shadow: 0.0625rem 0.0625rem .1875rem .125rem rgba(21, 15, 33, .15);
+    position: absolute;
+    bottom: 9rem;
+    left: 10%;
+    max-width: 175px;
+    margin: 0 auto;
+    &.splash-adge {
+      bottom: 7rem;
+      left: 35%;
     }
-    img[class|="splash"] {
-        box-shadow: 0.0625rem 0.0625rem .1875rem .125rem rgba(21, 15, 33, .15);
-        position: absolute;
-        bottom: 9rem;
-        left: 20%;
-        max-width: 175px;
-        margin: 0 auto;
-        &.splash-adge {
-            bottom: 7rem;
-            left: 45%;
-        }
-        &.splash-rjm {
-            bottom: 4rem;
-            left: 33%;
-        }
+    &.splash-rjm {
+      bottom: 4rem;
+      left: 23%;
     }
-    .note {
-        position: absolute;
-        bottom: .5rem;
-        left: .5rem;
-    }
+  }
 
-    @include responsive(big-phone) {
-        .note {
-            left: initial;
-            right: .5rem;
-        }
+  @include responsive(big-phone) {
+    .note {
+      left: initial;
+      right: .5rem;
     }
-    @include responsive(medium-tablet) {
-        padding-left: 22rem;
-        padding-bottom: 1rem;
-        min-height: 20rem;
-        img[class|="splash"] {
-            top: 1rem;
-            left: 1rem;
-            &.splash-adge {
-                top: 2rem;
-                left: 9rem;
-            }
-            &.splash-rjm {
-                top: 7rem;
-                left: 4rem;
-            }
-        }
+  }
+  @include responsive(medium-tablet) {
+    padding-left: 22rem;
+    padding-bottom: 1rem;
+    min-height: 20rem;
+    img[class|="splash"] {
+      top: 1rem;
+      left: 1rem;
+      &.splash-adge {
+          top: 2rem;
+          left: 9rem;
+      }
+      &.splash-rjm {
+          top: 7rem;
+          left: 4rem;
+      }
     }
+  }
 }
 .dad-jokes-sec {
-    background: linear-gradient(to bottom, hsl(355, 38%, 20%), hsl(355, 38%, 38%));
-    position: relative;
-    .brand {
-        color: lighten($blue, 30%);
-    }
-    .green {
-        color: lighten($green, 50%);
-    }
-    > *:not(.ha-has) {
-        position:relative;
-        z-index: 3;
-    }
-    .ha-has {
-        position: absolute;
-        z-index: 0;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-        svg {
-            position: absolute;
-            z-index: 0;
-            animation: 250ms infinite alternate linear;
-            path {
-                fill:rgba(255, 255, 255, .05);
-            }
-            &#ha1 {
-                width: 15vw;
-                top: 2%;
-                left: 3%;
-                animation-duration: 100ms;
-                animation-name: ha1;
-            }
-            &#ha2 {
-                width: 25vw;
-                transform-origin:  center;
-                animation-duration: 200ms;
-                animation-name: ha2;
-                top: 0%;
-                right: 5%;
-            }
-            &#ha3 {
-                width: 15vw;
-                bottom: 5%;
-                right: 5%;
-                animation-duration: 150ms;
-                animation-name: ha3;
-            }
-            &#ha4 {
-                width: 33vw;
-                top: 50%;
-                right: 3%;
-                animation-duration: 150ms;
-                animation-name: ha4;
-            }
-            &#ha5 {
-                width: 40vw;
-                bottom: 25%;
-                left: 5%;
-                animation-name: ha5;
-                animation-duration: 150ms;
-            }
-            &#ha6 {
-                width: 15vw;
-                bottom: 5%;
-                left: 5%;
-                transform: rotate(-5deg);
-                animation-name: ha6;
-                animation-duration: 750ms;
-            }
-            &#ha7 {
-                width: 12vw;
-                top: 25%;
-                right: 50%;
-                animation-name: ha7;
-                animation-duration: 150ms;
-            }
-            @include responsive(medium-tablet) {
-                &#ha1 {
-                    width: 4em;
-                }
-                &#ha2 {
-                    width: 10em;
-                }
-                &#ha3 {
-                    width: 6em;
-                    right: 33%;
-                    bottom: auto;
-                    top: 15%;
-                }
-                &#ha4 {
-                    width: 6em;
-                    top: auto;
-                    bottom: 1%;
-                    right: 15%;
-                }
-                &#ha5 {
-                    width: 6em;
-                    bottom: auto;
-                    top: 2%;
-                    left: auto;
-                    left: 25%;
-                }
-                &#ha6 {
-                    width: 7em;
-                }
-                &#ha7 {
-                    width: 12em;
-                }
-            }
+  background: linear-gradient(to bottom, hsl(355, 38%, 20%), hsl(355, 38%, 38%));
+  transform: rotate(3deg);
+  .brand {
+    color: lighten($blue, 30%);
+  }
+  .green {
+    color: lighten($green, 50%);
+  }
+  > *:not(.ha-has) {
+    position:relative;
+    z-index: 3;
+  }
+  .ha-has {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    svg {
+      position: absolute;
+      z-index: 0;
+      animation: 250ms infinite alternate linear;
+      path {
+        fill:rgba(255, 255, 255, .05);
+      }
+      &#ha1 {
+        width: 15vw;
+        top: 2%;
+        left: 3%;
+        animation-duration: 100ms;
+        animation-name: ha1;
+      }
+      &#ha2 {
+        width: 25vw;
+        transform-origin:  center;
+        animation-duration: 200ms;
+        animation-name: ha2;
+        top: 0%;
+        right: 5%;
+      }
+      &#ha3 {
+        width: 15vw;
+        bottom: 5%;
+        right: 5%;
+        animation-duration: 150ms;
+        animation-name: ha3;
+      }
+      &#ha4 {
+        width: 33vw;
+        top: 50%;
+        right: 3%;
+        animation-duration: 150ms;
+        animation-name: ha4;
+      }
+      &#ha5 {
+        width: 40vw;
+        bottom: 25%;
+        left: 5%;
+        animation-name: ha5;
+        animation-duration: 150ms;
+      }
+      &#ha6 {
+        width: 15vw;
+        bottom: 5%;
+        left: 5%;
+        transform: rotate(-5deg);
+        animation-name: ha6;
+        animation-duration: 750ms;
+      }
+      &#ha7 {
+        width: 12vw;
+        top: 25%;
+        right: 50%;
+        animation-name: ha7;
+        animation-duration: 150ms;
+      }
+      @include responsive(medium-tablet) {
+        &#ha1 {
+            width: 4em;
         }
-
+        &#ha2 {
+            width: 10em;
+        }
+        &#ha3 {
+            width: 6em;
+            right: 33%;
+            bottom: auto;
+            top: 15%;
+        }
+        &#ha4 {
+            width: 6em;
+            top: auto;
+            bottom: 1%;
+            right: 15%;
+        }
+        &#ha5 {
+            width: 6em;
+            bottom: auto;
+            top: 2%;
+            left: auto;
+            left: 25%;
+        }
+        &#ha6 {
+            width: 7em;
+        }
+        &#ha7 {
+            width: 12em;
+        }
+      }
     }
+
+  }
+  @include responsive(medium-tablet) {
+    margin-left: 50%;
+  }
 }
 @keyframes ha1 {
     from {
@@ -488,76 +454,64 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    min-height: 14em;
+    min-height: 18em;
     p {
-        align-self: center;
-        justify-self: center;
-        &.joke {
-            line-height: 1.2;
-            text-shadow: .125rem .125rem .125rem rgba(54, 0, 0, .75);
-            @include responsive(medium-tablet) {
-                line-height: 1.3;
-                padding: 1em;
-            }
+      align-self: center;
+      justify-self: center;
+      &.joke {
+        line-height: 1.2;
+        text-shadow: .125rem .125rem .125rem rgba(54, 0, 0, .75);
+        @include responsive(medium-tablet) {
+          line-height: 1.3;
+          padding: 1em;
         }
+      }
     }
     button {
-        background: linear-gradient(to bottom, $larkspur-white, $larkspur90);
-        border-radius: .5rem;
-        border: .0625rem solid $green;
-        color: $green;
-        font-weight: $heavy-font-weight;
-        outline: 0;
+      background: $larkspur;
+      border: 0;
+      color: $white;
+      outline: 0;
     }
     @include responsive(medium-tablet) {
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto;
-        min-height: 14em;
-        p:not(.joke) {
-            align-self: center;
-            justify-self: center;
-        }
+      p:not(.joke) {
+        align-self: center;
+        justify-self: center;
+      }
     }
 }
 .topnav {
-    box-sizing: border-box;
-    position: relative;
-    text-align: right;
-    z-index: 5;
+  position: fixed;
+  right: 2rem;
+  bottom: -3em;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  width: 100vh;
+  @include responsive(medium-tablet) {
+    width: auto;
+    top: 20rem;
+    bottom: auto;
+  }
 }
 .menu {
-    background: #fff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    list-style: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    transition: height 250ms ease-in;
-    width: 320px;
-    &.show {
-        transition-timing-function: ease-out;
+  list-style: none;
+  > li {
+    display: inline-block;
+    > a {
+      color: $larkspur;
+      display: block;
+      padding: .25rem;
+      position: relative;
+      text-decoration: underline;
     }
-    > li {
-        border: solid #F6F2FA;
-        border-width: 1px 1px 0;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        &:last-child {
-            border-bottom-width: 1px;
-        }
-        > a {
-            color: $larkspur;
-            display: block;
-            padding: .5rem 1rem;
-            text-decoration: none;
-            &:hover {
-                background-color: hsla(40, 52%, 58%, .15);
-            }
-        }
-    }
+  }
+}
+.project {
+  margin: 0 0 0 25%;
+  max-width: 56rem;
+}
+.wide {
+  max-width: 48rem;
 }
 .group {
     display: grid;
@@ -602,7 +556,7 @@
 	    box-decoration-break: clone;
     }
     @include responsive(big-phone) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     @include responsive(medium-tablet) {
         grid-template-columns: 1fr 1fr 1fr;
@@ -780,14 +734,23 @@
         }
     }
 }
+.social-links {
+  bottom: -144vh;
+  right: 0;
+  width: 3em;
+  @include responsive(medium-tablet) {
+    bottom: 0;
+  }
+}
 a.soc-links {
     color: $green;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .site-footer {
 	@include border($color:$larkspur90);
-    border-width: 1px 0 0;
-    background-color: lighten($green, 50%);
+  border-width: 1px 0 0;
+  background-color: lighten($green, 50%);
+  width: 100%;
 }
 .inline-list {
     list-style: none;

@@ -10,7 +10,7 @@ export default () => (
         <header className="splash lh0">
             <img src="/assets/web-projects/platinum-splash.png" srcSet="/assets/web-projects/platinum-splash.png 320w, /assets/web-projects/platinum-splash_720.png 720w" alt="Platinum Medical Spa" className="hero-image" />
         </header>
-        <section className="ph2 pb2" onClick={popPic}>
+        <section className="project ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Platinum Medical Spa</h1>
             <p>This 2008 site was created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>.  Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

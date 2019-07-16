@@ -28,7 +28,7 @@ export default class DadJokes extends Component {
             <div className='dad-jokes'>
                 <ListJoke joke={this.state.currentJoke} />
                 <p>
-                    <button onClick={ this.getNewJoke } className='s2'>Let’s Have Another!</button>
+                    <button onClick={ this.getNewJoke } className='s3'>Let’s Have Another!</button>
                 </p>
             </div>
         )
