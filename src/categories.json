@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Cityscapes",
+    "description": "It's easy to get caught up in trying to capture the \"post card shot\" when composing cityscapes, and I suppose some of my images would fit the criteria. But I still try to capture images that diverge from the norm. Some of my cityscapes depict uncommon scenes. Others feature unique lighting or angles which set them apart from standard post card shots. And all capture a moment in time of sites that have changed forever",
+    "thumbnail": "/art/photgraphy/cityscapes/coit02_TH.jpg"
+  },
+  {
+    "category": "Landscapes",
+    "description": "It's hard to go wrong when it comes to capturing the natural beauty of the world. Many of these images were taken while traveling.",
+    "thumbnail": "/art/photgraphy/landscapes/QualicumRiver_th.jpg"
+  },
+  {
+    "category": "Through Windows Series",
+    "description": "I have been fascinated with taking pictures through windows since I first took up photography. Composing these images is technically challenging and thought provoking. The resulting images evoke feelings that range from comfort to confinement.",
+    "thumbnail": "/art/photgraphy/windows/NineToSix_TH.jpg"
+  },
+  {
+    "category": "Uniquely Creative",
+    "description": "These photos don't fit in the other categories and I thought \"Uniquely Creative\" sounded more auspicious than miscellaneous. Each photo was created in camera, their compositions have not been digitally altered.",
+    "thumbnail": "/art/photgraphy/uc/ReflectionOnSecurity_TH.jpg"
+  }
+]
