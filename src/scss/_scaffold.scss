@@ -481,20 +481,20 @@
     }
 }
 .topnav {
-  position: fixed;
-  right: 2rem;
-  bottom: -3em;
+  position: absolute;
+  right: -1rem;
+  top: 22em;
   transform: rotate(90deg);
   transform-origin: bottom right;
-  width: 100vh;
+  width: auto;
   @include responsive(medium-tablet) {
-    width: auto;
     top: 20rem;
     bottom: auto;
   }
 }
 .menu {
   list-style: none;
+  min-width: 20rem;
   > li {
     display: inline-block;
     > a {
@@ -735,12 +735,9 @@
     }
 }
 .social-links {
-  bottom: -144vh;
-  right: 0;
+  bottom: 0;
+  right: -3rem;
   width: 3em;
-  @include responsive(medium-tablet) {
-    bottom: 0;
-  }
 }
 a.soc-links {
     color: $green;
