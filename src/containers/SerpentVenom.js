@@ -10,7 +10,7 @@ export default () => (
         <header className="splash lh0">
             <img src="/assets/web-projects/sv-splash.png" srcSet="/assets/web-projects/sv-splash.png 320w, /assets/web-projects/sv-splash_720.png 720w" alt="SerpentVenom Spa" className="hero-image" />
         </header>
-        <section className="ph2 pb2 spec-sv" onClick={popPic}>
+        <section className="project ph2 pb2 spec-sv" onClick={popPic}>
             <h1 className="copy-header s1 mv1">SerpentVenom</h1>
             <p>This 2009 design is the third version of my former website, SerpentVenom. SerpentVenom featured my art and design portfolios as well as my blog and some articles I had written. I retired the site when I realized I had not updated the blog in over a year.</p>
             <h2  className="s2 ruby">The Design</h2>

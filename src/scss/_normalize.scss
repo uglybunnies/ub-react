@@ -1,39 +1,22 @@
 html {
-	background: $larkspur90;
+	background: $white;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 5vw; /* 16px for 320px wide viewport */
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-    @include responsive(phone) {
-        font-size: 3.33333vw;
-    }
-    @include responsive(big-phone) {
-        font-size: 2.5vw;
-    }
-    @include responsive(small-tablet) {
-        font-size: 2vw;
-    }
     @include responsive(medium-tablet) {
-        font-size: 1.66667vw;
-    }
-    @include responsive(notebook-screen) {
-        font-size: 1.42857vw;
-    }
-    @include responsive(max-screen) {
-        font-size: 16px;
+      font-size: 16px;
     }
 }
 body {
-	background: $larkspur-lite;
-    color: $base-font-color;
-    font-size: $base-type-size;
-    font-weight: $base-font-weight;
-    line-height: $base-line-height;
-    margin: 0 auto;
-    padding: 0;
-    @include responsive(notebook-screen) {
-        max-width: 1024px;
-    }
+	background: $white;
+  color: $base-font-color;
+  font-size: $base-type-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  margin: 0 3.5rem 0 0;
+  padding: 0;
+  position: relative;
 }
 audio,
 canvas,

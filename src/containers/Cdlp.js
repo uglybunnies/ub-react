@@ -7,7 +7,7 @@ export default () => (
         <Head>
             <title>Ugly Bunnies -- Caf&eacute; de la Paz Website</title>
         </Head>
-        <header className="splash lh0">
+        <header className="project splash lh0">
             <img src="/assets/web-projects/cdlp-splash.png" alt="Caf&eacute; de la Paz Website" srcSet="/assets/web-projects/cdlp-splash.png 320w, /assets/web-projects/cdlp-splash_720.png 720w" className="hero-image" />
         </header>
         <section className="ph2 pb2" onClick={popPic}>

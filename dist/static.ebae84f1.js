@@ -328,11 +328,11 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'p',
-                { className: 'white s5' },
+                { className: 's5' },
                 ' Ugly Bunnies is run by Michael Wong, a Conceptual Information Artist and Web Professional who crafts ',
                 _react2.default.createElement(
                     'a',
-                    { href: '/web-projects', className: 'light' },
+                    { href: '/web-projects' },
                     _react2.default.createElement(
                         'strong',
                         null,
@@ -343,7 +343,7 @@ exports.default = function () {
             ),
             _react2.default.createElement(
                 'p',
-                { className: 'note white m0' },
+                { className: 'note mt2' },
                 _react2.default.createElement(
                     'strong',
                     null,
@@ -352,7 +352,7 @@ exports.default = function () {
                 ' If you are disappointed in not finding ugly bunnies here, perhaps you can seek them ',
                 _react2.default.createElement(
                     'a',
-                    { href: 'http://uglybunnies.tumblr.com/', className: 'light' },
+                    { href: 'http://uglybunnies.tumblr.com/' },
                     'here'
                 ),
                 '.'
@@ -360,7 +360,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'dad-jokes-sec p0 ph2 pb2' },
+            { className: 'dad-jokes-sec p0 ph2 pb2 relative' },
             _react2.default.createElement(
                 'div',
                 { className: 'ha-has' },
@@ -447,13 +447,13 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'p0 ph2 pb2' },
+            { className: 'social-links m0 absolute' },
             _react2.default.createElement(
                 'ul',
                 { className: 'inline-list m0 p0 social-accounts tac' },
                 _react2.default.createElement(
                     'li',
-                    null,
+                    { className: 'm0' },
                     _react2.default.createElement(
                         'a',
                         { href: 'https://www.linkedin.com/in/uglybunnies/', className: 'soc-links' },
@@ -462,7 +462,7 @@ exports.default = function () {
                 ),
                 _react2.default.createElement(
                     'li',
-                    null,
+                    { className: 'm0' },
                     _react2.default.createElement(
                         'a',
                         { href: 'https://github.com/uglybunnies', className: 'soc-links' },
@@ -471,7 +471,7 @@ exports.default = function () {
                 ),
                 _react2.default.createElement(
                     'li',
-                    null,
+                    { className: 'm0' },
                     _react2.default.createElement(
                         'a',
                         { href: 'https://twitter.com/NoUglyBunnies', className: 'soc-links' },
@@ -517,7 +517,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'p0 ph2 pt2' },
+            { className: 'wide p0 ph2 pt2' },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 m0 mb1' },
@@ -531,7 +531,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'p0 ph2 pb2' },
+            { className: 'wide p0 ph2 pb2' },
             _react2.default.createElement(
                 'h2',
                 { className: 's2 ruby' },
@@ -652,7 +652,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'ph2 pb2 pt2' },
+            { className: 'wide ph2 pb2 pt2' },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 m0 mb1' },
@@ -1072,7 +1072,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2 spec-rjm', onClick: popPic },
+            { className: 'project ph2 pb2 spec-rjm', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -1220,7 +1220,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -1373,7 +1373,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2 spec-ea', onClick: popPic },
+            { className: 'project ph2 pb2 spec-ea', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -1525,7 +1525,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -1656,7 +1656,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -1747,12 +1747,6 @@ exports.default = function () {
                 'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',
                 _react2.default.createElement(
                     'a',
-                    { href: 'http://www.todayinthegarden.com/' },
-                    'this one'
-                ),
-                ' and ',
-                _react2.default.createElement(
-                    'a',
                     { href: 'http://luckydogcambridge.com/' },
                     'this one'
                 ),
@@ -1815,7 +1809,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'splash lh0' },
+            { className: 'project splash lh0' },
             _react2.default.createElement('img', { src: '/assets/web-projects/cdlp-splash.png', alt: 'Caf\xE9 de la Paz Website', srcSet: '/assets/web-projects/cdlp-splash.png 320w, /assets/web-projects/cdlp-splash_720.png 720w', className: 'hero-image' })
         ),
         _react2.default.createElement(
@@ -1956,7 +1950,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2 spec-sv', onClick: popPic },
+            { className: 'project ph2 pb2 spec-sv', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -2117,7 +2111,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -2243,7 +2237,7 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -3600,7 +3594,7 @@ var DadJokes = function (_Component) {
                     null,
                     _react2.default.createElement(
                         'button',
-                        { onClick: this.getNewJoke, className: 's2' },
+                        { onClick: this.getNewJoke, className: 's3' },
                         'Let\u2019s Have Another!'
                     )
                 )
@@ -3753,11 +3747,6 @@ var Header = function (_Component) {
                                 )
                             )
                         )
-                    ),
-                    _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'pa', id: 'menuControl', onClick: this.expandMenu, title: 'Click to open menu' },
-                        _react2.default.createElement('i', { className: 'icon-menu' })
                     )
                 ),
                 _react2.default.createElement(_Topnav2.default, { isOpen: this.state.showMenu, expandMenu: this.expandMenu })
@@ -3803,19 +3792,10 @@ var Topnav = function (_Component) {
     function Topnav(props) {
         _classCallCheck(this, Topnav);
 
-        var _this = _possibleConstructorReturn(this, (Topnav.__proto__ || Object.getPrototypeOf(Topnav)).call(this, props));
-
-        _this.height = 0;
-        return _this;
+        return _possibleConstructorReturn(this, (Topnav.__proto__ || Object.getPrototypeOf(Topnav)).call(this, props));
     }
 
     _createClass(Topnav, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            var mNav = document.getElementById('topNav');
-            this.height = mNav.scrollHeight + "px";
-        }
-    }, {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
@@ -3826,13 +3806,10 @@ var Topnav = function (_Component) {
                     { className: 'topnav m0' },
                     _react2.default.createElement(
                         'ul',
-                        { id: 'topNav',
-                            className: this.props.isOpen ? 'menu show' : 'menu',
-                            style: this.props.isOpen ? { height: this.height } : { height: 0 }
-                        },
+                        { id: 'topNav', className: 'menu m0 p0' },
                         _react2.default.createElement(
                             'li',
-                            null,
+                            { className: 'm0 mr2' },
                             _react2.default.createElement(
                                 _reactStatic.Link,
                                 { to: '/', onClick: this.props.expandMenu },
@@ -3841,7 +3818,7 @@ var Topnav = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'li',
-                            null,
+                            { className: 'm0 mr2' },
                             _react2.default.createElement(
                                 _reactStatic.Link,
                                 { to: '/web-projects', onClick: this.props.expandMenu },
@@ -3850,7 +3827,7 @@ var Topnav = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'li',
-                            null,
+                            { className: 'm0 mr2' },
                             _react2.default.createElement(
                                 _reactStatic.Link,
                                 { to: '/about', onClick: this.props.expandMenu },
@@ -3912,7 +3889,7 @@ var Footer = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'footer',
-                { className: 'site-footer pa2' },
+                { className: 'site-footer pa2 bxb' },
                 _react2.default.createElement(
                     'section',
                     null,
@@ -3973,7 +3950,7 @@ exports = module.exports = __webpack_require__(39)(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Henny+Penny&text=Ugly%20Bunies|Alegreya+Sans:100,100italic300,300italic,500,500italic);", ""]);
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n/* hsl(40, 52%, 58%) */\nhtml {\n  background: #EBE6F2;\n  font-family: 'Alegreya Sans', sans-serif;\n  font-size: 5vw;\n  /* 16px for 320px wide viewport */\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%; }\n  @media only screen and (min-width: 480px) {\n    html {\n      font-size: 3.33333vw; } }\n  @media only screen and (min-width: 640px) {\n    html {\n      font-size: 2.5vw; } }\n  @media only screen and (min-width: 800px) {\n    html {\n      font-size: 2vw; } }\n  @media only screen and (min-width: 960px) {\n    html {\n      font-size: 1.66667vw; } }\n  @media only screen and (min-width: 1120px) {\n    html {\n      font-size: 1.42857vw; } }\n  @media only screen and (min-width: 1280px) {\n    html {\n      font-size: 16px; } }\n\nbody {\n  background: #F6F2FA;\n  color: #222;\n  font-size: 1rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin: 0 auto;\n  padding: 0; }\n  @media only screen and (min-width: 1120px) {\n    body {\n      max-width: 1024px; } }\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\nmain * + * {\n  margin: 0 0 1rem; }\n\n[hidden],\ntemplate {\n  display: none; }\n\nimg {\n  border: 0; }\n\nsvg:not(:root) {\n  overflow: hidden; }\n\nfigure {\n  margin: 1em 40px; }\n\nhr {\n  box-sizing: content-box;\n  height: 0; }\n\npre {\n  overflow: auto; }\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0; }\n\nbutton {\n  overflow: visible; }\n\nbutton,\nselect {\n  text-transform: none; }\n\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer; }\n\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n\ninput {\n  line-height: normal; }\n\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0; }\n\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  box-sizing: content-box;\n  /* 2 */ }\n\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\ntextarea {\n  overflow: auto; }\n\noptgroup {\n  font-weight: bold; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\ntd,\nth {\n  padding: 0; }\n\n/* text alignments */\n.tal {\n  text-align: left; }\n\n.tar {\n  text-align: right; }\n\n.tac {\n  text-align: center; }\n\n/* link treatments */\na.slink {\n  text-decoration: none; }\n\n.copy-header {\n  font-weight: 500;\n  color: #5c3d87;\n  margin-bottom: .5em; }\n\n.brand {\n  color: #5c3d87; }\n\n.green {\n  color: #3d8781; }\n\n.gold {\n  color: #876e3d; }\n\n.blue {\n  color: #3d5687; }\n\n.ruby {\n  color: #873d43; }\n\n.white {\n  color: #fff; }\n\n.large-type {\n  font-size: 3rem; }\n\n.s1 {\n  font-size: 2rem; }\n\n.s2 {\n  font-size: 1.8rem; }\n\n.s3 {\n  font-size: 1.6rem; }\n\n.s4 {\n  font-size: 1.4rem; }\n\n.s5 {\n  font-size: 1.2rem; }\n\n.s6 {\n  font-size: 1rem; }\n\n.s7 {\n  font-size: .875rem; }\n\n.s8, .note {\n  font-size: .75rem; }\n\n.s9 {\n  font-size: .625rem; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: 300; }\n\nh3.absolute {\n  font-weight: 500; }\n\na {\n  color: #3d8781;\n  text-decoration: none; }\n\na:visited {\n  color: #3d5687; }\n\na:hover,\na:focus {\n  color: #876e3d; }\n\na:active {\n  color: #841a1a; }\n\na.light {\n  color: #dfca9f; }\n\nabbr[title] {\n  border-bottom: 1px dotted; }\n\nb,\nstrong {\n  font-weight: 500; }\n\ni,\nem,\ndfn {\n  font-style: italic; }\n\nmark {\n  background: #ff0;\n  color: #000; }\n\nsmall {\n  font-size: 80%; }\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsup {\n  top: -0.5em; }\n\nsub {\n  bottom: -0.25em; }\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: .9rem; }\n\n@font-face {\n  font-family: 'fontello';\n  src: url(\"/font/fontello.eot?21332555\");\n  src: url(\"/font/fontello.eot?21332555#iefix\") format(\"embedded-opentype\"), url(\"/font/fontello.woff2?21332555\") format(\"woff2\"), url(\"/font/fontello.woff?21332555\") format(\"woff\"), url(\"/font/fontello.ttf?21332555\") format(\"truetype\"), url(\"/font/fontello.svg?21332555#fontello\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"]:before, [class*=\" icon-\"]:before {\n  font-family: \"fontello\";\n  font-style: normal;\n  font-weight: normal;\n  speak: none;\n  display: inline-block;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  /* opacity: .8; */\n  /* For safety - reset parent styles, that can break glyph codes*/\n  font-variant: normal;\n  text-transform: none;\n  /* fix buttons height, for twitter bootstrap */\n  line-height: 1em;\n  /* Animation center compensation - margins should be symmetric */\n  /* remove if not needed */\n  margin-left: .2em;\n  /* you can be more comfortable with increased icons size */\n  /* font-size: 120%; */\n  /* Font smoothing. That was taken from TWBS */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  /* Uncomment for 3D effect */\n  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }\n\n.icon-zoom-in:before {\n  content: '\\E800'; }\n\n/* '' */\n.icon-twitter:before {\n  content: '\\F099'; }\n\n/* '' */\n.icon-github-circled:before {\n  content: '\\F09B'; }\n\n/* '' */\n.icon-menu:before {\n  content: '\\F0C9'; }\n\n/* '' */\n.icon-linkedin-squared:before {\n  content: '\\F30C'; }\n\n/* '' */\n.bl {\n  border: #EBE6F2 1px solid;\n  border-width: 0 0 0 1px; }\n\n.bv {\n  border: #EBE6F2 1px solid;\n  border-width: 1px 0; }\n\n.ba {\n  border: #EBE6F2 1px solid;\n  border-width: 1px; }\n\n/* display styles */\n.db {\n  display: block; }\n\n.dib {\n  display: inline-block; }\n\n.dl {\n  display: inline; }\n\n.lh0 {\n  line-height: 0; }\n\n/* margins */\n.m0 {\n  margin: 0; }\n\n.ma {\n  margin: .25em; }\n\n.ma1 {\n  margin: .5em; }\n\n.ma2 {\n  margin: 1em; }\n\n.mv {\n  margin: .25em 0; }\n\n.mv1 {\n  margin: .5em 0; }\n\n.mv2 {\n  margin: 1em 0; }\n\n.mh {\n  margin: 0 .25em; }\n\n.mh1 {\n  margin: 0 .5em; }\n\n.mh2 {\n  margin: 0 1em; }\n\n.mt {\n  margin-top: .25em; }\n\n.mt1 {\n  margin-top: .5em; }\n\n.mt2 {\n  margin-top: 1em; }\n\n.mr {\n  margin-right: .25em; }\n\n.mr1 {\n  margin-right: .5em; }\n\n.mr2 {\n  margin-right: 1em; }\n\n.mb {\n  margin-bottom: .25em; }\n\n.mb1 {\n  margin-bottom: .5em; }\n\n.mb2 {\n  margin-bottom: 1em; }\n\n.ml {\n  margin-left: .25em; }\n\n.ml1 {\n  margin-left: .5em; }\n\n.ml2 {\n  margin-left: 1em; }\n\n/* paddings */\n.p0 {\n  padding: 0; }\n\n.pa {\n  padding: .25em; }\n\n.pa1 {\n  padding: .5em; }\n\n.pa2 {\n  padding: 1em; }\n\n.pv {\n  padding: .25em 0; }\n\n.pv1 {\n  padding: .5em 0; }\n\n.pv2 {\n  padding: 1em 0; }\n\n.ph {\n  padding: 0 .25em; }\n\n.ph1 {\n  padding: 0 .5em; }\n\n.ph2 {\n  padding: 0 1em; }\n\n.pt {\n  padding-top: .25em; }\n\n.pt1 {\n  padding-top: .5em; }\n\n.pt2 {\n  padding-top: 1em; }\n\n.pr {\n  padding-right: .25em; }\n\n.pr1 {\n  padding-right: .5em; }\n\n.pr2 {\n  padding-right: 1em; }\n\n.pb {\n  padding-bottom: .25em; }\n\n.pb1 {\n  padding-bottom: .5em; }\n\n.pb2 {\n  padding-bottom: 1em; }\n\n.pl {\n  padding-left: .25em; }\n\n.pl1 {\n  padding-left: .5em; }\n\n.pl2 {\n  padding-left: 1em; }\n\n.relative {\n  position: relative; }\n\n.absolute {\n  position: absolute; }\n\n.content {\n  position: relative;\n  z-index: 1; }\n\n.masthead {\n  background-color: #FCFAFF;\n  position: relative;\n  border: #EBE6F2 1px solid;\n  border-width: 0 0 1px;\n  padding: .25em; }\n  .masthead > .logo {\n    display: inline-block;\n    vertical-align: middle; }\n    .masthead > .logo .site-name {\n      font-family: 'Henny Penny', serif;\n      font-weight: 400;\n      font-size: 2em;\n      line-height: 1;\n      margin: 0; }\n      .masthead > .logo .site-name > .slink span {\n        color: #5c3d87;\n        display: inline-block;\n        margin: 0; }\n        .masthead > .logo .site-name > .slink span:first-letter {\n          font-size: 1.2em;\n          color: #cca65c;\n          line-height: 2.5rem;\n          vertical-align: -.25rem; }\n      @media only screen and (min-width: 960px) {\n        .masthead > .logo .site-name {\n          font-size: 3em; } }\n  .masthead > a {\n    border: #3d8781 1px solid;\n    border-width: 1px;\n    border-radius: 0.1875rem;\n    color: #3d8781;\n    display: block;\n    margin: 0 0 0 .25rem;\n    position: absolute;\n    top: .5rem;\n    right: .5rem;\n    text-decoration: none; }\n    .masthead > a .icon-menu {\n      font-size: 1rem; }\n      @media only screen and (min-width: 960px) {\n        .masthead > a .icon-menu {\n          font-size: 2rem; } }\n    @media only screen and (min-width: 960px) {\n      .masthead > a {\n        top: 1em;\n        right: 1em; } }\n  @media only screen and (min-width: 960px) {\n    .masthead {\n      padding: 1em; } }\n\n.splash {\n  position: relative; }\n\n.splash::after {\n  background-color: #170F21;\n  content: '';\n  opacity: .4;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0; }\n\n.hero-image {\n  width: 100%; }\n\n.home-splash {\n  background: linear-gradient(to bottom, #302046, #452e66);\n  position: relative;\n  padding-bottom: 18rem; }\n  .home-splash .brand {\n    color: #d6edeb; }\n  .home-splash img[class|=\"splash\"] {\n    box-shadow: 0.0625rem 0.0625rem 0.1875rem 0.125rem rgba(21, 15, 33, 0.15);\n    position: absolute;\n    bottom: 9rem;\n    left: 20%;\n    max-width: 175px;\n    margin: 0 auto; }\n    .home-splash img[class|=\"splash\"].splash-adge {\n      bottom: 7rem;\n      left: 45%; }\n    .home-splash img[class|=\"splash\"].splash-rjm {\n      bottom: 4rem;\n      left: 33%; }\n  .home-splash .note {\n    position: absolute;\n    bottom: .5rem;\n    left: .5rem; }\n  @media only screen and (min-width: 640px) {\n    .home-splash .note {\n      left: initial;\n      right: .5rem; } }\n  @media only screen and (min-width: 960px) {\n    .home-splash {\n      padding-left: 22rem;\n      padding-bottom: 1rem;\n      min-height: 20rem; }\n      .home-splash img[class|=\"splash\"] {\n        top: 1rem;\n        left: 1rem; }\n        .home-splash img[class|=\"splash\"].splash-adge {\n          top: 2rem;\n          left: 9rem; }\n        .home-splash img[class|=\"splash\"].splash-rjm {\n          top: 7rem;\n          left: 4rem; } }\n\n.dad-jokes-sec {\n  background: linear-gradient(to bottom, #462023, #863c42);\n  position: relative; }\n  .dad-jokes-sec .brand {\n    color: #90a5cd; }\n  .dad-jokes-sec .green {\n    color: #d6edeb; }\n  .dad-jokes-sec > *:not(.ha-has) {\n    position: relative;\n    z-index: 3; }\n  .dad-jokes-sec .ha-has {\n    position: absolute;\n    z-index: 0;\n    width: 100%;\n    height: 100%;\n    top: 0;\n    left: 0;\n    overflow: hidden; }\n    .dad-jokes-sec .ha-has svg {\n      position: absolute;\n      z-index: 0;\n      animation: 250ms infinite alternate linear; }\n      .dad-jokes-sec .ha-has svg path {\n        fill: rgba(255, 255, 255, 0.05); }\n      .dad-jokes-sec .ha-has svg#ha1 {\n        width: 15vw;\n        top: 2%;\n        left: 3%;\n        animation-duration: 100ms;\n        animation-name: ha1; }\n      .dad-jokes-sec .ha-has svg#ha2 {\n        width: 25vw;\n        transform-origin: center;\n        animation-duration: 200ms;\n        animation-name: ha2;\n        top: 0%;\n        right: 5%; }\n      .dad-jokes-sec .ha-has svg#ha3 {\n        width: 15vw;\n        bottom: 5%;\n        right: 5%;\n        animation-duration: 150ms;\n        animation-name: ha3; }\n      .dad-jokes-sec .ha-has svg#ha4 {\n        width: 33vw;\n        top: 50%;\n        right: 3%;\n        animation-duration: 150ms;\n        animation-name: ha4; }\n      .dad-jokes-sec .ha-has svg#ha5 {\n        width: 40vw;\n        bottom: 25%;\n        left: 5%;\n        animation-name: ha5;\n        animation-duration: 150ms; }\n      .dad-jokes-sec .ha-has svg#ha6 {\n        width: 15vw;\n        bottom: 5%;\n        left: 5%;\n        transform: rotate(-5deg);\n        animation-name: ha6;\n        animation-duration: 750ms; }\n      .dad-jokes-sec .ha-has svg#ha7 {\n        width: 12vw;\n        top: 25%;\n        right: 50%;\n        animation-name: ha7;\n        animation-duration: 150ms; }\n      @media only screen and (min-width: 960px) {\n        .dad-jokes-sec .ha-has svg#ha1 {\n          width: 4em; }\n        .dad-jokes-sec .ha-has svg#ha2 {\n          width: 10em; }\n        .dad-jokes-sec .ha-has svg#ha3 {\n          width: 6em;\n          right: 33%;\n          bottom: auto;\n          top: 15%; }\n        .dad-jokes-sec .ha-has svg#ha4 {\n          width: 6em;\n          top: auto;\n          bottom: 1%;\n          right: 15%; }\n        .dad-jokes-sec .ha-has svg#ha5 {\n          width: 6em;\n          bottom: auto;\n          top: 2%;\n          left: auto;\n          left: 25%; }\n        .dad-jokes-sec .ha-has svg#ha6 {\n          width: 7em; }\n        .dad-jokes-sec .ha-has svg#ha7 {\n          width: 12em; } }\n\n@keyframes ha1 {\n  from {\n    transform: scale(1) rotate(-20deg); }\n  to {\n    transform: scale(0.92) rotate(-20deg); } }\n\n@keyframes ha2 {\n  from {\n    transform: rotate(-11deg) rotate(-10deg); }\n  to {\n    transform: rotate(-7deg) rotate(-10deg); } }\n\n@keyframes ha3 {\n  0% {\n    transform: translate(0, 2px) rotate(14deg); }\n  25% {\n    transform: translate(2px, 2px) rotate(14deg); }\n  50% {\n    transform: translate(2px, -2px) rotate(14deg); }\n  75% {\n    transform: translate(-2px, -2px) rotate(14deg); }\n  100% {\n    transform: translate(0, 0) rotate(14deg); } }\n\n@keyframes ha4 {\n  from {\n    transform: skew(3deg) rotate(-33deg); }\n  to {\n    transform: skew(-3deg) rotate(-33deg); } }\n\n@keyframes ha5 {\n  from {\n    transform: scale(1) rotate(25deg); }\n  to {\n    transform: scale(1, 0.85) rotate(25deg); } }\n\n@keyframes ha6 {\n  0% {\n    opacity: 1; }\n  10% {\n    opacity: .75; }\n  20% {\n    opacity: .5; }\n  30% {\n    opacity: .75; }\n  40% {\n    opacity: 1; }\n  50% {\n    opacity: .75; }\n  60% {\n    opacity: .5; }\n  70% {\n    opacity: .75; }\n  80% {\n    opacity: 1; }\n  90% {\n    opacity: .75; }\n  100% {\n    opacity: .5; } }\n\n@keyframes ha7 {\n  from {\n    transform: scale(1) rotate(-13deg); }\n  to {\n    transform: scale(0.95, 1) rotate(-13deg); } }\n\n.dad-jokes {\n  display: grid;\n  grid-template-columns: auto;\n  grid-template-rows: auto;\n  min-height: 14em; }\n  .dad-jokes p {\n    align-self: center;\n    justify-self: center; }\n    .dad-jokes p.joke {\n      line-height: 1.2;\n      text-shadow: 0.125rem 0.125rem 0.125rem rgba(54, 0, 0, 0.75); }\n      @media only screen and (min-width: 960px) {\n        .dad-jokes p.joke {\n          line-height: 1.3;\n          padding: 1em; } }\n  .dad-jokes button {\n    background: linear-gradient(to bottom, #FCFAFF, #EBE6F2);\n    border-radius: .5rem;\n    border: 0.0625rem solid #3d8781;\n    color: #3d8781;\n    font-weight: 500;\n    outline: 0; }\n  @media only screen and (min-width: 960px) {\n    .dad-jokes {\n      grid-template-columns: 2fr 1fr;\n      grid-template-rows: auto;\n      min-height: 14em; }\n      .dad-jokes p:not(.joke) {\n        align-self: center;\n        justify-self: center; } }\n\n.topnav {\n  box-sizing: border-box;\n  position: relative;\n  text-align: right;\n  z-index: 5; }\n\n.menu {\n  background: #fff;\n  position: absolute;\n  top: 0;\n  right: 0;\n  list-style: none;\n  margin: 0;\n  overflow: hidden;\n  padding: 0;\n  transition: height 250ms ease-in;\n  width: 320px; }\n  .menu.show {\n    transition-timing-function: ease-out; }\n  .menu > li {\n    border: solid #F6F2FA;\n    border-width: 1px 1px 0;\n    margin: 0;\n    padding: 0;\n    text-align: left; }\n    .menu > li:last-child {\n      border-bottom-width: 1px; }\n    .menu > li > a {\n      color: #5c3d87;\n      display: block;\n      padding: .5rem 1rem;\n      text-decoration: none; }\n      .menu > li > a:hover {\n        background-color: rgba(204, 166, 92, 0.15); }\n\n.group {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr;\n  grid-column-gap: 1rem;\n  grid-row-gap: 1.5rem; }\n  .group > .group-item {\n    background-color: #EBE6F2;\n    box-shadow: 0.0625rem 0.0625rem 0.25rem 0.0625rem rgba(20, 40, 40, 0.25); }\n    @media only screen and (min-width: 960px) {\n      .group > .group-item header {\n        max-height: 9.6875em;\n        line-height: 0;\n        overflow: hidden; } }\n  .group .s5 {\n    background: linear-gradient(to top, rgba(21, 15, 33, 0.8), rgba(21, 15, 33, 0) 33%, rgba(21, 15, 33, 0) 100%);\n    line-height: 1.4;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0; }\n  .group .s5 > span.absolute {\n    bottom: 1em;\n    left: 1em;\n    max-width: 10em; }\n  .group .s5 a.blocks {\n    background-color: #F6F2FA;\n    box-shadow: -0.25em 0 0 0.125em #F6F2FA, 0.25em 0 0 0.125em #F6F2FA;\n    color: #cca75c;\n    line-height: 1;\n    padding-top: .1em;\n    padding-bottom: .1em;\n    text-decoration: none;\n    -webkit-box-decoration-break: clone;\n    box-decoration-break: clone; }\n  @media only screen and (min-width: 640px) {\n    .group {\n      grid-template-columns: 1fr 1fr; } }\n  @media only screen and (min-width: 960px) {\n    .group {\n      grid-template-columns: 1fr 1fr 1fr; } }\n  @media only screen and (min-width: 1120px) {\n    .group {\n      grid-template-columns: 1fr 1fr 1fr 1fr; } }\n\n.items {\n  position: relative;\n  min-height: 12rem; }\n  .items .item {\n    position: absolute;\n    z-index: 0;\n    width: 55.55556%;\n    transition: transform .25s ease-in;\n    transform-origin: top left; }\n    .items .item > img {\n      box-shadow: 0.0625rem 0.0625rem 0.1875rem 0.125rem rgba(21, 15, 33, 0.15);\n      cursor: pointer; }\n    .items .item.mid {\n      transform-origin: top center; }\n      @media only screen and (min-width: 960px) {\n        .items .item.mid {\n          transform-origin: bottom center; } }\n    .items .item.right {\n      transform-origin: top right; }\n      @media only screen and (min-width: 960px) {\n        .items .item.right {\n          transform-origin: bottom right; } }\n    .items .item.view {\n      transition-timing-function: ease-out; }\n    @media only screen and (min-width: 960px) {\n      .items .item {\n        transform-origin: bottom left; } }\n  @media only screen and (min-width: 480px) {\n    .items {\n      min-height: 18rem; } }\n  @media only screen and (min-width: 640px) {\n    .items {\n      min-height: 22rem; } }\n  @media only screen and (min-width: 800px) {\n    .items {\n      min-height: 14rem; } }\n\n@media only screen and (min-width: 800px) {\n  .project-group {\n    display: flex;\n    align-items: flex-start;\n    flex-wrap: nowrap; } }\n\n.project-group-item {\n  width: 100%; }\n  @media only screen and (min-width: 800px) {\n    .project-group-item {\n      flex-grow: 1;\n      flex-basis: 10rem; }\n      .project-group-item.copy {\n        flex-grow: 2; } }\n\n.items .item.vert {\n  width: 34.33333%; }\n\n.items .item.pic1 {\n  top: -1.38889%;\n  left: 60%; }\n\n.items .item.pic2 {\n  top: 33.33333%;\n  right: 5%; }\n\n.items .item.pic3 {\n  top: 1.38889%;\n  left: 0; }\n\n.items .item.pic4 {\n  top: 10%;\n  left: 2%; }\n\n.items .item.pic5 {\n  top: 5%;\n  right: 19.44444%; }\n\n.items .item.pic6 {\n  top: 0;\n  right: 2%; }\n\n.spec-rjm .items .item.pic7 {\n  bottom: -.33333rem;\n  left: .5rem; }\n\n.spec-ea .items .item.pic1 {\n  top: initial;\n  bottom: 0;\n  left: 0; }\n\n.spec-ea .items .item.pic2 {\n  top: initial;\n  bottom: 0;\n  right: 5%; }\n\n.spec-ea .items .item.pic3 {\n  top: -5%;\n  left: 5%; }\n\n.spec-ea .items .item.pic4 {\n  top: 2.5%;\n  right: 3%;\n  left: initial; }\n\n.spec-ea .items .item.pic5 {\n  top: 10%;\n  left: 2%; }\n\n.spec-ea .items .item.pic6 {\n  top: 5%;\n  left: 20%; }\n\n.spec-ea .items .item.pic7 {\n  top: 0;\n  right: 2%; }\n\n.spec-sv .items .item.pic1 {\n  left: initial;\n  right: 1rem; }\n\n.spec-sv .items .item.pic4 {\n  top: inherit;\n  bottom: 0;\n  left: 5%; }\n\n.spec-sv .items .item.pic5 {\n  top: 15%;\n  left: 0; }\n\n.spec-sv .items .item.pic6 {\n  top: 10%;\n  left: 10%; }\n\n.spec-sv .items .item.pic7 {\n  top: 5%;\n  right: 20%; }\n\n.spec-sv .items .item.pic8 {\n  top: 0;\n  right: 0; }\n\na.soc-links {\n  color: #3d8781;\n  font-size: 4rem; }\n\n.site-footer {\n  border: #EBE6F2 1px solid;\n  border-width: 1px 0 0;\n  background-color: #d6edeb; }\n\n.inline-list {\n  list-style: none; }\n  .inline-list > li {\n    display: inline-block; }\n  .inline-list.site-links li::after {\n    border-left: 0.0625rem solid #873d43;\n    content: '';\n    display: inline-block;\n    height: .75rem;\n    vertical-align: middle; }\n  .inline-list.site-links li:last-child::after {\n    display: none; }\n  .inline-list.site-links li a {\n    padding: .25rem .5rem; }\n  .inline-list.site-links li:first-child a {\n    padding-left: 0; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/* hsl(40, 52%, 58%) */\nhtml {\n  background: #fff;\n  font-family: 'Alegreya Sans', sans-serif;\n  font-size: 5vw;\n  /* 16px for 320px wide viewport */\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%; }\n  @media only screen and (min-width: 1024px) {\n    html {\n      font-size: 16px; } }\n\nbody {\n  background: #fff;\n  color: #222;\n  font-size: 1rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin: 0 3.5rem 0 0;\n  padding: 0;\n  position: relative; }\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n\nmain * + * {\n  margin: 0 0 1rem; }\n\n[hidden],\ntemplate {\n  display: none; }\n\nimg {\n  border: 0; }\n\nsvg:not(:root) {\n  overflow: hidden; }\n\nfigure {\n  margin: 1em 40px; }\n\nhr {\n  box-sizing: content-box;\n  height: 0; }\n\npre {\n  overflow: auto; }\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0; }\n\nbutton {\n  overflow: visible; }\n\nbutton,\nselect {\n  text-transform: none; }\n\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer; }\n\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n\ninput {\n  line-height: normal; }\n\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0; }\n\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  box-sizing: content-box;\n  /* 2 */ }\n\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\ntextarea {\n  overflow: auto; }\n\noptgroup {\n  font-weight: bold; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\ntd,\nth {\n  padding: 0; }\n\n/* text alignments */\n.tal {\n  text-align: left; }\n\n.tar {\n  text-align: right; }\n\n.tac {\n  text-align: center; }\n\n/* link treatments */\na.slink {\n  text-decoration: none; }\n\n.copy-header {\n  font-weight: 500;\n  color: #5c3d87;\n  margin-bottom: .5em; }\n\n.brand {\n  color: #5c3d87; }\n\n.green {\n  color: #3d8781; }\n\n.gold {\n  color: #876e3d; }\n\n.blue {\n  color: #3d5687; }\n\n.ruby {\n  color: #873d43; }\n\n.white {\n  color: #fff; }\n\n.large-type {\n  font-size: 3rem; }\n\n.s1 {\n  font-size: 2rem; }\n\n.s2 {\n  font-size: 1.8rem; }\n\n.s3 {\n  font-size: 1.6rem; }\n\n.s4 {\n  font-size: 1.4rem; }\n\n.s5 {\n  font-size: 1.2rem; }\n\n.s6 {\n  font-size: 1rem; }\n\n.s7 {\n  font-size: .875rem; }\n\n.s8, .note {\n  font-size: .75rem; }\n\n.s9 {\n  font-size: .625rem; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: 300; }\n\nh3.absolute {\n  font-weight: 500; }\n\na {\n  color: #3d8781;\n  text-decoration: none; }\n\na:visited {\n  color: #3d5687; }\n\na:hover,\na:focus {\n  color: #876e3d; }\n\na:active {\n  color: #841a1a; }\n\na.light {\n  color: #dfca9f; }\n\nabbr[title] {\n  border-bottom: 1px dotted; }\n\nb,\nstrong {\n  font-weight: 500; }\n\ni,\nem,\ndfn {\n  font-style: italic; }\n\nmark {\n  background: #ff0;\n  color: #000; }\n\nsmall {\n  font-size: 80%; }\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsup {\n  top: -0.5em; }\n\nsub {\n  bottom: -0.25em; }\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: .9rem; }\n\n@font-face {\n  font-family: 'fontello';\n  src: url(\"/font/fontello.eot?21332555\");\n  src: url(\"/font/fontello.eot?21332555#iefix\") format(\"embedded-opentype\"), url(\"/font/fontello.woff2?21332555\") format(\"woff2\"), url(\"/font/fontello.woff?21332555\") format(\"woff\"), url(\"/font/fontello.ttf?21332555\") format(\"truetype\"), url(\"/font/fontello.svg?21332555#fontello\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"]:before, [class*=\" icon-\"]:before {\n  font-family: \"fontello\";\n  font-style: normal;\n  font-weight: normal;\n  speak: none;\n  display: inline-block;\n  text-decoration: inherit;\n  width: 1em;\n  margin-right: .2em;\n  text-align: center;\n  /* opacity: .8; */\n  /* For safety - reset parent styles, that can break glyph codes*/\n  font-variant: normal;\n  text-transform: none;\n  /* fix buttons height, for twitter bootstrap */\n  line-height: 1em;\n  /* Animation center compensation - margins should be symmetric */\n  /* remove if not needed */\n  margin-left: .2em;\n  /* you can be more comfortable with increased icons size */\n  /* font-size: 120%; */\n  /* Font smoothing. That was taken from TWBS */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  /* Uncomment for 3D effect */\n  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }\n\n.icon-zoom-in:before {\n  content: '\\E800'; }\n\n/* '' */\n.icon-twitter:before {\n  content: '\\F099'; }\n\n/* '' */\n.icon-github-circled:before {\n  content: '\\F09B'; }\n\n/* '' */\n.icon-menu:before {\n  content: '\\F0C9'; }\n\n/* '' */\n.icon-linkedin-squared:before {\n  content: '\\F30C'; }\n\n/* '' */\n.bl {\n  border: #EBE6F2 1px solid;\n  border-width: 0 0 0 1px; }\n\n.bv {\n  border: #EBE6F2 1px solid;\n  border-width: 1px 0; }\n\n.ba {\n  border: #EBE6F2 1px solid;\n  border-width: 1px; }\n\n.bxb {\n  box-sizing: border-box; }\n\n/* display styles */\n.db {\n  display: block; }\n\n.dib {\n  display: inline-block; }\n\n.dl {\n  display: inline; }\n\n.lh0 {\n  line-height: 0; }\n\n/* margins */\n.m0 {\n  margin: 0; }\n\n.ma {\n  margin: .25em; }\n\n.ma1 {\n  margin: .5em; }\n\n.ma2 {\n  margin: 1em; }\n\n.mv {\n  margin: .25em 0; }\n\n.mv1 {\n  margin: .5em 0; }\n\n.mv2 {\n  margin: 1em 0; }\n\n.mh {\n  margin: 0 .25em; }\n\n.mh1 {\n  margin: 0 .5em; }\n\n.mh2 {\n  margin: 0 1em; }\n\n.mt {\n  margin-top: .25em; }\n\n.mt1 {\n  margin-top: .5em; }\n\n.mt2 {\n  margin-top: 1em; }\n\n.mr {\n  margin-right: .25em; }\n\n.mr1 {\n  margin-right: .5em; }\n\n.mr2 {\n  margin-right: 1em; }\n\n.mb {\n  margin-bottom: .25em; }\n\n.mb1 {\n  margin-bottom: .5em; }\n\n.mb2 {\n  margin-bottom: 1em; }\n\n.ml {\n  margin-left: .25em; }\n\n.ml1 {\n  margin-left: .5em; }\n\n.ml2 {\n  margin-left: 1em; }\n\n/* paddings */\n.p0 {\n  padding: 0; }\n\n.pa {\n  padding: .25em; }\n\n.pa1 {\n  padding: .5em; }\n\n.pa2 {\n  padding: 1em; }\n\n.pv {\n  padding: .25em 0; }\n\n.pv1 {\n  padding: .5em 0; }\n\n.pv2 {\n  padding: 1em 0; }\n\n.ph {\n  padding: 0 .25em; }\n\n.ph1 {\n  padding: 0 .5em; }\n\n.ph2 {\n  padding: 0 1em; }\n\n.pt {\n  padding-top: .25em; }\n\n.pt1 {\n  padding-top: .5em; }\n\n.pt2 {\n  padding-top: 1em; }\n\n.pr {\n  padding-right: .25em; }\n\n.pr1 {\n  padding-right: .5em; }\n\n.pr2 {\n  padding-right: 1em; }\n\n.pb {\n  padding-bottom: .25em; }\n\n.pb1 {\n  padding-bottom: .5em; }\n\n.pb2 {\n  padding-bottom: 1em; }\n\n.pl {\n  padding-left: .25em; }\n\n.pl1 {\n  padding-left: .5em; }\n\n.pl2 {\n  padding-left: 1em; }\n\n.relative {\n  position: relative; }\n\n.absolute {\n  position: absolute; }\n\n.masthead {\n  position: relative;\n  padding: .25em; }\n  .masthead > .logo {\n    display: inline-block;\n    vertical-align: middle; }\n    .masthead > .logo .site-name {\n      font-family: 'Henny Penny', serif;\n      font-weight: 400;\n      font-size: 2em;\n      line-height: 1;\n      margin: 0; }\n      .masthead > .logo .site-name > .slink span {\n        color: #5c3d87;\n        display: inline-block;\n        margin: 0; }\n        .masthead > .logo .site-name > .slink span:first-letter {\n          font-size: 1.2em;\n          color: #cca65c;\n          line-height: 2.5rem;\n          vertical-align: -.25rem; }\n\n.splash {\n  position: relative; }\n\n.splash::after {\n  background-color: #170F21;\n  content: '';\n  opacity: .4;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0; }\n\n.hero-image {\n  width: 100%; }\n\n.home-splash {\n  position: relative;\n  max-width: 30em;\n  padding-bottom: 18em; }\n  .home-splash .brand {\n    color: #873d43; }\n  .home-splash img[class|=\"splash\"] {\n    box-shadow: 0.0625rem 0.0625rem 0.1875rem 0.125rem rgba(21, 15, 33, 0.15);\n    position: absolute;\n    bottom: 9rem;\n    left: 10%;\n    max-width: 175px;\n    margin: 0 auto; }\n    .home-splash img[class|=\"splash\"].splash-adge {\n      bottom: 7rem;\n      left: 35%; }\n    .home-splash img[class|=\"splash\"].splash-rjm {\n      bottom: 4rem;\n      left: 23%; }\n  @media only screen and (min-width: 640px) {\n    .home-splash .note {\n      left: initial;\n      right: .5rem; } }\n  @media only screen and (min-width: 1024px) {\n    .home-splash {\n      padding-left: 22rem;\n      padding-bottom: 1rem;\n      min-height: 20rem; }\n      .home-splash img[class|=\"splash\"] {\n        top: 1rem;\n        left: 1rem; }\n        .home-splash img[class|=\"splash\"].splash-adge {\n          top: 2rem;\n          left: 9rem; }\n        .home-splash img[class|=\"splash\"].splash-rjm {\n          top: 7rem;\n          left: 4rem; } }\n\n.dad-jokes-sec {\n  background: linear-gradient(to bottom, #462023, #863c42);\n  transform: rotate(3deg); }\n  .dad-jokes-sec .brand {\n    color: #90a5cd; }\n  .dad-jokes-sec .green {\n    color: #d6edeb; }\n  .dad-jokes-sec > *:not(.ha-has) {\n    position: relative;\n    z-index: 3; }\n  .dad-jokes-sec .ha-has {\n    position: absolute;\n    z-index: 0;\n    width: 100%;\n    height: 100%;\n    top: 0;\n    left: 0;\n    overflow: hidden; }\n    .dad-jokes-sec .ha-has svg {\n      position: absolute;\n      z-index: 0;\n      animation: 250ms infinite alternate linear; }\n      .dad-jokes-sec .ha-has svg path {\n        fill: rgba(255, 255, 255, 0.05); }\n      .dad-jokes-sec .ha-has svg#ha1 {\n        width: 15vw;\n        top: 2%;\n        left: 3%;\n        animation-duration: 100ms;\n        animation-name: ha1; }\n      .dad-jokes-sec .ha-has svg#ha2 {\n        width: 25vw;\n        transform-origin: center;\n        animation-duration: 200ms;\n        animation-name: ha2;\n        top: 0%;\n        right: 5%; }\n      .dad-jokes-sec .ha-has svg#ha3 {\n        width: 15vw;\n        bottom: 5%;\n        right: 5%;\n        animation-duration: 150ms;\n        animation-name: ha3; }\n      .dad-jokes-sec .ha-has svg#ha4 {\n        width: 33vw;\n        top: 50%;\n        right: 3%;\n        animation-duration: 150ms;\n        animation-name: ha4; }\n      .dad-jokes-sec .ha-has svg#ha5 {\n        width: 40vw;\n        bottom: 25%;\n        left: 5%;\n        animation-name: ha5;\n        animation-duration: 150ms; }\n      .dad-jokes-sec .ha-has svg#ha6 {\n        width: 15vw;\n        bottom: 5%;\n        left: 5%;\n        transform: rotate(-5deg);\n        animation-name: ha6;\n        animation-duration: 750ms; }\n      .dad-jokes-sec .ha-has svg#ha7 {\n        width: 12vw;\n        top: 25%;\n        right: 50%;\n        animation-name: ha7;\n        animation-duration: 150ms; }\n      @media only screen and (min-width: 1024px) {\n        .dad-jokes-sec .ha-has svg#ha1 {\n          width: 4em; }\n        .dad-jokes-sec .ha-has svg#ha2 {\n          width: 10em; }\n        .dad-jokes-sec .ha-has svg#ha3 {\n          width: 6em;\n          right: 33%;\n          bottom: auto;\n          top: 15%; }\n        .dad-jokes-sec .ha-has svg#ha4 {\n          width: 6em;\n          top: auto;\n          bottom: 1%;\n          right: 15%; }\n        .dad-jokes-sec .ha-has svg#ha5 {\n          width: 6em;\n          bottom: auto;\n          top: 2%;\n          left: auto;\n          left: 25%; }\n        .dad-jokes-sec .ha-has svg#ha6 {\n          width: 7em; }\n        .dad-jokes-sec .ha-has svg#ha7 {\n          width: 12em; } }\n  @media only screen and (min-width: 1024px) {\n    .dad-jokes-sec {\n      margin-left: 50%; } }\n\n@keyframes ha1 {\n  from {\n    transform: scale(1) rotate(-20deg); }\n  to {\n    transform: scale(0.92) rotate(-20deg); } }\n\n@keyframes ha2 {\n  from {\n    transform: rotate(-11deg) rotate(-10deg); }\n  to {\n    transform: rotate(-7deg) rotate(-10deg); } }\n\n@keyframes ha3 {\n  0% {\n    transform: translate(0, 2px) rotate(14deg); }\n  25% {\n    transform: translate(2px, 2px) rotate(14deg); }\n  50% {\n    transform: translate(2px, -2px) rotate(14deg); }\n  75% {\n    transform: translate(-2px, -2px) rotate(14deg); }\n  100% {\n    transform: translate(0, 0) rotate(14deg); } }\n\n@keyframes ha4 {\n  from {\n    transform: skew(3deg) rotate(-33deg); }\n  to {\n    transform: skew(-3deg) rotate(-33deg); } }\n\n@keyframes ha5 {\n  from {\n    transform: scale(1) rotate(25deg); }\n  to {\n    transform: scale(1, 0.85) rotate(25deg); } }\n\n@keyframes ha6 {\n  0% {\n    opacity: 1; }\n  10% {\n    opacity: .75; }\n  20% {\n    opacity: .5; }\n  30% {\n    opacity: .75; }\n  40% {\n    opacity: 1; }\n  50% {\n    opacity: .75; }\n  60% {\n    opacity: .5; }\n  70% {\n    opacity: .75; }\n  80% {\n    opacity: 1; }\n  90% {\n    opacity: .75; }\n  100% {\n    opacity: .5; } }\n\n@keyframes ha7 {\n  from {\n    transform: scale(1) rotate(-13deg); }\n  to {\n    transform: scale(0.95, 1) rotate(-13deg); } }\n\n.dad-jokes {\n  display: grid;\n  grid-template-columns: auto;\n  grid-template-rows: auto;\n  min-height: 18em; }\n  .dad-jokes p {\n    align-self: center;\n    justify-self: center; }\n    .dad-jokes p.joke {\n      line-height: 1.2;\n      text-shadow: 0.125rem 0.125rem 0.125rem rgba(54, 0, 0, 0.75); }\n      @media only screen and (min-width: 1024px) {\n        .dad-jokes p.joke {\n          line-height: 1.3;\n          padding: 1em; } }\n  .dad-jokes button {\n    background: #5c3d87;\n    border: 0;\n    color: #fff;\n    outline: 0; }\n  @media only screen and (min-width: 1024px) {\n    .dad-jokes p:not(.joke) {\n      align-self: center;\n      justify-self: center; } }\n\n.topnav {\n  position: absolute;\n  right: -1rem;\n  top: 22em;\n  transform: rotate(90deg);\n  transform-origin: bottom right;\n  width: auto; }\n  @media only screen and (min-width: 1024px) {\n    .topnav {\n      top: 20rem;\n      bottom: auto; } }\n\n.menu {\n  list-style: none;\n  min-width: 20rem; }\n  .menu > li {\n    display: inline-block; }\n    .menu > li > a {\n      color: #5c3d87;\n      display: block;\n      padding: .25rem;\n      position: relative;\n      text-decoration: underline; }\n\n.project {\n  margin: 0 0 0 25%;\n  max-width: 56rem; }\n\n.wide {\n  max-width: 48rem; }\n\n.group {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr;\n  grid-column-gap: 1rem;\n  grid-row-gap: 1.5rem; }\n  .group > .group-item {\n    background-color: #EBE6F2;\n    box-shadow: 0.0625rem 0.0625rem 0.25rem 0.0625rem rgba(20, 40, 40, 0.25); }\n    @media only screen and (min-width: 1024px) {\n      .group > .group-item header {\n        max-height: 9.6875em;\n        line-height: 0;\n        overflow: hidden; } }\n  .group .s5 {\n    background: linear-gradient(to top, rgba(21, 15, 33, 0.8), rgba(21, 15, 33, 0) 33%, rgba(21, 15, 33, 0) 100%);\n    line-height: 1.4;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0; }\n  .group .s5 > span.absolute {\n    bottom: 1em;\n    left: 1em;\n    max-width: 10em; }\n  .group .s5 a.blocks {\n    background-color: #F6F2FA;\n    box-shadow: -0.25em 0 0 0.125em #F6F2FA, 0.25em 0 0 0.125em #F6F2FA;\n    color: #cca75c;\n    line-height: 1;\n    padding-top: .1em;\n    padding-bottom: .1em;\n    text-decoration: none;\n    -webkit-box-decoration-break: clone;\n    box-decoration-break: clone; }\n  @media only screen and (min-width: 640px) {\n    .group {\n      grid-template-columns: 1fr; } }\n  @media only screen and (min-width: 1024px) {\n    .group {\n      grid-template-columns: 1fr 1fr 1fr; } }\n  @media only screen and (min-width: 1120px) {\n    .group {\n      grid-template-columns: 1fr 1fr 1fr 1fr; } }\n\n.items {\n  position: relative;\n  min-height: 12rem; }\n  .items .item {\n    position: absolute;\n    z-index: 0;\n    width: 55.55556%;\n    transition: transform .25s ease-in;\n    transform-origin: top left; }\n    .items .item > img {\n      box-shadow: 0.0625rem 0.0625rem 0.1875rem 0.125rem rgba(21, 15, 33, 0.15);\n      cursor: pointer; }\n    .items .item.mid {\n      transform-origin: top center; }\n      @media only screen and (min-width: 1024px) {\n        .items .item.mid {\n          transform-origin: bottom center; } }\n    .items .item.right {\n      transform-origin: top right; }\n      @media only screen and (min-width: 1024px) {\n        .items .item.right {\n          transform-origin: bottom right; } }\n    .items .item.view {\n      transition-timing-function: ease-out; }\n    @media only screen and (min-width: 1024px) {\n      .items .item {\n        transform-origin: bottom left; } }\n  @media only screen and (min-width: 480px) {\n    .items {\n      min-height: 18rem; } }\n  @media only screen and (min-width: 640px) {\n    .items {\n      min-height: 22rem; } }\n  @media only screen and (min-width: 800px) {\n    .items {\n      min-height: 14rem; } }\n\n@media only screen and (min-width: 800px) {\n  .project-group {\n    display: flex;\n    align-items: flex-start;\n    flex-wrap: nowrap; } }\n\n.project-group-item {\n  width: 100%; }\n  @media only screen and (min-width: 800px) {\n    .project-group-item {\n      flex-grow: 1;\n      flex-basis: 10rem; }\n      .project-group-item.copy {\n        flex-grow: 2; } }\n\n.items .item.vert {\n  width: 34.33333%; }\n\n.items .item.pic1 {\n  top: -1.38889%;\n  left: 60%; }\n\n.items .item.pic2 {\n  top: 33.33333%;\n  right: 5%; }\n\n.items .item.pic3 {\n  top: 1.38889%;\n  left: 0; }\n\n.items .item.pic4 {\n  top: 10%;\n  left: 2%; }\n\n.items .item.pic5 {\n  top: 5%;\n  right: 19.44444%; }\n\n.items .item.pic6 {\n  top: 0;\n  right: 2%; }\n\n.spec-rjm .items .item.pic7 {\n  bottom: -.33333rem;\n  left: .5rem; }\n\n.spec-ea .items .item.pic1 {\n  top: initial;\n  bottom: 0;\n  left: 0; }\n\n.spec-ea .items .item.pic2 {\n  top: initial;\n  bottom: 0;\n  right: 5%; }\n\n.spec-ea .items .item.pic3 {\n  top: -5%;\n  left: 5%; }\n\n.spec-ea .items .item.pic4 {\n  top: 2.5%;\n  right: 3%;\n  left: initial; }\n\n.spec-ea .items .item.pic5 {\n  top: 10%;\n  left: 2%; }\n\n.spec-ea .items .item.pic6 {\n  top: 5%;\n  left: 20%; }\n\n.spec-ea .items .item.pic7 {\n  top: 0;\n  right: 2%; }\n\n.spec-sv .items .item.pic1 {\n  left: initial;\n  right: 1rem; }\n\n.spec-sv .items .item.pic4 {\n  top: inherit;\n  bottom: 0;\n  left: 5%; }\n\n.spec-sv .items .item.pic5 {\n  top: 15%;\n  left: 0; }\n\n.spec-sv .items .item.pic6 {\n  top: 10%;\n  left: 10%; }\n\n.spec-sv .items .item.pic7 {\n  top: 5%;\n  right: 20%; }\n\n.spec-sv .items .item.pic8 {\n  top: 0;\n  right: 0; }\n\n.social-links {\n  bottom: 0;\n  right: -3rem;\n  width: 3em; }\n\na.soc-links {\n  color: #3d8781;\n  font-size: 2rem; }\n\n.site-footer {\n  border: #EBE6F2 1px solid;\n  border-width: 1px 0 0;\n  background-color: #d6edeb;\n  width: 100%; }\n\n.inline-list {\n  list-style: none; }\n  .inline-list > li {\n    display: inline-block; }\n  .inline-list.site-links li::after {\n    border-left: 0.0625rem solid #873d43;\n    content: '';\n    display: inline-block;\n    height: .75rem;\n    vertical-align: middle; }\n  .inline-list.site-links li:last-child::after {\n    display: none; }\n  .inline-list.site-links li a {\n    padding: .25rem .5rem; }\n  .inline-list.site-links li:first-child a {\n    padding-left: 0; }\n", ""]);
 
 // exports
 
@@ -4063,4 +4040,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.8aca54ef.js.map
+//# sourceMappingURL=static.ebae84f1.js.map

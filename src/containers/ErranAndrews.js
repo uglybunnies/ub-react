@@ -10,7 +10,7 @@ export default () => (
         <header className="splash lh0">
             <img src="/assets/web-projects/erran-splash.png" alt="Erran Andrews Hair Design" srcSet="/assets/web-projects/erran-splash.png 320w, /assets/web-projects/erran-splash_720.png 720w" className="hero-image" />
         </header>
-        <section className="ph2 pb2 spec-ea" onClick={popPic}>
+        <section className="project ph2 pb2 spec-ea" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Erran Andrews Hair Design</h1>
             <p>This is a portfolio site designed in 2009 to promote the hair design work of Erran Andrews, a San Francisco-based hairstylist. Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

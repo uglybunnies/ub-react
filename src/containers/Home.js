@@ -12,12 +12,12 @@ export default () => (
             <img src="/assets/home-splash-adge.png" alt="Adge" className="splash-adge" />
             <img src="/assets/home-splash-rjm.png" alt="Rejuvenation Medi-Spas" className="splash-rjm" />
             <h1 className="brand m0 mb pt ">Welcome to Ugly Bunnies<sup>*</sup></h1>
-            <p className="white s5"> Ugly Bunnies is run by Michael Wong, a Conceptual Information Artist and Web Professional who crafts <a href="/web-projects" className="light"><strong>engaging web-based experiences</strong></a> in the San Francisco Bay Area.</p>
-            <p className="note white m0">
-                <strong>*</strong> If you are disappointed in not finding ugly bunnies here, perhaps you can seek them <a href="http://uglybunnies.tumblr.com/" className="light">here</a>.
+            <p className="s5"> Ugly Bunnies is run by Michael Wong, a Conceptual Information Artist and Web Professional who crafts <a href="/web-projects"><strong>engaging web-based experiences</strong></a> in the San Francisco Bay Area.</p>
+            <p className="note mt2">
+                <strong>*</strong> If you are disappointed in not finding ugly bunnies here, perhaps you can seek them <a href="http://uglybunnies.tumblr.com/">here</a>.
             </p>
         </header>
-        <section className="dad-jokes-sec p0 ph2 pb2">
+        <section className="dad-jokes-sec p0 ph2 pb2 relative">
         <div className="ha-has">
             <svg id="ha1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMax meet" viewBox="0 0 100 100">
                 <g className="ha1">
@@ -59,19 +59,19 @@ export default () => (
             <h2 className="white s4 m0 p0 tac">Groans &amp; guffaws brought to you courtesy of <a href="https://icanhazdadjoke.com" className="light">icanhazdadjoke.com</a></h2>
             <DadJokes />
         </section>
-        <section className="p0 ph2 pb2">
+        <section className="social-links m0 absolute">
             <ul className="inline-list m0 p0 social-accounts tac">
-                <li>
+                <li className="m0">
                     <a href="https://www.linkedin.com/in/uglybunnies/" className="soc-links">
                         <i className="icon-linkedin-squared"></i>
                     </a>
                 </li>
-                <li>
+                <li className="m0">
                     <a href="https://github.com/uglybunnies" className="soc-links">
                         <i className="icon-github-circled"></i>
                     </a>
                 </li>
-                <li>
+                <li className="m0">
                     <a href="https://twitter.com/NoUglyBunnies" className="soc-links">
                         <i className="icon-twitter"></i>
                     </a>

@@ -8,7 +8,7 @@ export default () => (
             <title>Ugly Bunnies -- Rejuvenation Medi-Spas Website</title>
         </Head>
         <header className="splash lh0"><img src="/assets/web-projects/rjm-splash.png" srcSet="/assets/web-projects/rjm-splash.png 320w, /assets/web-projects/rjm-splash_720.png 720w" alt="Rejuvenation Medi-Spas" className="hero-image" /></header>
-        <section className="ph2 pb2 spec-rjm" onClick={popPic}>
+        <section className="project ph2 pb2 spec-rjm" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Rejuvenation Medi-Spas</h1>
             <p>This 2009 site was also created in collaboration with my colleague who was attempting to build a business around creating websites optimized for <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>. The site was never published because the client <a href="https://youtu.be/jVkLVRt6c1U">could not pay</a> after his partners refused to go forward.  Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

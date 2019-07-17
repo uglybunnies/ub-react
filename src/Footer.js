@@ -9,7 +9,7 @@ export default class Footer extends Component {
     }
     render() {
         return (
-            <footer className="site-footer pa2">
+            <footer className="site-footer pa2 bxb">
                 <section>
                     <ul className="inline-list site-links m0 p0">
                         <li className="m0 p0">

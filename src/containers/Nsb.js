@@ -10,7 +10,7 @@ export default () => (
         <header className="splash lh0">
             <img src="/assets/web-projects/nsb_splash.png" srcSet="/assets/web-projects/nsb_splash.png 320w, /assets/web-projects/nsb-splash_720.png 720w" alt="Adge homepage design" className="hero-image" />
         </header>
-        <section className="ph2 pb2" onClick={popPic}>
+        <section className="project ph2 pb2" onClick={popPic}>
             <h1 className="copy-header s1 mv1">Ni Sa Bula E-Commerce Site</h1>
             <p>This is an e-commerce site that I single-handedly designed and developed in 2008 using the <a href="https://www.zen-cart.com/">Zen Cart</a> e-commerce solution. Click on each screenshot to enlarge them.</p>
             <h2  className="s2 ruby">The Design</h2>

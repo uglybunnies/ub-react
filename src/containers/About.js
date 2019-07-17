@@ -6,11 +6,11 @@ export default () => (
         <Head>
             <title>About Ugly Bunnies by Michael Wong</title>
         </Head>
-        <header className="p0 ph2 pt2">
+        <header className="wide p0 ph2 pt2">
             <h1 className="copy-header s1 m0 mb1">About Ugly Bunnies</h1>
             <p>Ugly Bunnies is my personal website. The site features my web design portfolio, and will soon feature my art portfolio and other musings on web design and development.</p>
         </header>
-        <section className="p0 ph2 pb2">
+        <section className="wide p0 ph2 pb2">
         <h2 className="s2 ruby">Origins</h2>
         <p>Before Ugly Bunnies, there was SerpentVenom my previous site. I decided to let go of SerpentVenom a while ago and set out to build a new site. The name came about very surreptiously while I was teaching my class about how to search for available domains. I decided to look for uglybunnies.com and lo and behold, it was available.</p>
 
