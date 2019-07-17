@@ -43,7 +43,7 @@ export default () => (
                     </div>
                 </div>
             </div>
-            <p className="m0 mb2">This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including <a href="http://www.todayinthegarden.com/">this one</a> and <a href="http://luckydogcambridge.com/">this one</a> for example).</p>
+            <p className="m0 mb2">This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including <a href="http://luckydogcambridge.com/">this one</a> for example).</p>
             <h2  className="s2 ruby">The Development</h2>
             <p className="m0 mb2">My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the <a href="http://www.csszengarden.com/">CSS Zen Garden</a> so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.</p>
         </section>

@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "5f7713a2b50f10d8e294",
-  "time": 8565,
+  "hash": "efa09657be2e48a78aff",
+  "time": 9333,
   "publicPath": "http://uglybunnies.com/",
   "assetsByChunkName": {
     "src/containers/Home": [
@@ -11,8 +11,8 @@
       "templates/src/containers/Home.5225d93d.js.map"
     ],
     "src/containers/UrbanForest": [
-      "templates/src/containers/UrbanForest.15f9066f.js",
-      "templates/src/containers/UrbanForest.15f9066f.js.map"
+      "templates/src/containers/UrbanForest.d06a3563.js",
+      "templates/src/containers/UrbanForest.d06a3563.js.map"
     ],
     "src/containers/SerpentVenom": [
       "templates/src/containers/SerpentVenom.2dc22f85.js",
@@ -60,13 +60,13 @@
     ],
     "main": [
       "main.df6d31f7.js",
-      "styles.5f7713a2.css",
+      "styles.efa09657.css",
       "main.df6d31f7.js.map",
-      "styles.5f7713a2.css.map"
+      "styles.efa09657.css.map"
     ],
     "bootstrap": [
-      "bootstrap.33469a65.js",
-      "bootstrap.33469a65.js.map"
+      "bootstrap.d585cf67.js",
+      "bootstrap.d585cf67.js.map"
     ]
   },
   "assets": [
@@ -226,7 +226,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.33469a65.js",
+      "name": "bootstrap.d585cf67.js",
       "size": 1978,
       "chunks": [
         14
@@ -237,7 +237,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5f7713a2.css",
+      "name": "styles.efa09657.css",
       "size": 13503,
       "chunks": [
         13
@@ -248,8 +248,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/UrbanForest.15f9066f.js",
-      "size": 4766,
+      "name": "templates/src/containers/UrbanForest.d06a3563.js",
+      "size": 4676,
       "chunks": [
         1
       ],
@@ -259,8 +259,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/UrbanForest.15f9066f.js.map",
-      "size": 17202,
+      "name": "templates/src/containers/UrbanForest.d06a3563.js.map",
+      "size": 16874,
       "chunks": [
         1
       ],
@@ -402,7 +402,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5f7713a2.css.map",
+      "name": "styles.efa09657.css.map",
       "size": 96,
       "chunks": [
         13
@@ -413,7 +413,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.33469a65.js.map",
+      "name": "bootstrap.d585cf67.js.map",
       "size": 15822,
       "chunks": [
         14
@@ -432,12 +432,12 @@
         13
       ],
       "assets": [
-        "bootstrap.33469a65.js",
-        "bootstrap.33469a65.js.map",
+        "bootstrap.d585cf67.js",
+        "bootstrap.d585cf67.js.map",
         "main.df6d31f7.js",
-        "styles.5f7713a2.css",
+        "styles.efa09657.css",
         "main.df6d31f7.js.map",
-        "styles.5f7713a2.css.map"
+        "styles.efa09657.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -605,15 +605,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 8312,
+      "size": 8099,
       "names": [
         "src/containers/UrbanForest"
       ],
       "files": [
-        "templates/src/containers/UrbanForest.15f9066f.js",
-        "templates/src/containers/UrbanForest.15f9066f.js.map"
+        "templates/src/containers/UrbanForest.d06a3563.js",
+        "templates/src/containers/UrbanForest.d06a3563.js.map"
       ],
-      "hash": "15f9066fbc4b50046ade",
+      "hash": "d06a35636fd9eeb63155",
       "parents": [
         13
       ],
@@ -624,7 +624,7 @@
           "name": "./src/containers/UrbanForest.js",
           "index": 151,
           "index2": 148,
-          "size": 7314,
+          "size": 7101,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -663,7 +663,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar popPic = require('js/popPic.js');\n\nexports.default = function () {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n            _reactStatic.Head,\n            null,\n            _react2.default.createElement(\n                'title',\n                null,\n                'Ugly Bunnies -- Template Design for Sandvox'\n            )\n        ),\n        _react2.default.createElement(\n            'header',\n            { className: 'splash lh0' },\n            _react2.default.createElement('img', { src: '/assets/web-projects/UF-splash.png', alt: 'Template Design for Sandvox', srcSet: '/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w', className: 'hero-image' })\n        ),\n        _react2.default.createElement(\n            'section',\n            { className: 'project ph2 pb2', onClick: popPic },\n            _react2.default.createElement(\n                'h1',\n                { className: 'copy-header s1 mv1' },\n                'Template Design for Sandvox'\n            ),\n            _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.karelia.com/products/sandvox/' },\n                    'Sandvox'\n                ),\n                ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Design'\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic1 vert right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail2.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic2 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail3.png', alt: 'Detail of the photo Navigation', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic3' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail1.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0 mb2' },\n                        'The design features a fixed-width layout suitable for 17-inch monitors which had become the standard at that time. The masthead features a multi-layered background that was designed to accommodate a variable height depending on the content placed within it. Other details include image galler pagination controls designed to look like leaves.'\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0' },\n                        'The template had to support a number of layouts including a homepage, blog post page and a Flash-powered image viewer. The template also needed to accommodate a sidebar on the left and/or right side.'\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic6 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail6.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic5 mid' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail5.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic4' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail4.png', alt: 'Example of the pagination controls on a page', className: 'hero-image pop-pic' })\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.todayinthegarden.com/' },\n                    'this one'\n                ),\n                ' and ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://luckydogcambridge.com/' },\n                    'this one'\n                ),\n                ' for example).'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Development'\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.csszengarden.com/' },\n                    'CSS Zen Garden'\n                ),\n                ' so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.'\n            )\n        )\n    );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar popPic = require('js/popPic.js');\n\nexports.default = function () {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n            _reactStatic.Head,\n            null,\n            _react2.default.createElement(\n                'title',\n                null,\n                'Ugly Bunnies -- Template Design for Sandvox'\n            )\n        ),\n        _react2.default.createElement(\n            'header',\n            { className: 'splash lh0' },\n            _react2.default.createElement('img', { src: '/assets/web-projects/UF-splash.png', alt: 'Template Design for Sandvox', srcSet: '/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w', className: 'hero-image' })\n        ),\n        _react2.default.createElement(\n            'section',\n            { className: 'project ph2 pb2', onClick: popPic },\n            _react2.default.createElement(\n                'h1',\n                { className: 'copy-header s1 mv1' },\n                'Template Design for Sandvox'\n            ),\n            _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.karelia.com/products/sandvox/' },\n                    'Sandvox'\n                ),\n                ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Design'\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic1 vert right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail2.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic2 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail3.png', alt: 'Detail of the photo Navigation', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic3' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail1.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0 mb2' },\n                        'The design features a fixed-width layout suitable for 17-inch monitors which had become the standard at that time. The masthead features a multi-layered background that was designed to accommodate a variable height depending on the content placed within it. Other details include image galler pagination controls designed to look like leaves.'\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0' },\n                        'The template had to support a number of layouts including a homepage, blog post page and a Flash-powered image viewer. The template also needed to accommodate a sidebar on the left and/or right side.'\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic6 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail6.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic5 mid' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail5.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic4' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail4.png', alt: 'Example of the pagination controls on a page', className: 'hero-image pop-pic' })\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://luckydogcambridge.com/' },\n                    'this one'\n                ),\n                ' for example).'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Development'\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.csszengarden.com/' },\n                    'CSS Zen Garden'\n                ),\n                ' so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.'\n            )\n        )\n    );\n};"
         },
         {
           "id": 158,
@@ -2633,9 +2633,9 @@
       ],
       "files": [
         "main.df6d31f7.js",
-        "styles.5f7713a2.css",
+        "styles.efa09657.css",
         "main.df6d31f7.js.map",
-        "styles.5f7713a2.css.map"
+        "styles.efa09657.css.map"
       ],
       "hash": "df6d31f77cfa9377fc93",
       "parents": [
@@ -3522,9 +3522,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-          "issuerId": 138,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+          "issuerId": 137,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3934,9 +3934,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/methods.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-static/lib/client/methods.js",
+          "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 110,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4124,9 +4124,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/react-router/es/Redirect.js",
-          "issuerId": 90,
-          "issuerName": "./node_modules/react-router/es/Redirect.js",
+          "issuer": "/home/michael/ub-react/node_modules/react-router/es/Prompt.js",
+          "issuerId": 88,
+          "issuerName": "./node_modules/react-router/es/Prompt.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4209,9 +4209,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/methods.js",
-          "issuerId": 12,
-          "issuerName": "./node_modules/react-static/lib/client/methods.js",
+          "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 110,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4980,9 +4980,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-          "issuerId": 138,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+          "issuerId": 137,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5453,9 +5453,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-          "issuerId": 138,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+          "issuerId": 137,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5509,9 +5509,9 @@
             13
           ],
           "assets": [],
-          "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-          "issuerId": 138,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+          "issuerId": 137,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -10276,10 +10276,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.33469a65.js",
-        "bootstrap.33469a65.js.map"
+        "bootstrap.d585cf67.js",
+        "bootstrap.d585cf67.js.map"
       ],
-      "hash": "33469a6544aa6ac809ec",
+      "hash": "d585cf67a202b4ab6240",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -11167,9 +11167,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-      "issuerId": 138,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+      "issuerId": 137,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11579,9 +11579,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/methods.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-static/lib/client/methods.js",
+      "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 110,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11769,9 +11769,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/react-router/es/Redirect.js",
-      "issuerId": 90,
-      "issuerName": "./node_modules/react-router/es/Redirect.js",
+      "issuer": "/home/michael/ub-react/node_modules/react-router/es/Prompt.js",
+      "issuerId": 88,
+      "issuerName": "./node_modules/react-router/es/Prompt.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11854,9 +11854,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/methods.js",
-      "issuerId": 12,
-      "issuerName": "./node_modules/react-static/lib/client/methods.js",
+      "issuer": "/home/michael/ub-react/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 110,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12625,9 +12625,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-      "issuerId": 138,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+      "issuerId": 137,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13098,9 +13098,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-      "issuerId": 138,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+      "issuerId": 137,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13154,9 +13154,9 @@
         13
       ],
       "assets": [],
-      "issuer": "/home/michael/ub-react/node_modules/history/createMemoryHistory.js",
-      "issuerId": 138,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/michael/ub-react/node_modules/history/createBrowserHistory.js",
+      "issuerId": 137,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14660,7 +14660,7 @@
       "name": "./src/containers/UrbanForest.js",
       "index": 151,
       "index2": 148,
-      "size": 7314,
+      "size": 7101,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -14699,7 +14699,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar popPic = require('js/popPic.js');\n\nexports.default = function () {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n            _reactStatic.Head,\n            null,\n            _react2.default.createElement(\n                'title',\n                null,\n                'Ugly Bunnies -- Template Design for Sandvox'\n            )\n        ),\n        _react2.default.createElement(\n            'header',\n            { className: 'splash lh0' },\n            _react2.default.createElement('img', { src: '/assets/web-projects/UF-splash.png', alt: 'Template Design for Sandvox', srcSet: '/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w', className: 'hero-image' })\n        ),\n        _react2.default.createElement(\n            'section',\n            { className: 'project ph2 pb2', onClick: popPic },\n            _react2.default.createElement(\n                'h1',\n                { className: 'copy-header s1 mv1' },\n                'Template Design for Sandvox'\n            ),\n            _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.karelia.com/products/sandvox/' },\n                    'Sandvox'\n                ),\n                ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Design'\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic1 vert right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail2.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic2 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail3.png', alt: 'Detail of the photo Navigation', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic3' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail1.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0 mb2' },\n                        'The design features a fixed-width layout suitable for 17-inch monitors which had become the standard at that time. The masthead features a multi-layered background that was designed to accommodate a variable height depending on the content placed within it. Other details include image galler pagination controls designed to look like leaves.'\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0' },\n                        'The template had to support a number of layouts including a homepage, blog post page and a Flash-powered image viewer. The template also needed to accommodate a sidebar on the left and/or right side.'\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic6 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail6.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic5 mid' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail5.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic4' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail4.png', alt: 'Example of the pagination controls on a page', className: 'hero-image pop-pic' })\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.todayinthegarden.com/' },\n                    'this one'\n                ),\n                ' and ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://luckydogcambridge.com/' },\n                    'this one'\n                ),\n                ' for example).'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Development'\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.csszengarden.com/' },\n                    'CSS Zen Garden'\n                ),\n                ' so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.'\n            )\n        )\n    );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\nvar popPic = require('js/popPic.js');\n\nexports.default = function () {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n            _reactStatic.Head,\n            null,\n            _react2.default.createElement(\n                'title',\n                null,\n                'Ugly Bunnies -- Template Design for Sandvox'\n            )\n        ),\n        _react2.default.createElement(\n            'header',\n            { className: 'splash lh0' },\n            _react2.default.createElement('img', { src: '/assets/web-projects/UF-splash.png', alt: 'Template Design for Sandvox', srcSet: '/assets/web-projects/UF-splash.png 320w, /assets/web-projects/UF-splash_720.png 720w', className: 'hero-image' })\n        ),\n        _react2.default.createElement(\n            'section',\n            { className: 'project ph2 pb2', onClick: popPic },\n            _react2.default.createElement(\n                'h1',\n                { className: 'copy-header s1 mv1' },\n                'Template Design for Sandvox'\n            ),\n            _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.karelia.com/products/sandvox/' },\n                    'Sandvox'\n                ),\n                ' is a website building tool for Macs. This a the Urban Forest template I designed for them in 2005. Click on each screenshot to enlarge them.'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Design'\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic1 vert right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail2.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic2 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail3.png', alt: 'Detail of the photo Navigation', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic3' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail1.png', alt: 'Detail of the rendered template', className: 'hero-image pop-pic' })\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0 mb2' },\n                        'The design features a fixed-width layout suitable for 17-inch monitors which had become the standard at that time. The masthead features a multi-layered background that was designed to accommodate a variable height depending on the content placed within it. Other details include image galler pagination controls designed to look like leaves.'\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'div',\n                { className: 'project-group' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item copy' },\n                    _react2.default.createElement(\n                        'p',\n                        { className: 'm0' },\n                        'The template had to support a number of layouts including a homepage, blog post page and a Flash-powered image viewer. The template also needed to accommodate a sidebar on the left and/or right side.'\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'items project-group-item' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic6 right' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail6.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic5 mid' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail5.png', alt: 'Example site using the template', className: 'hero-image pop-pic' })\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'item pic4' },\n                        _react2.default.createElement('img', { src: '/assets/web-projects/UF_detail4.png', alt: 'Example of the pagination controls on a page', className: 'hero-image pop-pic' })\n                    )\n                )\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'This design has proven to be the most enduring design I have done. The design is still used in production by several websites (including ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://luckydogcambridge.com/' },\n                    'this one'\n                ),\n                ' for example).'\n            ),\n            _react2.default.createElement(\n                'h2',\n                { className: 's2 ruby' },\n                'The Development'\n            ),\n            _react2.default.createElement(\n                'p',\n                { className: 'm0 mb2' },\n                'My main contribution to the template was my CSS code. The client wanted to create a framework that was inspired by the ',\n                _react2.default.createElement(\n                    'a',\n                    { href: 'http://www.csszengarden.com/' },\n                    'CSS Zen Garden'\n                ),\n                ' so that new designs could be easily incorporated into the system without requiring new markup or a separate code base.'\n            )\n        )\n    );\n};"
     },
     {
       "id": 61,
