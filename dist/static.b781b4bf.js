@@ -1809,12 +1809,12 @@ exports.default = function () {
         ),
         _react2.default.createElement(
             'header',
-            { className: 'project splash lh0' },
+            { className: 'splash lh0' },
             _react2.default.createElement('img', { src: '/assets/web-projects/cdlp-splash.png', alt: 'Caf\xE9 de la Paz Website', srcSet: '/assets/web-projects/cdlp-splash.png 320w, /assets/web-projects/cdlp-splash_720.png 720w', className: 'hero-image' })
         ),
         _react2.default.createElement(
             'section',
-            { className: 'ph2 pb2', onClick: popPic },
+            { className: 'project ph2 pb2', onClick: popPic },
             _react2.default.createElement(
                 'h1',
                 { className: 'copy-header s1 mv1' },
@@ -4040,4 +4040,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ebae84f1.js.map
+//# sourceMappingURL=static.b781b4bf.js.map
