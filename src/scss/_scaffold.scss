@@ -149,8 +149,10 @@
 .masthead {
   position: relative;
   padding: .25em;
+  text-align: center;
   > .logo {
     display: inline-block;
+    margin-left: 3.5rem;
     vertical-align: middle;
     .site-name {
       font-family: 'Henny Penny', serif;
@@ -483,26 +485,68 @@
 .topnav {
   position: absolute;
   right: -1rem;
-  top: 22em;
+  top: 26em;
   transform: rotate(90deg);
   transform-origin: bottom right;
   width: auto;
-  @include responsive(medium-tablet) {
-    top: 20rem;
-    bottom: auto;
-  }
 }
 .menu {
   list-style: none;
-  min-width: 20rem;
+  min-width: 24rem;
   > li {
     display: inline-block;
+    perspective: 20em;
+    position: relative;
     > a {
-      color: $larkspur;
+      color: $white;
       display: block;
-      padding: .25rem;
+      padding: .25em .5em;
       position: relative;
-      text-decoration: underline;
+      text-decoration: none;
+    }
+    &::before {
+      box-sizing: border-box;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: $larkspur;
+      transform-style: preserve-3d;
+    }
+    &:nth-child(1) {
+      perspective-origin: 100% 50%;
+      > a {
+        transform: rotate(-12deg);
+      }
+      &::before {
+        transform: translate3d(-.55em, -0.125em, 0em) rotateY(29deg) rotateX(22deg) rotateZ(-9deg);
+        width: 145%;
+      }
+    }
+    &:nth-child(2) {
+      perspective-origin: 50%;
+      margin-right: .5em;
+      > a {
+        transform: rotate(8deg)
+      }
+      &::before {
+        transform: translate3d(0, -0.45em, 0) rotateX(45deg) skew(-5deg, 10deg);
+        height: 145%;
+      }
+    }
+    &:nth-child(3) {
+      perspective-origin: -100% 50%;
+      > a {
+        transform: rotate(-1deg);
+      }
+      &::before {
+        transform: translate3d(.5em, -0.25em, -1em) rotateY(-29deg) rotateX(-22deg);
+        width: 100%;
+        height: 125%;
+      }
     }
   }
 }
