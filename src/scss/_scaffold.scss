@@ -157,7 +157,7 @@
     .site-name {
       font-family: 'Henny Penny', serif;
       font-weight: 400;
-      font-size: 2em;
+      font-size: 1.8em;
       line-height: 1;
       margin: 0;
       > .slink span {
@@ -170,6 +170,9 @@
           line-height: 2.5rem;
           vertical-align: -.25rem;
         }
+      }
+      @include responsive(medium-tablet) {
+        font-size: 2rem;
       }
     }
   }
@@ -494,6 +497,8 @@
   list-style: none;
   min-width: 24rem;
   > li {
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
     display: inline-block;
     perspective: 20em;
     position: relative;
@@ -522,7 +527,7 @@
         transform: rotate(-12deg);
       }
       &::before {
-        transform: translate3d(-.55em, -0.125em, 0em) rotateY(29deg) rotateX(22deg) rotateZ(-9deg);
+        transform: translate3d(-.55em, -0.125em, -1em) rotateY(29deg) rotateX(22deg) rotateZ(-9deg) scale3d(1.025, 1.025, 1);
         width: 145%;
       }
     }
@@ -533,7 +538,7 @@
         transform: rotate(8deg)
       }
       &::before {
-        transform: translate3d(0, -0.45em, 0) rotateX(45deg) skew(-5deg, 10deg);
+        transform: translate3d(0, -0.45em, -1em) rotateX(45deg) skew(-5deg, 10deg) scale3d(1.025, 1.025, 1);
         height: 145%;
       }
     }
@@ -543,7 +548,7 @@
         transform: rotate(-1deg);
       }
       &::before {
-        transform: translate3d(.5em, -0.25em, -1em) rotateY(-29deg) rotateX(-22deg);
+        transform: translate3d(.5em, -0.25em, -1em) rotateY(-29deg) rotateX(-22deg) scale3d(1.025, 1.025, 1);
         width: 100%;
         height: 125%;
       }
