@@ -244,6 +244,7 @@
 .dad-jokes-sec {
   background: linear-gradient(to bottom, hsl(355, 38%, 20%), hsl(355, 38%, 38%));
   transform: rotate(3deg);
+  width: 110%;
   .brand {
     color: lighten($blue, 30%);
   }
@@ -358,6 +359,7 @@
   }
   @include responsive(medium-tablet) {
     margin-left: 50%;
+    width: auto;
   }
 }
 @keyframes ha1 {
